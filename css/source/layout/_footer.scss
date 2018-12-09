@@ -1,0 +1,117 @@
+//====================global footer
+.layout-footer {
+	padding: 62px 0 62px;
+     background-color: #2b2b2b;
+
+	.si-phone {
+      width: 465px;
+      padding-top: 0px;
+      float: right;
+	}
+
+  .logo {
+    display: inline-block;
+    width: 75px;
+    height: 161px;
+    background-color: #008df3;
+    margin-top: -62px;
+
+    .logo-icon{
+      width: 45px;
+      height: 51px;
+      display: block;
+      padding-top: 55px;
+      padding-left: 17px;
+    }
+
+    img {
+      display: block;
+    }
+  }
+
+  .logo-text{
+    display: inline-block;
+    width: 190px;
+    margin-left: 36px;
+    vertical-align: top;
+    color: #fff;
+
+    .logo-title{
+      font: 700 23px/26px 'Myriad', sans-serif;
+      margin-bottom: 10px;
+      color: #fff;
+    }
+
+    p{
+      font: 400 15px/20px 'Myriad', sans-serif;
+      color: #fff;
+    }
+  }
+
+  .time-text{
+    display: inline-block;
+    width: 150px;
+    margin-left: 78px;
+    vertical-align: top;
+    margin-top: 4px;
+    color: #fff;
+
+    .time-title{
+      font: 400 18px/20px 'Myriad', sans-serif;
+      margin-bottom: 10px;
+      color: #fff;
+    }
+
+    p{
+      font: 400 15px/15px 'Myriad', sans-serif;
+      color: #fff;
+    }
+  }
+
+
+
+  .phone-link {
+    display: inline-block;
+    margin-top: 16px;
+    font: 400 27px/1 'Myriad', sans-serif;
+    color: #fff !important;
+  }
+
+  .consult{
+    margin-left: 33px;
+    margin-right: 0;
+    display: inline-block;
+    width: 214px;
+    height: 56px;
+    border-radius: 28px;
+    border: 2px solid #00ade5;
+    text-align: center;
+    font: 300 21px/52px 'Myriad', sans-serif;
+    color: #fff !important;
+    background-color: transparent !important;
+  }
+}
+
+.company-address-block {
+
+	dl {
+		margin-bottom: 0px;
+	}
+
+	dt {
+	}
+
+	dd {
+	}
+}
+
+.company-info-block{
+
+	p {
+		margin-bottom: 0px;
+	}
+}
+
+.copyright {
+  	margin-top: 0px;
+}

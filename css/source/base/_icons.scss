@@ -1,0 +1,130 @@
+//====================icons
+.icon {
+	display: inline-block;
+	overflow: hidden;
+	text-indent: -9999px;
+	background: url('../images/sprite.png') no-repeat transparent;
+	position: relative;
+	vertical-align: middle;
+}
+
+.will-change {
+	background: none;
+
+	&::before,
+	&::after {
+		@include general-transition;
+		@include abs-center;
+		content: "";
+		overflow: hidden;
+		background: url('../images/sprite.png') no-repeat transparent;
+	}
+
+	&::before {
+		opacity: 1;
+	}
+
+	&::after {
+		opacity: 0;
+	}
+
+	&:hover,
+	&:active,
+	&.active {
+
+		&::before {
+		opacity: 0;
+		}
+
+		&::after {
+		opacity: 1;
+		}
+	}
+
+	&:hover,
+	&:active,
+	a:hover &,
+	a:active &,
+	.question:hover &,
+	.question:active &,
+	.question-item.active .question & {
+
+		&::before {
+		opacity: 0;
+		}
+
+		&::after {
+		opacity: 1;
+		}
+	}
+}
+
+//==================== SVG icons
+.svg-icon {
+	@include general-transition;
+	display: inline-block;
+	vertical-align: middle;
+	fill-rule: evenodd;
+	clip-rule: evenodd;
+}
+
+.close {
+	width: 28px !important;
+	height: 28px !important;
+	fill:#3D3D3D;
+	background: url("../svg/cancel.svg");
+
+	a:hover &,
+	a:active & {
+		fill: $accent-color;
+	}
+}
+
+
+.card-icon{
+  width: 91px;
+  height: 117px;
+  fill:#00a0e1;
+}
+
+.stopwatch-icon{
+  fill:#00a0e1;
+  width: 91px;
+  height: 91px;
+}
+
+.right-hover{
+  fill:#D4D4D4;
+}
+
+.checked-icon{
+  fill:#008DF3;
+}
+
+.ruble-icon{
+  fill: #191919;
+}
+
+.wait-icon{
+  fill:#008DF3;
+}
+
+.result-icon{
+  fill:#008DF3;
+}
+
+.back{
+  fill: #fff;
+}
+
+.vk{
+  fill:#3C3C3C;
+}
+
+.facebook{
+  fill:#3C3C3C;
+}
+
+.telegram{
+  fill:#3C3C3C;
+}

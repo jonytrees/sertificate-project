@@ -1,0 +1,260 @@
+//====================global header
+.layout-header {
+//	@include abs-center;
+	//@include abs-center-fixed;
+//	bottom: auto;
+//	z-index: 50;
+	padding-top: 40px;
+    padding-bottom: 190px;
+    background: url('../images/header-bg.jpg') no-repeat;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+
+  .woman-block{
+    position: absolute;
+    bottom: -7px;
+    right: -15px;
+  }
+
+	&.active {
+
+	}
+
+	.si-phone {
+		padding-top: 0px;
+	}
+}
+
+//===================== sms-modal
+.sms-modal{
+  width: 1024px;
+  height: 361px;
+  display: none;
+  padding-left: 50px;
+  position: fixed;
+  top: 100px;
+  z-index: 200;
+  margin: 0 auto;
+  @include abs-center-fixed;
+  background: #ffda00 url("../images/sms-bg.png") no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  -webkit-transition: 1s time;
+  -moz-transition: 1s time;
+  -ms-transition: 1s time;
+  -o-transition: 1s time;
+  transition: 1s time;
+
+
+
+  .modal-form-title{
+    font: 400 47px/47px 'Myriad', sans-serif;
+    color: #000;
+    margin-bottom: 18px;
+    margin-top: 57px;
+    text-align: left;
+  }
+
+  .modal-sub-time{
+    font: 300 24px/24px 'Myriad', sans-serif;
+    color: #000;
+    margin-bottom: 46px;
+    text-align: left;
+  }
+
+  form{
+    width: 472px;
+    display: block;
+
+  }
+
+  input{
+    display: inline-block;
+    width: 290px;
+    border: none !important;
+    border-bottom: 1px solid #000 !important;
+    background-color: transparent !important;
+    padding-bottom: 10px;
+    color: #000;
+    font: 400 19px/17px 'Myriad', sans-serif;
+    margin-bottom: 25px;
+    vertical-align: top;
+    margin-top: 10px;
+  }
+
+  .btn-holder{
+    width: 229px;
+    display: inline-block;
+  }
+
+  .blue-button{
+    display: block;
+    width: 229px;
+    height: 56px;
+    box-shadow: 0 5px 0 #00498a;
+    border-radius: 34px;
+    background-color: #008df3;
+    background-image: linear-gradient(to top, #0054aa 0%, #00ace5 99%, #00ace5 100%);
+    font: 400 19px/56px 'Myriad', sans-serif;
+    color: #fff !important;
+    margin: 0 auto 25px;
+    vertical-align: top;
+
+
+    &:hover{
+      background-image: linear-gradient(to top, #00ace5 0%, #0054aa 99%, #0054aa 100%);
+    }
+  }
+
+  .hand-img{
+    margin-top: -36px;
+  }
+
+  .form-agree-check{
+    width: 435px;
+    height: 35px;
+    color: #000000;
+    display: block;
+    font: 400 15px/20px 'Myriad', sans-serif;
+    margin-bottom: 74px;
+  }
+}
+
+//=========================== logo
+
+.logo {
+	display: inline-block;
+    width: 75px;
+    height: 161px;
+    background-color: #008df3;
+    margin-top: -40px;
+
+  .logo-icon{
+    width: 45px;
+    height: 51px;
+    display: block;
+    padding-top: 55px;
+    padding-left: 17px;
+  }
+
+	img {
+		display: block;
+	}
+}
+
+.logo-text{
+  display: inline-block;
+  width: 190px;
+  margin-left: 36px;
+  vertical-align: top;
+
+  .logo-title{
+    font: 700 23px/26px 'Myriad', sans-serif;
+    margin-bottom: 10px;
+  }
+
+  p{
+    font: 400 15px/20px 'Myriad', sans-serif;
+  }
+}
+
+.time-text{
+  display: inline-block;
+  width: 150px;
+  margin-left: 78px;
+  vertical-align: top;
+  margin-top: 4px;
+
+  .time-title{
+    font: 400 18px/20px 'Myriad', sans-serif;
+    margin-bottom: 10px;
+  }
+
+  p{
+    font: 400 15px/15px 'Myriad', sans-serif;
+  }
+}
+
+
+
+.phone-link {
+  display: inline-block;
+  margin-top: 16px;
+  font: 400 27px/1 'Myriad', sans-serif;
+  color: #fff !important;
+}
+
+.consult{
+  margin-left: 33px;
+  margin-right: 63px;
+  display: inline-block;
+  width: 214px;
+  height: 56px;
+  border-radius: 28px;
+  border: 2px solid #00ade5;
+  text-align: center;
+  font: 300 21px/52px 'Myriad', sans-serif;
+  color: #fff !important;
+  background-color: transparent !important;
+}
+
+.burger-menu{
+  position: absolute;
+  top: 25px;
+  right: 0;
+}
+
+.menu{
+  ul{
+    padding: 20px;
+    list-style-type: none;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+
+    li{
+      list-style-type: none;
+      display: inline-block;
+
+      a{
+        font: 300 21px/52px 'Myriad', sans-serif;
+        COLOR: #fff;
+        text-align: center;
+
+        &:hover{
+          text-decoration: underline;
+        }
+      }
+    }
+
+  }
+}
+
+
+  h1{
+    width: 810px;
+    font: 700 60px/62px 'Myriad', sans-serif;
+    margin-bottom: 35px;
+    margin-top: 65px;
+  }
+
+  .sub_title{
+    width: 650px;
+    font: 300 33px/37px 'Myriad', sans-serif;
+    margin-bottom: 50px;
+  }
+
+  .button-more{
+    width: 216px;
+    height: 58px;
+    border-radius: 29px;
+    background: rgba(255, 255, 255, .1) !important;
+    display: block;
+    color: #fff !important;
+    text-align: center;
+    font: 300 19px/58px 'Myriad', sans-serif;
+  }

@@ -1,0 +1,184 @@
+//==================== section form
+.section-form {
+	background: no-repeat 50% 50% transparent;
+
+	.btn-holder {
+		margin-top: 0px;
+	}
+
+	.btn {
+		width: 300px;
+	}
+}
+
+//========= form agree check
+.form-agree-check {
+	font: 12px/15px "PT Sans";
+	margin-top: 30px;
+
+	.jq-checkbox {
+		top: 1px;
+      background-color: transparent;
+      border: 1px solid #007aff;
+	}
+}
+
+//==================== section form-x
+.form-x {
+	background-image: url('../images/formX-bg.jpg');
+	padding: 0px 0 0px;
+
+	h2 {
+		margin-bottom: 0px;
+	}
+}
+
+
+
+//=================== section form-header
+.form-header{
+z-index: 100;
+
+  .form-block{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border-bottom: 5px solid #01c93a;
+    margin-top: -53px;
+//    height: 104px;
+    box-shadow: 0 0 14px 2px rgba(126, 126, 126, 0.1);
+
+    .sub-form-block{
+      width: 30%;
+      border-right: 1px solid #e8e8e8;
+      padding-top: 30px;
+      padding-left: 47px;
+      padding-bottom: 25px;
+
+      &:nth-child(2){
+        padding-left: 100px;
+        width: 37%;
+      }
+
+      &:last-child{
+        width: 33%;
+        border-right: none;
+        padding-left: 123px;
+      }
+
+      p{
+        color: #cacaca;
+        font: 400 17px/17px 'Myriad', sans-serif;
+        margin-bottom: 15px;
+        text-align: left;
+      }
+
+      input{
+        width: 200px;
+        display: block;
+        color: #000;
+        font: 400 20px/20px 'Myriad', sans-serif;
+        margin-bottom: 0;
+      }
+
+      .green-button{
+        width: 244px;
+        height: 65px;
+        border-radius: 33px;
+        background-color: #00a0e1;
+        background-image: linear-gradient(to top, #01bf36 0%, #00e947 99%, #00e947 100%);
+        display: block;
+        text-align: center;
+        font: 400 21px/62px 'Myriad', sans-serif;
+        color: #fff !important;
+
+        &:hover{
+          background-image: linear-gradient(to top, #00e947 0%, #01bf36 99%, #01bf36 100%);
+          transition: 1s;
+        }
+      }
+    }
+  }
+
+  .form-agree{
+    display: block;
+  }
+}
+
+
+//=================== form-registration
+.form-registration{
+  background: url('../images/form-bg.jpg') no-repeat;
+  background-size: cover;
+  padding-top: 117px;
+  padding-bottom: 212px;
+
+  .block-form{
+    width: 100%;
+    display: block;
+    border: 13px solid #028ef3;
+    background-color: rgba(255, 255, 255, .7);
+    box-sizing: border-box;
+    padding: 91px 73px 105px 73px;
+
+    h5{
+      font: 600 33px/35px 'Myriad', sans-serif;
+      color: #000000;
+      display: inline-block;
+      width: 370px;
+      margin-right: 48px;
+      margin-bottom: 85px;
+      margin-top: 0;
+    }
+
+    .sub_h5{
+      font: 300 24px/27px 'Myriad', sans-serif;
+      color: #000000;
+      width: 410px;
+      display: inline-block;
+      vertical-align: top;
+
+      span{
+        text-decoration: underline;
+      }
+    }
+
+    input{
+      width: 240px;
+      border: none !important;
+      border-bottom: 1px solid #028ef3 !important;
+      background-color: transparent !important;
+      padding-bottom: 10px;
+      color: #000;
+      font: 400 19px/17px 'Myriad', sans-serif;
+    }
+
+    .yellow-button{
+      width: 264px;
+      height: 68px;
+      box-shadow: 0 6px 0 #ff9600;
+      border-radius: 34px;
+      background-color: #008df3;
+      background-image: linear-gradient(to top, #ffb400 0%, #fdc913 99%, #fdc913 100%);
+      display: block;
+      font: 400 21px/68px 'Myriad', sans-serif;
+      color: #010101 !important;
+      margin-top: -25px;
+
+      &:hover{
+        background-image: linear-gradient(to top, #fdc913 0%, #ffb400 99%, #ffb400 100%);
+      }
+    }
+
+
+  }
+
+  .form-agree-check{
+    width: 450px;
+    display: block;
+    margin: 44px auto 0px;
+    font: 400 15px/20px 'Myriad', sans-serif !important;
+    color: #000 !important;
+  }
+}

@@ -1,0 +1,62 @@
+//====================fonts
+@font-face {
+  font-family: 'Myriad';
+  src: url('../fonts/MyriadProRegular.eot');
+  src: url('../fonts/MyriadProRegular.eot') format('embedded-opentype'),
+  url('../fonts/MyriadProRegular.woff2') format('woff2'),
+  url('../fonts/MyriadProRegular.woff') format('woff'),
+  url('../fonts/MyriadProRegular.ttf') format('truetype'),
+  url('../fonts/MyriadProRegular.svg#MyriadProRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Myriad';
+  src: url('../fonts/MyriadProLight.eot');
+  src: url('../fonts/MyriadProLight.eot') format('embedded-opentype'),
+  url('../fonts/MyriadProLight.woff2') format('woff2'),
+  url('../fonts/MyriadProLight.woff') format('woff'),
+  url('../fonts/MyriadProLight.ttf') format('truetype'),
+  url('../fonts/MyriadProLight.svg#MyriadProLight') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Myriad';
+  src: url('../fonts/MyriadProSemibold.eot');
+  src: url('../fonts/MyriadProSemibold.eot') format('embedded-opentype'),
+  url('../fonts/MyriadProSemibold.woff2') format('woff2'),
+  url('../fonts/MyriadProSemibold.woff') format('woff'),
+  url('../fonts/MyriadProSemibold.ttf') format('truetype'),
+  url('../fonts/MyriadProSemibold.svg#MyriadProSemibold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Myriad';
+  src: url('../fonts/MyriadProBold.eot');
+  src: url('../fonts/MyriadProBold.eot') format('embedded-opentype'),
+  url('../fonts/MyriadProBold.woff2') format('woff2'),
+  url('../fonts/MyriadProBold.woff') format('woff'),
+  url('../fonts/MyriadProBold.ttf') format('truetype'),
+  url('../fonts/MyriadProBold.svg#MyriadProBold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Myriad';
+  src: url('../fonts/MyriadProBoldIt.eot');
+  src: url('../fonts/MyriadProBoldIt.eot') format('embedded-opentype'),
+  url('../fonts/MyriadProBoldIt.woff2') format('woff2'),
+  url('../fonts/MyriadProBoldIt.woff') format('woff'),
+  url('../fonts/MyriadProBoldIt.ttf') format('truetype'),
+  url('../fonts/MyriadProBoldIt.svg#MyriadProBoldIt') format('svg');
+  font-weight: 700;
+  font-style: italic;
+}
