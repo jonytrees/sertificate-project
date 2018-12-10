@@ -186,6 +186,7 @@ jQuery(function ($) {
 
         // Init modals
         SIModals.attachModal('.open-packet-modal', '.packet-modal', {'.send-extra': 'extra'});
+        SIModals.attachModal('.open-get-modal', '.get-modal', {'.send-extra': 'extra'});
         SIModals.attachModal('.open-packet-complex-modal', '.packet-complex-modal', {'.send-extra': 'extra'});
         SIModals.attachModal('.open-packet-last-modal', '.packet-last-modal', {'.send-extra': 'extra'});
         SIModals.attachModal('.open-commercial-modal', '.commercial-modal', {'.send-extra': 'extra'});
@@ -204,6 +205,40 @@ jQuery(function ($) {
     //SIModals.afterOpen = function () {
     //grecaptcha.reset(recaptcha);
     //};
+
+
+
+    //menu
+    // function headerBehaviour() {
+    //     if ($(window).scrollTop() > 0) {
+    //         $('.layout-header').addClass('active');
+    //         $('.menu-btn').addClass('active-top');
+    //     }
+    //     else {
+    //         $('.layout-header').removeClass('active');
+    //         $('.menu-btn').removeClass('active-top');
+    //     }
+    // }
+
+    var headindHeight = $('.section-trade').height();
+    function upBtn() {
+        if($(window).scrollTop() > headindHeight) {
+            $('.position-block').addClass('active');
+        } else {
+            $('.position-block').removeClass('active');
+        }
+    }
+    upBtn();
+
+    headerBehaviour();
+    $(window).resize(function () {
+        headerBehaviour();
+        upBtn();
+    });
+    $(window).bind('scroll', function () {
+        headerBehaviour();
+        upBtn();
+    });
 
 
 
@@ -329,24 +364,36 @@ jQuery(function ($) {
     });
 
     //accordion
-    $('.industry-item:first').addClass('active').find('.answer').css('display', 'block');
-    $('.industry-item').each(function () {
+    $('.question-item:first').addClass('active').find('.answer').css('display', 'block');
+    $('.question_block').each(function () {
         var item = $(this),
-            industry = item.find('.industry'),
-            sub = item.find('.sub');
-        sub.slideUp();
-        //if (item.hasClass('active')) {
-        //    $(this).find('.sub').slideDown();
-        //}
-        industry.click(function () {
-            if (industry.parents('.industry-item').hasClass('active')) {
-                sub.slideUp();
+            question = item.find('.question-item'),
+            answer = item.find('.answer');
+        answer.slideUp();
+        // if (item.hasClass('active')) {
+        //     $(this).find('.answer').slideDown();
+        // }
+        question.click(function () {
+            if (question.parents('.question_block').hasClass('active')) {
+                answer.slideUp();
                 item.removeClass('active');
             }
             else {
-                item.parents('.industry-block').find('.industry-item').find('.sub').slideUp();
-                sub.slideDown();
-                item.parents('.industry-block').find('.industry-item').removeClass('active');
+                item.parents('.questions-block').find('.question-item').find('.answer').slideUp();
+                answer.slideDown();
+                item.parents('.questions-block').find('.question-item').removeClass('active');
+                item.addClass('active');
+            }
+        });
+        answer.click(function () {
+            if (question.parents('.question_block').hasClass('active')) {
+                answer.slideUp();
+                item.removeClass('active');
+            }
+            else {
+                item.parents('.questions-block').find('.question-item').find('.answer').slideUp();
+                answer.slideDown();
+                item.parents('.questions-block').find('.question-item').removeClass('active');
                 item.addClass('active');
             }
         });

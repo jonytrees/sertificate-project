@@ -307,7 +307,8 @@ html {
 //======================== packet-modal
 .packet-modal,
 .packet-complex-modal,
-.packet-last-modal{
+.packet-last-modal,
+.get-modal{
 	width: 708px;
 	height: auto;
 	box-shadow: 0 4px 27px 1px rgba(0, 0, 0, 0.08);
@@ -341,4 +342,83 @@ html {
 		margin-bottom: 80px;
 		text-align: left;
 	}
+
+	input{
+		width: 290px;
+		border: none !important;
+		border-bottom: 1px solid #028ef3 !important;
+		background-color: transparent !important;
+		padding-bottom: 10px;
+		color: #000;
+		font: 400 19px/17px 'Myriad', sans-serif;
+		display: block;
+		margin: 45px auto 54px;
+	}
+
+	.blue-button{
+		display: block;
+		width: 289px;
+		height: 68px;
+		box-shadow: 0 5px 0 #00498a;
+		border-radius: 34px;
+		background-color: #008df3;
+		background-image: linear-gradient(to top, #0054aa 0%, #00ace5 99%, #00ace5 100%);
+		font: 400 19px/68px 'Myriad', sans-serif;
+		color: #fff !important;
+		text-align: center;
+		margin: 30px auto 36px;
+
+		&:hover{
+			background-image: linear-gradient(to top, #00ace5 0%, #0054aa 99%, #0054aa 100%);
+		}
+	}
+
+	.form-agree-check{
+		width: 258px;
+		height: 35px;
+		color: #000000;
+		display: block;
+		margin: 0 auto 93px;
+		font: 400 15px/20px 'Myriad', sans-serif;
+	}
 }
+
+
+//=================== fixed block
+.position-block{
+	position: fixed;
+	right: -25%;
+	top: 85%;
+	z-index: 100;
+
+	&.active{
+		right: 1%;
+	}
+}
+
+.find-block-fixed{
+	width: 249px;
+	height: 126px;
+	border-radius: 16px 13px 13px 16px;
+	border: 3px solid #00a0e1;
+	padding: 32px 17px 36px 19px;
+	background-color: #fff;
+
+
+	.find-title{
+		font: 700 16px/21px 'Myriad', sans-serif;
+		color: #2c2c2c;
+		text-transform: uppercase;
+	}
+
+	.find-text{
+		font: 400 16px/21px 'Myriad', sans-serif;
+		color: #2c2c2c;
+
+		span{
+			color: #008df3;
+			font-weight: 600;
+		}
+	}
+}
+

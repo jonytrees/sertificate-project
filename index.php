@@ -119,61 +119,6 @@ if (file_exists('SxGeo.php')) {
     <!--    </div>-->
 
 
-
-<!--    <div class="sms-modal">-->
-<!--    <a href="#" class="si-close sms-close close">-->
-<!---->
-<!--    </a>-->
-<!---->
-<!--    <div class="modal-container align-center">-->
-<!---->
-<!--        <div class="row">-->
-<!--            <div class="col-2-3">-->
-<!--                <div class="modal-form-title">-->
-<!--                    СМС-СКИДКА-->
-<!--                </div>-->
-<!---->
-<!--                <div class="modal-sub-time">-->
-<!--                    Впишите свой телефон и получитесмс-купон на скидку:-->
-<!--                </div>-->
-<!--                <form method="post" class="send-form" autocomplete="off">-->
-<!---->
-<!---->
-<!--                   <div class="row">-->
-<!--                       <div class="col-1-2">-->
-<!--                           <input type="tel" name="client_phone" class="client-phone" placeholder="Ваш номер телефона">-->
-<!---->
-<!--                           <input type="hidden" name="send_type" class="send-type" value="1">-->
-<!--                           <input type="hidden" name="send_extra" class="send-extra" value="1">-->
-<!--                           <input type="hidden" name="key" value="--><?php //echo $_SESSION['sf_key'] ?><!--">-->
-<!--                           --><?php ////Поле выше для защиты формы от спам-ботов ?>
-<!--                       </div>-->
-<!--                       <div class="col-1-2">-->
-<!--                           <div class="btn-holder">-->
-<!--                               <button type="submit" class="btn blue-button">Получить смс-скидку</button>-->
-                             <!--<div class="g-recaptcha" id="g-recaptcha"></div>-->
-<!--                           </div>-->
-<!--                       </div>-->
-<!--                   </div>-->
-<!---->
-                   <!-- Agreement -->
-<!--                    <div class="form-agree align-left">-->
-<!--                        <label class="checkbox-label form-agree-check checked">-->
-<!--                            <input type="checkbox" checked>-->
-<!--                            Я даю своё согласие на обработку моих-->
-<!--                            персональных данных.-->
-<!--                        </label>-->
-<!--                    </div>-->
-<!--                </form>-->
-<!--            </div>-->
-<!--            <div class="col-1-3">-->
-<!--                <img class="hand-img" src="images/sms-hand.png" alt=" ">-->
-<!--            </div>-->
-<!--        </div>-->
-<!---->
-<!--    </div>-->
-<!--</div>-->
-
     <!--===================================================== Header -->
     <header class="layout-header">
         <div class="woman-block">
@@ -192,7 +137,7 @@ if (file_exists('SxGeo.php')) {
                     </a>
                     <div class="logo-text">
                         <div class="logo-title">
-                            Экспресс патентrgergerg
+                            Экспресс патент
                         </div>
                         <p>
                             Экспресс оформление
@@ -373,7 +318,7 @@ if (file_exists('SxGeo.php')) {
                     на которые <span>смотрит
                     экспертиза</span>
                 </div>
-                <a class="btn find-button" href="#">
+                <a class="btn find-button open-get-modal" href="#">
                     Узнайте
                 </a>
             </div>
@@ -529,422 +474,323 @@ if (file_exists('SxGeo.php')) {
                                     Как называется Ваш бренд?
                                 </h2>
 
-                                <div class="row">
+                                <div class="row questions-block">
                                     <div class="col-1-2">
-                                        <ul class="frame-list">
-                                            <li>
-                                                <div class="industry-block">
-                                                    <div class="industry-item">
-                                                        <div class="industry">
-                                                            <p class="point-menu">
-                                                                Химические товары
-                                                            </p>
-                                                        </div>
+                                        <div class="question_block active cre-animate" data-animation="scale-up" data-speed="1200" data-delay="300"
+                                             data-offset="90%" data-easing="ease">
 
-                                                        <div class="sub">
-                                                            <ul>
-                                                                <li>
-                                                                    <p>
-                                                                          Химические продукты;
-                                                                    </p>
-                                                                </li>
-                                                                <li>
-                                                                    <p>
-                                                                         Краски, олифы лаки;
-                                                                    </p>
-                                                                </li>
-                                                                <li>
-                                                                    <p>
-                                                                        Препараты для чистки, парфюмерия и косметика;
-                                                                    </p>
-                                                                </li>
+                                            <div class="question-item">
+                                                <p class="point-menu">
+                                                    Химические товары
+                                                </p>
 
-                                                                <li>
-                                                                    <p>
-                                                                        Препараты для чистки, парфюмерия и косметика;
-                                                                    </p>
-                                                                </li>
-                                                                <li>
-                                                                    <p>
-                                                                        Фармацевтические препараты
-                                                                    </p>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="industry-block">
-                                                    <div class="industry-item">
-                                                        <div class="industry">
-                                                            <p class="point-menu">
-                                                                Машины и устройства
-                                                            </p>
-                                                        </div>
-
-                                                        <div class="sub">
-                                                            <ul>
-                                                                <li>
-                                                                    <p>
-                                                                        Машинки, станки и двигатели
-                                                                    </p>
-                                                                </li>
-                                                                <li>
-                                                                    <p>
-                                                                        Приборы, инструменты, оборудование
-                                                                    </p>
-                                                                </li>
-                                                                <li>
-                                                                    <p>
-                                                                        Устройства для получения тепла
-                                                                    </p>
-                                                                </li>
-
-                                                                <li>
-                                                                    <p>
-                                                                        Транспортные средства
-                                                                    </p>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-
-                                                    </div>
+                                                <div class="answer">
+                                                    <label class="radio-label i-1">
+                                                        <input name="special" type="radio" checked>
+                                                        Химические продукты;
+                                                    </label>
+                                                    <label class="radio-label i-1">
+                                                        <input name="special" type="radio" checked>
+                                                        Краски, олифы лаки;
+                                                    </label>
+                                                    <label class="radio-label i-1">
+                                                        <input name="special" type="radio" checked>
+                                                        Препараты для чистки, парфюмерия и косметика;
+                                                    </label>
+                                                    <label class="radio-label i-1">
+                                                        <input name="special" type="radio" checked>
+                                                        Препараты для чистки, парфюмерия и косметика;
+                                                    </label>
+                                                    <label class="radio-label i-1">
+                                                        <input name="special" type="radio" checked>
+                                                        Фармацевтические препараты
+                                                    </label>
                                                 </div>
 
-                                            </li>
-                                            <li>
-                                                <div class="industry-block">
-                                                    <div class="industry-item">
-                                                        <div class="industry">
-                                                            <p class="point-menu">
-                                                                Металлы и сплавы
-                                                            </p>
-                                                        </div>
+                                            </div>
+                                        </div>
 
-                                                        <div class="sub">
-                                                            <ul>
-                                                                <li>
-                                                                    <p>
-                                                                       Обычные металлы и сплавы
-                                                                    </p>
-                                                                </li>
-                                                                <li>
-                                                                    <p>
-                                                                     Благородные металлы и их  сплавы, изделия из них
-                                                                    </p>
-                                                                </li>
+                                        <div class="question_block active cre-animate" data-animation="scale-up" data-speed="1200" data-delay="300"
+                                             data-offset="90%" data-easing="ease">
 
-                                                            </ul>
-                                                        </div>
+                                            <div class="question-item">
+                                                <p class="point-menu">
+                                                    Машины и устройства
+                                                </p>
 
-                                                    </div>
+                                                <div class="answer">
+                                                    <label class="radio-label i-1">
+                                                        <input name="special" type="radio" checked>
+                                                        Машинки, станки и двигатели
+                                                    </label>
+                                                    <label class="radio-label i-1">
+                                                        <input name="special" type="radio" checked>
+                                                        Приборы, инструменты, оборудование
+                                                    </label>
+                                                    <label class="radio-label i-1">
+                                                        <input name="special" type="radio" checked>
+                                                        Устройства для получения тепла
+                                                    </label>
+                                                    <label class="radio-label i-1">
+                                                        <input name="special" type="radio" checked>
+                                                        Транспортные средства
+                                                    </label>
+
                                                 </div>
+                                            </div>
+                                        </div>
 
-                                            </li>
-                                            <li>
-                                                <div class="industry-block">
-                                                    <div class="industry-item">
-                                                        <div class="industry">
-                                                            <p class="point-menu">
-                                                                Приборы и инструменты
-                                                            </p>
-                                                        </div>
+                                        <div class="question_block active cre-animate" data-animation="scale-up" data-speed="1200" data-delay="300"
+                                             data-offset="90%" data-easing="ease">
 
-                                                        <div class="sub">
-                                                            <ul>
-                                                                <li>
-                                                                    <p>
-                                                                        Ручные инструменты
-                                                                    </p>
-                                                                </li>
-                                                                <li>
-                                                                    <p>
-                                                                      Медицинские приборы и инструменты
-                                                                    </p>
-                                                                </li>
-                                                                <li>
-                                                                    <p>
-                                                                        Огнестрельное оружие и пиротехнические средства
-                                                                    </p>
-                                                                </li>
+                                            <div class="question-item">
+                                                <p class="point-menu">
+                                                    Металлы и сплавы
+                                                </p>
 
-                                                                <li>
-                                                                    <p>
-                                                                        Музыкальные инструменты
-                                                                    </p>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-
-                                                    </div>
+                                                <div class="answer">
+                                                    <label class="radio-label i-1">
+                                                        <input name="special" type="radio" checked>
+                                                        Обычные металлы и сплавы
+                                                    </label>
+                                                    <label class="radio-label i-1">
+                                                        <input name="special" type="radio" checked>
+                                                        Благородные металлы и их  сплавы, изделия из них
+                                                    </label>
                                                 </div>
+                                            </div>
+                                        </div>
 
-                                            </li>
-                                            <li>
-                                                <div class="industry-block">
-                                                    <div class="industry-item">
-                                                        <div class="industry">
-                                                            <p class="point-menu">
-                                                                Изделия и материалы
-                                                            </p>
-                                                        </div>
+                                        <div class="question_block active cre-animate" data-animation="scale-up" data-speed="1200" data-delay="300"
+                                             data-offset="90%" data-easing="ease">
 
-                                                        <div class="sub">
-                                                            <ul>
-                                                                <li>
-                                                                    <p>
-                                                                        Бумага и изделия из бумаги
-                                                                    </p>
-                                                                </li>
-                                                                <li>
-                                                                    <p>
-                                                                       Резина, асбет, пластмассы
-                                                                    </p>
-                                                                </li>
-                                                                <li>
-                                                                    <p>
-                                                                        Кожа и имитация кожи
-                                                                    </p>
-                                                                </li>
+                                            <div class="question-item">
+                                                <p class="point-menu">
+                                                    Приборы и инструменты
+                                                </p>
 
-                                                                <li>
-                                                                    <p>
-                                                                       Неметаллические строительные материалы
-                                                                    </p>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
+                                            <div class="answer">
+                                                <label class="radio-label i-1">
+                                                    <input name="special" type="radio" checked>
+                                                    Ручные инструменты
+                                                </label>
+                                                <label class="radio-label i-1">
+                                                    <input name="special" type="radio" checked>
+                                                    Медицинские приборы и инструменты
+                                                </label>
+                                                <label class="radio-label i-1">
+                                                    <input name="special" type="radio" checked>
+                                                    Огнестрельное оружие и пиротехнические средства
+                                                </label>
+                                                <label class="radio-label i-1">
+                                                    <input name="special" type="radio" checked>
+                                                    Музыкальные инструменты
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
 
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
+                                        <div class="question_block active cre-animate" data-animation="scale-up" data-speed="1200" data-delay="300"
+                                             data-offset="90%" data-easing="ease">
+
+                                            <div class="question-item">
+                                                <p class="point-menu">
+                                                    Изделия и материалы
+                                                </p>
+
+
+                                            <div class="answer">
+                                                <label class="radio-label i-1">
+                                                    <input name="special" type="radio" checked>
+                                                    Бумага и изделия из бумаги
+                                                </label>
+                                                <label class="radio-label i-1">
+                                                    <input name="special" type="radio" checked>
+                                                    Резина, асбет, пластмассы
+                                                </label>
+                                                <label class="radio-label i-1">
+                                                    <input name="special" type="radio" checked>
+                                                    Кожа и имитация кожи
+                                                </label>
+                                                <label class="radio-label i-1">
+                                                    <input name="special" type="radio" checked>
+                                                    Неметаллические строительные материалы
+                                                </label>
+                                            </div>
+                                        </div>
+                                        </div>
+
                                     </div>
                                     <div class="col-1-2">
-                                        <ul class="frame-list">
-                                            <li>
-                                                <div class="industry-block">
-                                                    <div class="industry-item">
-                                                        <div class="industry">
-                                                            <p class="point-menu">
-                                                                Товары для дома
-                                                            </p>
-                                                        </div>
+                                        <div class="question_block active cre-animate" data-animation="scale-up" data-speed="1200" data-delay="300"
+                                             data-offset="90%" data-easing="ease">
 
-                                                        <div class="sub">
-                                                            <ul>
-                                                                <li>
-                                                                    <p>
-                                                                        Мебель и другие изделия
-                                                                    </p>
-                                                                </li>
-                                                                <li>
-                                                                    <p>
-                                                                        Домашняя и кухонная утварь
-                                                                    </p>
-                                                                </li>
-                                                                <li>
-                                                                    <p>
-                                                                        Игрушки и спортные товары
-                                                                    </p>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
+                                            <div class="question-item">
+                                                <p class="point-menu">
+                                                    Товары для дома
+                                                </p>
 
-                                                    </div>
+                                                <div class="answer">
+                                                    <label class="radio-label i-1">
+                                                        <input name="special" type="radio" checked>
+                                                        Мебель и другие изделия
+                                                    </label>
+                                                    <label class="radio-label i-1">
+                                                        <input name="special" type="radio" checked>
+                                                        Домашняя и кухонная утварь
+                                                    </label>
+                                                    <label class="radio-label i-1">
+                                                        <input name="special" type="radio" checked>
+                                                        Игрушки и спортные товары
+                                                    </label>
                                                 </div>
+                                            </div>
+                                        </div>
 
-                                            </li>
-                                            <li>
-                                                <div class="industry-block">
-                                                    <div class="industry-item">
-                                                        <div class="industry">
-                                                            <p class="point-menu">
-                                                                Текстиль и одежда
-                                                            </p>
-                                                        </div>
+                                        <div class="question_block active cre-animate" data-animation="scale-up" data-speed="1200" data-delay="300"
+                                             data-offset="90%" data-easing="ease">
 
-                                                        <div class="sub">
-                                                            <ul>
-                                                                <li>
-                                                                    <p>
-                                                                        Веревочно-канатные изделия
-                                                                    </p>
-                                                                </li>
-                                                                <li>
-                                                                    <p>
-                                                                       нити текстильные и пряжа
-                                                                    </p>
-                                                                </li>
-                                                                <li>
-                                                                    <p>
-                                                                      Ткани, одеяла, покрывала и скатерти
-                                                                    </p>
-                                                                </li>
-                                                                <li>
-                                                                    <p>
-                                                                        Одежда, обувь, головные уборы
-                                                                    </p>
-                                                                </li>
-                                                                <li>
-                                                                    <p>
-                                                                        Галантерейные и басонные изделия
-                                                                    </p>
-                                                                </li>
-                                                                <li>
-                                                                    <p>
-                                                                        Покрытия для полов
-                                                                    </p>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
+                                            <div class="question-item">
+                                                <p class="point-menu">
+                                                    Текстиль и одежда
+                                                </p>
 
-                                                    </div>
+                                                <div class="answer">
+                                                    <label class="radio-label i-1">
+                                                        <input name="special" type="radio" checked>
+                                                        Веревочно-канатные изделия
+                                                    </label>
+                                                    <label class="radio-label i-1">
+                                                        <input name="special" type="radio" checked>
+                                                        Нити текстильные и пряжа
+                                                    </label>
+                                                    <label class="radio-label i-1">
+                                                        <input name="special" type="radio" checked>
+                                                        Ткани, одеяла, покрывала и скатерти
+                                                    </label>
+                                                    <label class="radio-label i-1">
+                                                        <input name="special" type="radio" checked>
+                                                        Одежда, обувь, головные уборы
+                                                    </label>
+                                                    <label class="radio-label i-1">
+                                                        <input name="special" type="radio" checked>
+                                                        Галантерейные и басонные изделия
+                                                    </label>
+                                                    <label class="radio-label i-1">
+                                                        <input name="special" type="radio" checked>
+                                                        Покрытия для полов
+                                                    </label>
                                                 </div>
+                                            </div>
+                                        </div>
 
-                                            </li>
-                                            <li>
-                                                <div class="industry-block">
-                                                    <div class="industry-item">
-                                                        <div class="industry">
-                                                            <p class="point-menu">
-                                                                Продукты питания
-                                                            </p>
-                                                        </div>
+                                        <div class="question_block active cre-animate" data-animation="scale-up" data-speed="1200" data-delay="300"
+                                             data-offset="90%" data-easing="ease">
 
-                                                        <div class="sub">
-                                                            <ul>
-                                                                <li>
-                                                                    <p>
-                                                                        Продукты животного происхождения
-                                                                    </p>
-                                                                </li>
-                                                                <li>
-                                                                    <p>
-                                                                        Растительные пищевые продукты
-                                                                    </p>
-                                                                </li>
-                                                                <li>
-                                                                    <p>
-                                                                        Продукты земледелия и лесного хозяйства
-                                                                    </p>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
+                                            <div class="question-item">
+                                                <p class="point-menu">
+                                                    Продукты питания
+                                                </p>
 
-                                                    </div>
+                                            <div class="answer">
+                                                <label class="radio-label i-1">
+                                                    <input name="special" type="radio" checked>
+                                                    Продукты животного происхождения
+                                                </label>
+                                                <label class="radio-label i-1">
+                                                    <input name="special" type="radio" checked>
+                                                    Растительные пищевые продукты
+                                                </label>
+                                                <label class="radio-label i-1">
+                                                    <input name="special" type="radio" checked>
+                                                    Продукты земледелия и лесного хозяйства
+                                                </label>
                                                 </div>
+                                            </div>
+                                        </div>
 
-                                            </li>
-                                            <li>
-                                                <div class="industry-block">
-                                                    <div class="industry-item">
-                                                        <div class="industry">
-                                                            <p class="point-menu">
-                                                                Напитки и табак
-                                                            </p>
-                                                        </div>
+                                        <div class="question_block active cre-animate" data-animation="scale-up" data-speed="1200" data-delay="300"
+                                             data-offset="90%" data-easing="ease">
 
-                                                        <div class="sub">
-                                                            <ul>
-                                                                <li>
-                                                                    <p>
-                                                                        Безалкогольные напитки и пиво
-                                                                    </p>
-                                                                </li>
-                                                                <li>
-                                                                    <p>
-                                                                        Алкогольные напитки (за исключением пива)
-                                                                    </p>
-                                                                </li>
-                                                                <li>
-                                                                    <p>
-                                                                        Табак и курительные принадлежности
-                                                                    </p>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
+                                            <div class="question-item">
+                                                <p class="point-menu">
+                                                    Напитки и табак
+                                                </p>
 
-                                                    </div>
+                                            <div class="answer">
+                                                <label class="radio-label i-1">
+                                                    <input name="special" type="radio" checked>
+                                                    Безалкогольные напитки и пиво
+                                                </label>
+                                                <label class="radio-label i-1">
+                                                    <input name="special" type="radio" checked>
+                                                    Алкогольные напитки (за исключением пива)
+                                                </label>
+                                                <label class="radio-label i-1">
+                                                    <input name="special" type="radio" checked>
+                                                    Табак и курительные принадлежности
+                                                </label>
                                                 </div>
+                                            </div>
+                                        </div>
 
-                                            </li>
-                                            <li>
-                                                <div class="industry-block">
-                                                    <div class="industry-item">
-                                                        <div class="industry">
-                                                            <p class="point-menu">
-                                                                Услуги
-                                                            </p>
-                                                        </div>
+                                        <div class="question_block active cre-animate" data-animation="scale-up" data-speed="1200" data-delay="300"
+                                             data-offset="90%" data-easing="ease">
 
-                                                        <div class="sub">
-                                                            <ul>
-                                                                <li>
-                                                                    <p>
-                                                                        Помощь в управлении бизнесом
-                                                                    </p>
-                                                                </li>
-                                                                <li>
-                                                                    <p>
-                                                                        Финансовые услуги
-                                                                    </p>
-                                                                </li>
-                                                                <li>
-                                                                    <p>
-                                                                       Строительство и ремонт
-                                                                    </p>
-                                                                </li>
-                                                                <li>
-                                                                    <p>
-                                                                        Телекоммуникации
-                                                                    </p>
-                                                                </li>
-                                                                <li>
-                                                                    <p>
-                                                                        Перевозка людей и товаров
-                                                                    </p>
-                                                                </li>
-                                                                <li>
-                                                                    <p>
-                                                                        Обработка материалов
-                                                                    </p>
-                                                                </li>
-                                                                <li>
-                                                                    <p>
-                                                                        Услуги обучения и развлекательные мероприятия
-                                                                    </p>
-                                                                </li>
-                                                                <li>
-                                                                    <p>
-                                                                        Научные и технические услуги
-                                                                    </p>
-                                                                </li>
-                                                                <li>
-                                                                    <p>
-                                                                        Гостиницы, кейтеринг
-                                                                    </p>
-                                                                </li>
-                                                                <li>
-                                                                    <p>
-                                                                        Медицинские и косметологические услуги
-                                                                    </p>
-                                                                </li>
-                                                                <li>
-                                                                    <p>
-                                                                        Юридические услуги и службы безопасности
-                                                                    </p>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
+                                            <div class="question-item">
+                                                <p class="point-menu">
+                                                    Услуги
+                                                </p>
 
-                                                    </div>
+                                            <div class="answer">
+                                                <label class="radio-label i-1">
+                                                    <input name="special" type="radio" checked>
+                                                    Помощь в управлении бизнесом
+                                                </label>
+                                                <label class="radio-label i-1">
+                                                    <input name="special" type="radio" checked>
+                                                    Финансовые услуги
+                                                </label>
+                                                <label class="radio-label i-1">
+                                                    <input name="special" type="radio" checked>
+                                                    Строительство и ремонт
+                                                </label>
+                                                <label class="radio-label i-1">
+                                                    <input name="special" type="radio" checked>
+                                                    Телекоммуникации
+                                                </label>
+                                                <label class="radio-label i-1">
+                                                    <input name="special" type="radio" checked>
+                                                    Перевозка людей и товаров
+                                                </label>
+                                                <label class="radio-label i-1">
+                                                    <input name="special" type="radio" checked>
+                                                    Обработка материалов
+                                                </label>
+                                                <label class="radio-label i-1">
+                                                    <input name="special" type="radio" checked>
+                                                    Услуги обучения и развлекательные мероприятия
+                                                </label>
+                                                <label class="radio-label i-1">
+                                                    <input name="special" type="radio" checked>
+                                                    Научные и технические услуги
+                                                </label>
+                                                <label class="radio-label i-1">
+                                                    <input name="special" type="radio" checked>
+                                                    Гостиницы, кейтеринг
+                                                </label>
+                                                <label class="radio-label i-1">
+                                                    <input name="special" type="radio" checked>
+                                                    Медицинские и косметологические услуги
+                                                </label>
+                                                <label class="radio-label i-1">
+                                                    <input name="special" type="radio" checked>
+                                                    Юридические услуги и службы безопасности
+                                                </label>
                                                 </div>
+                                            </div>
+                                        </div>
 
-                                            </li>
-                                        </ul>
                                     </div>
                                 </div>
 
@@ -983,7 +829,7 @@ if (file_exists('SxGeo.php')) {
                                 </div>
 
                                 <form method="post" class="send-form" autocomplete="off">
-                                    <input type="email" name="client_email" class="client-name" placeholder="Ваш email">
+                                    <input type="email" name="client_mail" class="client-mail" placeholder="Ваш email">
 
                                     <div class="btn-holder">
                                         <button type="submit" class="swiper-button-next btn brand-next yellow-button">Далее</button>
@@ -1657,8 +1503,76 @@ if (file_exists('SxGeo.php')) {
     <div class="si-overlay"></div>
     <div class="si-overlay-2"></div>
 
+    <!--    <div class="sms-modal">-->
+    <!--    <a href="#" class="si-close sms-close close">-->
+    <!---->
+    <!--    </a>-->
+    <!---->
+    <!--    <div class="modal-container align-center">-->
+    <!---->
+    <!--        <div class="row">-->
+    <!--            <div class="col-2-3">-->
+    <!--                <div class="modal-form-title">-->
+    <!--                    СМС-СКИДКА-->
+    <!--                </div>-->
+    <!---->
+    <!--                <div class="modal-sub-time">-->
+    <!--                    Впишите свой телефон и получитесмс-купон на скидку:-->
+    <!--                </div>-->
+    <!--                <form method="post" class="send-form" autocomplete="off">-->
+    <!---->
+    <!---->
+    <!--                   <div class="row">-->
+    <!--                       <div class="col-1-2">-->
+    <!--                           <input type="tel" name="client_phone" class="client-phone" placeholder="Ваш номер телефона">-->
+    <!---->
+    <!--                           <input type="hidden" name="send_type" class="send-type" value="1">-->
+    <!--                           <input type="hidden" name="send_extra" class="send-extra" value="1">-->
+    <!--                           <input type="hidden" name="key" value="--><?php //echo $_SESSION['sf_key'] ?><!--">-->
+    <!--                           --><?php ////Поле выше для защиты формы от спам-ботов ?>
+    <!--                       </div>-->
+    <!--                       <div class="col-1-2">-->
+    <!--                           <div class="btn-holder">-->
+    <!--                               <button type="submit" class="btn blue-button">Получить смс-скидку</button>-->
+    <!--<div class="g-recaptcha" id="g-recaptcha"></div>-->
+    <!--                           </div>-->
+    <!--                       </div>-->
+    <!--                   </div>-->
+    <!---->
+    <!-- Agreement -->
+    <!--                    <div class="form-agree align-left">-->
+    <!--                        <label class="checkbox-label form-agree-check checked">-->
+    <!--                            <input type="checkbox" checked>-->
+    <!--                            Я даю своё согласие на обработку моих-->
+    <!--                            персональных данных.-->
+    <!--                        </label>-->
+    <!--                    </div>-->
+    <!--                </form>-->
+    <!--            </div>-->
+    <!--            <div class="col-1-3">-->
+    <!--                <img class="hand-img" src="images/sms-hand.png" alt=" ">-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!---->
+    <!--    </div>-->
+    <!--</div>-->
+
+    <div class="position-block">
+        <a href="#" class="btn btn-ghost find-block-fixed open-get-modal">
+            <div class="find-title">
+                5 ключевых критериев,
+            </div>
+            <div class="find-text">
+                на которые <span>смотрит<br>
+                    экспертиза</span>
+            </div>
+        </a>
+    </div>
+
     <!-- Wrappers -->
     <div class="si-modals-wrapper-2"></div>
+
+
 
     <div class="si-modals-wrapper">
 
@@ -1681,6 +1595,68 @@ if (file_exists('SxGeo.php')) {
                     пн-пт с 10.00 до 20.00 (по Москве)
                 </p>
 
+            </div>
+        </div>
+
+        <!--============================================== success modal-2 -->
+        <div class="si-success-modal si-success-modal-2">
+            <a href="#" class="si-close"></a>
+
+            <div class="modal-container align-center">
+
+                <div class="si-success-modal-title">
+                    Файл уде в пути. <br>
+                    Проерьте свой ящик
+                </div>
+
+            </div>
+        </div>
+
+        <!--============================================== commercial modal -->
+        <div class="si-modal get-modal get-modal-1">
+            <a href="#" class="si-close close">
+
+            </a>
+
+            <div class="modal-container align-center">
+
+                <div class="modal-form-title">
+                    Мы отправим Вам этот файл по электронной почте
+                </div>
+
+                <div class="modal-sub-time">
+                    Вы согласны получать от нас и другие письма с полезной информацией?
+                    <br><br>
+                    Вы всегда сможете отписаться
+                </div>
+                <form method="post" class="send-form" autocomplete="off">
+
+                    <div class="row">
+                        <div class="col-1-2">
+                            <input type="email" name="client_mail" class="client-mail" placeholder="Ваш email">
+                        </div>
+                        <div class="col-1-2">
+                            <div class="btn-holder">
+                                <button type="submit" class="btn blue-button">Да, присылайте</button>
+                                <!--<div class="g-recaptcha" id="g-recaptcha"></div>-->
+                            </div>
+                        </div>
+                    </div>
+
+                    <input type="hidden" name="send_type" class="send-type" value="1">
+                    <input type="hidden" name="send_extra" class="send-extra" value="1">
+                    <input type="hidden" name="key" value="<?php echo $_SESSION['sf_key'] ?>">
+                    <?php //Поле выше для защиты формы от спам-ботов ?>
+
+                    <!-- Agreement -->
+                    <div class="form-agree">
+                        <label class="checkbox-label form-agree-check checked">
+                            <input type="checkbox" checked>
+                            Я даю своё согласие на обработку моих
+                            персональных данных.
+                        </label>
+                    </div>
+                </form>
             </div>
         </div>
 	
@@ -1767,7 +1743,7 @@ if (file_exists('SxGeo.php')) {
 
                         <input type="tel" name="client_phone" class="client-phone" placeholder="+7 (_)__-__-__">
 
-                        <input type="email" name="client_email" class="client-email" placeholder="Ваше email">
+                        <input type="email" name="client_mail" class="client-mail" placeholder="Ваше email">
 
                         <input type="hidden" name="send_type" class="send-type" value="1">
                         <input type="hidden" name="send_extra" class="send-extra" value="1">
@@ -2066,7 +2042,7 @@ if (file_exists('SxGeo.php')) {
 
                         <input type="tel" name="client_phone" class="client-phone" placeholder="+7 (_)__-__-__">
 
-                        <input type="email" name="client_email" class="client-email" placeholder="Ваше email">
+                        <input type="email" name="client_mail" class="client-mail" placeholder="Ваше email">
 
                         <input type="hidden" name="send_type" class="send-type" value="1">
                         <input type="hidden" name="send_extra" class="send-extra" value="1">

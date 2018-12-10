@@ -1,3 +1,4 @@
+
 [class*="section-"] {
 	position: relative;
 	z-index: 1;
@@ -6,7 +7,7 @@
 //==================== section heading
 .section-heading {
 	background: url('../images/heading-bg.jpg') no-repeat 50% 50% transparent;
-	padding: 52px 0 0px;
+	padding: 50px 0 0px;
 	position: relative;
 	overflow: hidden;
 
@@ -187,19 +188,18 @@
 
     .find-button{
       display: block;
-      position: absolute;
       width: 140px;
       height: 39px;
       box-shadow: 0 8px 10px rgba(0, 87, 172, 0.22);
       border-radius: 20px;
-      background-image: linear-gradient(to top, #0054aa 0%, #00ace5 99%, #00ace5 100%);
+      background-image: linear-gradient(to top, #0054aa 0%, #00ace5 100%);
       font: 400 17px/39px 'Myriad', sans-serif;
       color: #fff !important;
-      bottom: -20px;
-      left: 21%;
+      bottom: -5px;
+      left: 17%;
 
       &:hover{
-        background-image: linear-gradient(to top, #00ace5 0%, #0054aa 99%, #0054aa 100%);
+        background-image: linear-gradient(to top, #00ace5 0%, #0054aa 100%);
       }
     }
   }
@@ -353,7 +353,7 @@
       color: #fff !important;
     }
   }
-  .frame-list{
+  .question-item{
     width: 400px;
     padding: 0;
     display: block;
@@ -369,9 +369,14 @@
     }
 
 
-    .sub{
-      input[type="radio"]{
-        color: #fff;
+    .answer{
+      color: #fff;
+      display: block;
+      height: auto;
+      font: 400 23px/25px 'Myriad', sans-serif;
+
+      label{
+        margin-bottom: 20px;
       }
     }
   }
@@ -1056,7 +1061,7 @@
     background-image: linear-gradient(to top, #ffb400 0%, #fdc913 99%, #fdc913 100%);
     display: block;
     margin: 2px auto 0px;
-    font: 400 21px/62px 'Myriad', sans-serif;
+    font: 400 21px/64px 'Myriad', sans-serif;
     color: #010101 !important;
 
     &:hover{

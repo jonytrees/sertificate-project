@@ -73,7 +73,7 @@ $phone = isset($_POST['client_phone']) ? $_POST['client_phone'] : '';
 $mail = isset($_POST['client_mail']) ? $_POST['client_mail'] : '';
 $message = isset($_POST['client_message']) ? $_POST['client_message'] : '';
 
-if (empty($name) || empty($phone))
+if (empty($name))
     die(json_encode(array('success' => 0, 'text' => 'Заполните все поля')));
 
 //Две строчки ниже для защиты форм от спам-ботов

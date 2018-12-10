@@ -2717,6 +2717,9 @@ textarea {
   width: 91px;
   height: 91px; }
 
+.title-icon {
+  fill: #05a2e1; }
+
 .right-hover {
   fill: #D4D4D4; }
 
@@ -2753,10 +2756,8 @@ textarea {
   position: relative; }
   .layout-header .woman-block {
     position: absolute;
-    bottom: -7px;
-    right: -15px; }
-  .layout-header .si-phone {
-    padding-top: 0px; }
+    bottom: -15px;
+    right: 265px; }
 
 .sms-modal {
   width: 1024px;
@@ -2880,7 +2881,7 @@ textarea {
 
 .consult {
   margin-left: 33px;
-  margin-right: 63px;
+  margin-right: 55px;
   display: inline-block;
   width: 214px;
   height: 56px;
@@ -2919,7 +2920,7 @@ h1 {
   width: 810px;
   font: 700 60px/62px 'Myriad', sans-serif;
   margin-bottom: 35px;
-  margin-top: 65px; }
+  margin-top: 80px; }
 
 .sub_title {
   width: 650px;
@@ -3285,7 +3286,8 @@ html.si-lock2 {
 
 .packet-modal,
 .packet-complex-modal,
-.packet-last-modal {
+.packet-last-modal,
+.get-modal {
   width: 708px;
   height: auto;
   box-shadow: 0 4px 27px 1px rgba(0, 0, 0, 0.08);
@@ -3296,7 +3298,9 @@ html.si-lock2 {
   .packet-complex-modal .modal-form-title,
   .packet-complex-modal .si-success-modal-title,
   .packet-last-modal .modal-form-title,
-  .packet-last-modal .si-success-modal-title {
+  .packet-last-modal .si-success-modal-title,
+  .get-modal .modal-form-title,
+  .get-modal .si-success-modal-title {
     font: 400 33px/35px 'Myriad', sans-serif;
     color: #000;
     text-align: center;
@@ -3304,24 +3308,96 @@ html.si-lock2 {
     margin-bottom: 25px; }
   .packet-modal .packet-list,
   .packet-complex-modal .packet-list,
-  .packet-last-modal .packet-list {
+  .packet-last-modal .packet-list,
+  .get-modal .packet-list {
     margin: 0;
     padding: 0; }
     .packet-modal .packet-list li,
     .packet-complex-modal .packet-list li,
-    .packet-last-modal .packet-list li {
+    .packet-last-modal .packet-list li,
+    .get-modal .packet-list li {
       font: 300 24px/27px 'Myriad', sans-serif;
       color: #000;
       padding: 20px;
       text-align: left; }
   .packet-modal .packet-text,
   .packet-complex-modal .packet-text,
-  .packet-last-modal .packet-text {
+  .packet-last-modal .packet-text,
+  .get-modal .packet-text {
     font: 400 27px/27px 'Myriad', sans-serif;
     color: #000;
     margin-top: 30px;
     margin-bottom: 80px;
     text-align: left; }
+  .packet-modal input,
+  .packet-complex-modal input,
+  .packet-last-modal input,
+  .get-modal input {
+    width: 290px;
+    border: none !important;
+    border-bottom: 1px solid #028ef3 !important;
+    background-color: transparent !important;
+    padding-bottom: 10px;
+    color: #000;
+    font: 400 19px/17px 'Myriad', sans-serif;
+    display: block;
+    margin: 45px auto 54px; }
+  .packet-modal .blue-button,
+  .packet-complex-modal .blue-button,
+  .packet-last-modal .blue-button,
+  .get-modal .blue-button {
+    display: block;
+    width: 289px;
+    height: 68px;
+    box-shadow: 0 5px 0 #00498a;
+    border-radius: 34px;
+    background-color: #008df3;
+    background-image: linear-gradient(to top, #0054aa 0%, #00ace5 99%, #00ace5 100%);
+    font: 400 19px/68px 'Myriad', sans-serif;
+    color: #fff !important;
+    text-align: center;
+    margin: 30px auto 36px; }
+    .packet-modal .blue-button:hover,
+    .packet-complex-modal .blue-button:hover,
+    .packet-last-modal .blue-button:hover,
+    .get-modal .blue-button:hover {
+      background-image: linear-gradient(to top, #00ace5 0%, #0054aa 99%, #0054aa 100%); }
+  .packet-modal .form-agree-check,
+  .packet-complex-modal .form-agree-check,
+  .packet-last-modal .form-agree-check,
+  .get-modal .form-agree-check {
+    width: 258px;
+    height: 35px;
+    color: #000000;
+    display: block;
+    margin: 0 auto 93px;
+    font: 400 15px/20px 'Myriad', sans-serif; }
+
+.position-block {
+  position: fixed;
+  right: -25%;
+  top: 85%;
+  z-index: 100; }
+  .position-block.active {
+    right: 1%; }
+
+.find-block-fixed {
+  width: 249px;
+  height: 126px;
+  border-radius: 16px 13px 13px 16px;
+  border: 3px solid #00a0e1;
+  padding: 32px 17px 36px 19px;
+  background-color: #fff; }
+  .find-block-fixed .find-title {
+    font: 700 16px/21px 'Myriad', sans-serif;
+    color: #2c2c2c;
+    text-transform: uppercase; }
+  .find-block-fixed .find-text {
+    font: 400 16px/21px 'Myriad', sans-serif;
+    color: #2c2c2c; }
+    .find-block-fixed .find-text span {
+      color: #008df3;
+      font-weight: 600; }
 
 .si-popup-holder {
   cursor: pointer !important;
@@ -3531,18 +3607,17 @@ html.si-lock2 {
         font-weight: 600; }
     .section-trade .find-block .find-button {
       display: block;
-      position: absolute;
       width: 140px;
       height: 39px;
       box-shadow: 0 8px 10px rgba(0, 87, 172, 0.22);
       border-radius: 20px;
-      background-image: linear-gradient(to top, #0054aa 0%, #00ace5 99%, #00ace5 100%);
+      background-image: linear-gradient(to top, #0054aa 0%, #00ace5 100%);
       font: 400 17px/39px 'Myriad', sans-serif;
       color: #fff !important;
-      bottom: -20px;
-      left: 21%; }
+      bottom: -5px;
+      left: 17%; }
       .section-trade .find-block .find-button:hover {
-        background-image: linear-gradient(to top, #00ace5 0%, #0054aa 99%, #0054aa 100%); }
+        background-image: linear-gradient(to top, #00ace5 0%, #0054aa 100%); }
   .section-trade img {
     margin-bottom: 30px; }
   .section-trade .market {
@@ -3640,20 +3715,25 @@ html.si-lock2 {
     margin: 100px auto 54px; }
     .section-brand input::placeholder {
       color: #fff !important; }
-  .section-brand .frame-list {
+  .section-brand .question-item {
     width: 400px;
     padding: 0;
     display: block;
     vertical-align: top;
     margin: 30px auto 0px; }
-    .section-brand .frame-list .point-menu {
+    .section-brand .question-item .point-menu {
       color: #fff !important;
       font: 400 35px/35px 'Myriad', sans-serif;
       margin-top: 20px;
       margin-bottom: 20px;
       cursor: pointer; }
-    .section-brand .frame-list .sub input[type="radio"] {
-      color: #fff; }
+    .section-brand .question-item .answer {
+      color: #fff;
+      display: block;
+      height: auto;
+      font: 400 23px/25px 'Myriad', sans-serif; }
+      .section-brand .question-item .answer label {
+        margin-bottom: 20px; }
   .section-brand .yellow-button {
     width: 300px;
     height: 73px;
@@ -4182,7 +4262,7 @@ html.si-lock2 {
     background-image: linear-gradient(to top, #ffb400 0%, #fdc913 99%, #fdc913 100%);
     display: block;
     margin: 2px auto 0px;
-    font: 400 21px/62px 'Myriad', sans-serif;
+    font: 400 21px/64px 'Myriad', sans-serif;
     color: #010101 !important; }
     .section-lite .yellow-button:hover {
       background-image: linear-gradient(to top, #fdc913 0%, #ffb400 99%, #ffb400 100%); }
