@@ -157,7 +157,7 @@ if (file_exists('SxGeo.php')) {
                 <!-- Phone block -->
                 <div class="col-1-2 align-right">
                     <a href="tel:+74955329441" class="phone-link">+7 (495) 532-94-41</a>
-                    <a href="#" class="btn btn-ghost open-phone-modal consult" data-extra="1">Оставьте заявку</a>
+                    <a href="#" class="btn btn-ghost open-lite-modal consult" data-extra="1">Оставьте заявку</a>
                 </div>
 
             </div>
@@ -257,12 +257,11 @@ if (file_exists('SxGeo.php')) {
                     </div>
                     <div class="sub_header-block">
                         <div class="sub_header-title">
-                            до <span>15000</span> руб.
+                            До <span>15000</span> руб.
                         </div>
                         <div class="sub_header-text">
-                            Ваша выгода
+                            ваша выгода
                             на госпошлине
-                            составляет
                         </div>
                     </div>
                 </div>
@@ -273,10 +272,10 @@ if (file_exists('SxGeo.php')) {
                         </div>
                         <div class="sub_header-block">
                             <div class="sub_header-title">
-                                от <span>90</span> дней
+                                От <span>90</span> дней
                             </div>
                             <div class="sub_header-text">
-                                Ускоренная
+                                ускоренная
                                 процедура
                             </div>
                         </div>
@@ -289,10 +288,10 @@ if (file_exists('SxGeo.php')) {
                         </div>
                         <div class="sub_header-block">
                             <div class="sub_header-title">
-                                более <span>8</span> лет
+                                Более <span>8</span> лет
                             </div>
                             <div class="sub_header-text">
-                                Опыт
+                                опыт
                                 специалистов
                             </div>
                         </div>
@@ -356,9 +355,6 @@ if (file_exists('SxGeo.php')) {
                             <li>
                                 <span>Получите правовое основание для развития франчайзинговой сети</span>
                             </li>
-                            <li>
-                                <span>Получите правовое основание для развития франчайзинговой сети</span>
-                            </li>
                         </ul>
                     </div>
                 </div>
@@ -391,7 +387,7 @@ if (file_exists('SxGeo.php')) {
 
     <!--===================================================== section brand -->
     <section class="section-brand" id="brand">
-        <div class="container">
+<!--        <div class="container">-->
             <div class="wrapper-brand-slider">
 
                 <!-- Swiper -->
@@ -415,7 +411,7 @@ if (file_exists('SxGeo.php')) {
                                         </div>
                                         <div class="frame-line"></div>
                                         <div class="frame-text">
-                                            Анализ соответствия Вашего обозначения требованиям Роспатент;
+                                            Анализ соответствия Вашего обозначения требованиям Роспатент.
                                         </div>
                                     </div>
                                     <div class="frame-block">
@@ -424,7 +420,7 @@ if (file_exists('SxGeo.php')) {
                                         </div>
                                         <div class="frame-line"></div>
                                         <div class="frame-text">
-                                            Проверку по актуальной базе Роспатент зарегистрированных товарных знаков РФ;
+                                            Проверка по актуальной базе Роспатент зарегистрированных товарных знаков РФ.
                                         </div>
                                     </div>
                                     <div class="frame-block">
@@ -471,11 +467,11 @@ if (file_exists('SxGeo.php')) {
                         <div class="swiper-slide">
                             <div class="wrapper-slide">
                                 <h2>
-                                    Как называется Ваш бренд?
+                                    Выберите отрасль
                                 </h2>
 
                                 <div class="row questions-block">
-                                    <div class="col-1-2">
+                                    <div class="col-1-3">
                                         <div class="question_block active cre-animate" data-animation="scale-up" data-speed="1200" data-delay="300"
                                              data-offset="90%" data-easing="ease">
 
@@ -561,44 +557,16 @@ if (file_exists('SxGeo.php')) {
                                             </div>
                                         </div>
 
-                                        <div class="question_block active cre-animate" data-animation="scale-up" data-speed="1200" data-delay="300"
-                                             data-offset="90%" data-easing="ease">
-
-                                            <div class="question-item">
-                                                <p class="point-menu">
-                                                    Приборы и инструменты
-                                                </p>
-
-                                            <div class="answer">
-                                                <label class="radio-label i-1">
-                                                    <input name="special" type="radio" checked>
-                                                    Ручные инструменты
-                                                </label>
-                                                <label class="radio-label i-1">
-                                                    <input name="special" type="radio" checked>
-                                                    Медицинские приборы и инструменты
-                                                </label>
-                                                <label class="radio-label i-1">
-                                                    <input name="special" type="radio" checked>
-                                                    Огнестрельное оружие и пиротехнические средства
-                                                </label>
-                                                <label class="radio-label i-1">
-                                                    <input name="special" type="radio" checked>
-                                                    Музыкальные инструменты
-                                                </label>
-                                            </div>
-                                        </div>
                                     </div>
 
-                                        <div class="question_block active cre-animate" data-animation="scale-up" data-speed="1200" data-delay="300"
+                                    <div class="col-1-3">
+                                        <div class="question_block margin-center cre-animate" data-animation="scale-up" data-speed="1200" data-delay="300"
                                              data-offset="90%" data-easing="ease">
 
                                             <div class="question-item">
                                                 <p class="point-menu">
                                                     Изделия и материалы
                                                 </p>
-
-
                                             <div class="answer">
                                                 <label class="radio-label i-1">
                                                     <input name="special" type="radio" checked>
@@ -620,9 +588,7 @@ if (file_exists('SxGeo.php')) {
                                         </div>
                                         </div>
 
-                                    </div>
-                                    <div class="col-1-2">
-                                        <div class="question_block active cre-animate" data-animation="scale-up" data-speed="1200" data-delay="300"
+                                        <div class="question_block margin-center cre-animate" data-animation="scale-up" data-speed="1200" data-delay="300"
                                              data-offset="90%" data-easing="ease">
 
                                             <div class="question-item">
@@ -647,7 +613,7 @@ if (file_exists('SxGeo.php')) {
                                             </div>
                                         </div>
 
-                                        <div class="question_block active cre-animate" data-animation="scale-up" data-speed="1200" data-delay="300"
+                                        <div class="question_block margin-center cre-animate" data-animation="scale-up" data-speed="1200" data-delay="300"
                                              data-offset="90%" data-easing="ease">
 
                                             <div class="question-item">
@@ -684,7 +650,38 @@ if (file_exists('SxGeo.php')) {
                                             </div>
                                         </div>
 
-                                        <div class="question_block active cre-animate" data-animation="scale-up" data-speed="1200" data-delay="300"
+                                        <div class="question_block margin-center cre-animate" data-animation="scale-up" data-speed="1200" data-delay="300"
+                                             data-offset="90%" data-easing="ease">
+
+                                            <div class="question-item">
+                                                <p class="point-menu">
+                                                    Приборы и инструменты
+                                                </p>
+
+                                                <div class="answer">
+                                                    <label class="radio-label i-1">
+                                                        <input name="special" type="radio" checked>
+                                                        Ручные инструменты
+                                                    </label>
+                                                    <label class="radio-label i-1">
+                                                        <input name="special" type="radio" checked>
+                                                        Медицинские приборы и инструменты
+                                                    </label>
+                                                    <label class="radio-label i-1">
+                                                        <input name="special" type="radio" checked>
+                                                        Огнестрельное оружие и пиротехнические средства
+                                                    </label>
+                                                    <label class="radio-label i-1">
+                                                        <input name="special" type="radio" checked>
+                                                        Музыкальные инструменты
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-1-3">
+
+                                        <div class="question_block margin-right cre-animate" data-animation="scale-up" data-speed="1200" data-delay="300"
                                              data-offset="90%" data-easing="ease">
 
                                             <div class="question-item">
@@ -709,7 +706,7 @@ if (file_exists('SxGeo.php')) {
                                             </div>
                                         </div>
 
-                                        <div class="question_block active cre-animate" data-animation="scale-up" data-speed="1200" data-delay="300"
+                                        <div class="question_block margin-right cre-animate" data-animation="scale-up" data-speed="1200" data-delay="300"
                                              data-offset="90%" data-easing="ease">
 
                                             <div class="question-item">
@@ -734,7 +731,7 @@ if (file_exists('SxGeo.php')) {
                                             </div>
                                         </div>
 
-                                        <div class="question_block active cre-animate" data-animation="scale-up" data-speed="1200" data-delay="300"
+                                        <div class="question_block margin-right cre-animate" data-animation="scale-up" data-speed="1200" data-delay="300"
                                              data-offset="90%" data-easing="ease">
 
                                             <div class="question-item">
@@ -794,7 +791,7 @@ if (file_exists('SxGeo.php')) {
                                     </div>
                                 </div>
 
-                                <div class="swiper-button-next yellow-button brand-next">
+                                <div class="swiper-button-next yellow-button margin-under brand-next">
                                     Далее
                                 </div>
                             </div>
@@ -806,12 +803,16 @@ if (file_exists('SxGeo.php')) {
                                     Загрузите логотип
                                 </h2>
                                 <div class="sub_h2">
-                                    (если он есть)
+                                    При наличии
                                 </div>
-                                <div class="download-block">
+                                <label>
+                                    <div class="jq-file">
+                                        <input type="file" name="file" id="uploade-file">
+                                        <span>Выберите файл</span>
+                                    </div>
 
-                                </div>
-
+                                </label>
+                                <input type="submit" value="Отправить">
                                 <div class="swiper-button-next yellow-button brand-next">
                                     Далее
                                 </div>
@@ -878,6 +879,7 @@ if (file_exists('SxGeo.php')) {
 <!--                    </div>-->
                 </div>
         </div>
+<!--        </div>-->
     </section>
 
 
@@ -928,7 +930,7 @@ if (file_exists('SxGeo.php')) {
                        </div>
                        <div class="registration-span">
                            Проведём классификацию
-                           Ваших товаров и услуг
+                           Ваших товаров и услуг.
                        </div>
                    </div>
                 </div>
@@ -939,7 +941,7 @@ if (file_exists('SxGeo.php')) {
                         </div>
                         <div class="registration-span">
                             Рассчитаем размер госпошлин и
-                            обеспечим от них скидку 30%
+                            обеспечим от них скидку 30%.
                         </div>
                     </div>
                 </div>
@@ -950,7 +952,7 @@ if (file_exists('SxGeo.php')) {
                         </div>
                         <div class="registration-span">
                             Проинформируем о  поступлении
-                            корреспонденции из Роспатент
+                            корреспонденции из Роспатент.
                         </div>
                     </div>
                 </div>
@@ -964,7 +966,7 @@ if (file_exists('SxGeo.php')) {
                         </div>
                         <div class="registration-span">
                             Проведём предварительный
-                            аудит Вашего обозначения
+                            аудит Вашего обозначения.
                         </div>
                     </div>
                 </div>
@@ -976,7 +978,7 @@ if (file_exists('SxGeo.php')) {
                         <div class="registration-span">
                             Сообщим Вашему бухгалтеру
                             необходимую информацию для
-                            оплаты госпошлин
+                            оплаты госпошлин.
                         </div>
                     </div>
                 </div>
@@ -987,8 +989,8 @@ if (file_exists('SxGeo.php')) {
                         </div>
                         <div class="registration-span">
                             Составим и направим от Вашего
-                            имени ответы на все запросы
-                            Роспатент
+                            имени ответы на все запросы в
+                            Роспатент.
                         </div>
                     </div>
                 </div>
@@ -1002,7 +1004,7 @@ if (file_exists('SxGeo.php')) {
                         </div>
                         <div class="registration-span">
                             Дадим рекомендации  по
-                            доработке знака (если необходимо)
+                            доработке знака (если необходимо).
                         </div>
                     </div>
                 </div>
@@ -1013,7 +1015,7 @@ if (file_exists('SxGeo.php')) {
                         </div>
                         <div class="registration-span">
                             Оформим все документы и
-                            подадим заявку за 1 рабочий день
+                            подадим заявку за 1 рабочий день.
                         </div>
                     </div>
                 </div>
@@ -1024,14 +1026,14 @@ if (file_exists('SxGeo.php')) {
                         </div>
                         <div class="registration-span">
                             Сообщим о принятии решения о
-                            регистрации Товарного знака
+                            регистрации Товарного знака.
                         </div>
                     </div>
                 </div>
             </div>
-            <a class="btn yellow-button open-commercial-modal" href="#">
+            <a class="btn yellow-button open-man-modal" href="#">
                 Закажите весь комплекс услуг<Br>
-                со скидкой 30% на госпошлины
+                со скидкой 30% на госпошлины.
             </a>
         </div>
     </section>
@@ -1052,7 +1054,7 @@ if (file_exists('SxGeo.php')) {
                             заявки
                         </div>
                         <div class="packet-text">
-                            Вы хотите сэкономить и сами будете отвечать на запросы экспертизы
+                            Вы хотите сэкономить и сами будете отвечать на запросы экспертизы.
                             <span>
                                 Результат:
                             </span>
@@ -1092,14 +1094,14 @@ if (file_exists('SxGeo.php')) {
                             </span>
                         </div>
                         <div class="packet-text-complex">
-                            Вы предпочитаете делегировать задачи профессионалам, а сами занимаетесь развитием профильного бизнеса
+                            Вы предпочитаете делегировать задачи профессионалам, а сами занимаетесь развитием профильного бизнеса.
                             <span>
                                 Результат:
                             </span>
                             Закажите подачу и сопровождение заявки в рамках единого договора и сэкономьте ещё больше.
-                            <a class="packet-link-complex open-packet-complex-modal" href="#">
-                                Состав работ
-                            </a>
+<!--                            <a class="packet-link-complex open-packet-complex-modal" href="#">-->
+<!--                                Состав работ-->
+<!--                            </a>-->
                             <div class="packet-price-complex">
                                 25 000
                                 <div class="ruble-icon">
@@ -1119,12 +1121,12 @@ if (file_exists('SxGeo.php')) {
                             заявки
                         </div>
                         <div class="packet-text">
-                            Вы подавали заявку самостоятельно, но взаимодействие с Роспатент Вы доверяете профессионалам
+                            Вы подаете заявку самостоятельно, но взаимодействие с Роспатент доверяете профессионалам.
                             <span>
                                 Результат:
                             </span>
                             Представление Ваших интересов в Роспатент и ответы на все запросы экспертов вплоть до получения решения о выдаче свидетельства на товарный знак.
-                            <a class="packet-link open-packet-last-modal" href="#">
+                            <a class="packet-link open-packet-complex-modal" href="#">
                                 Состав работ
                             </a>
                             <div class="packet-term i-2">
@@ -1236,7 +1238,7 @@ if (file_exists('SxGeo.php')) {
                            Подача заявки
                        </div>
                        <div class="lite-text">
-                           Наши специалисты помогут подобрать для Вас классы МКТУ для подачи заявки на товарный знак;
+                           Наши специалисты помогут подобрать для Вас классы МКТУ для подачи заявки на товарный знак.
                        </div>
                    </div>
                 </div>
@@ -1247,7 +1249,7 @@ if (file_exists('SxGeo.php')) {
                             Регистрация
                         </div>
                         <div class="lite-text">
-                            Благодаря электронному взаимодействию с Роспатентом, мы отслеживаем информацию по Вашей заявке и своевременное выполнение этапов регистрации;
+                            Благодаря электронному взаимодействию с Роспатентом, мы отслеживаем информацию по Вашей заявке и своевременное выполнение этапов регистрации.
                         </div>
                     </div>
                 </div>
@@ -1258,7 +1260,7 @@ if (file_exists('SxGeo.php')) {
                             Контроль сроков
                         </div>
                         <div class="lite-text">
-                            Мы контролируем сроки оплаты пошлин и направляем Вам напоминания;
+                            Мы контролируем сроки оплаты пошлин и направляем Вам напоминания.
                         </div>
                     </div>
                 </div>
@@ -1272,7 +1274,7 @@ if (file_exists('SxGeo.php')) {
                             Скорость работы
                         </div>
                         <div class="lite-text">
-                            Вся информация о входящей корреспонденции из Роспатент направляется Вам в течение 3-5 рабочих дней с комментариями нашего Патентного поверенного;
+                            Вся информация о входящей корреспонденции из Роспатент направляется Вам в течение 3-5 рабочих дней с комментариями нашего Патентного поверенного.
                         </div>
                     </div>
                 </div>
@@ -1283,14 +1285,14 @@ if (file_exists('SxGeo.php')) {
                             Хранение корреспонденции
                         </div>
                         <div class="lite-text">
-                            Мы храним всю корреспонденцию и документы, отправленные и полученные из Роспатента  и при необходимости предоставляем их Вам
+                            Мы храним всю корреспонденцию и документы, отправленные и полученные из Роспатента  и при необходимости предоставляем их Вам.
                         </div>
                     </div>
                 </div>
             </div>
 
             <a class="btn yellow-button open-lite-modal" href="#">
-                Оставьте заявку
+               Заказать консультацию
             </a>
         </div>
     </section>
@@ -1316,67 +1318,85 @@ if (file_exists('SxGeo.php')) {
                     </div>
                 </div>
 
-                <div class="blue-block">
-                    <div class="blue-icon">
-                        <?php include('svg/back.svg'); ?>
-                    </div>
-                    <a href="#">
-                        Какая-то тема. Название видео
-                        длинное название
-                    </a>
-                    <a href="#">
-                        Какая-то тема. Название видео 2
-                    </a>
-                    <a href="#">
-                        Какая-то тема. Название видео 3
-                    </a>
-                    <a href="#">
-                        Какая-то тема. Название видео 4
-                    </a>
-                    <div class="blue-icon-down">
-                        <?php include('svg/back.svg'); ?>
-                    </div>
-                </div>
+
                 <!-- Swiper -->
-                <div class="swiper-container more-slider">
+                <div class="swiper-container gallery-top">
                     <div class="swiper-wrapper">
 
                         <!-- single slide -->
                         <div class="swiper-slide">
-                            <div class="wrapper-slide">
-                                <div class="play-block">
-                                   <span> Смотреть<Br>
-                                    видео</span>
-                                    <div class="play-icon">
-                                        <?php include('svg/play.svg'); ?>
-                                    </div>
+                            <a href="https://www.youtube.com/watch?v=XOIfBhSmoOc&amp;autoplay=1" class="review-item"
+                               data-fancybox="review">
+                            </a>
+                            <div class="play-block">
+                                <span> Смотреть<Br>Классическая<br>музыка</span>
+                                <div class="play-icon">
+                                    <?php include('svg/play.svg'); ?>
                                 </div>
-                                <img src="images/slider-bg.jpg" alt=" "/>
                             </div>
-                         </div>
+                            <img src="images/slider-bg.jpg" alt=" "/>
+                        </div>
+
 
                         <!-- single slide -->
                         <div class="swiper-slide">
-                            <div class="wrapper-slide">
-                                <img src="images/slider-bg.jpg" alt=" "/>
+                            <a href="https://www.youtube.com/watch?v=XOIfBhSmoOc&amp;autoplay=1" class="review-item"
+                               data-fancybox="review">
+                            </a>
+                            <div class="play-block">
+                                <span> Смотреть<Br>Другое видео</span>
+                                <div class="play-icon">
+                                    <?php include('svg/play.svg'); ?>
+                                </div>
                             </div>
+                            <img src="images/slider-bg.jpg" alt=" "/>
                         </div>
 
                         <!-- single slide -->
                         <div class="swiper-slide">
-                            <div class="wrapper-slide">
-                                <img src="images/slider-bg.jpg" alt=" "/>
+                            <a href="https://www.youtube.com/watch?v=XOIfBhSmoOc&amp;autoplay=1" class="review-item"
+                               data-fancybox="review">
+                            </a>
+                            <div class="play-block">
+                                <span> Смотреть<Br>Видео 3</span>
+                                <div class="play-icon">
+                                    <?php include('svg/play.svg'); ?>
+                                </div>
                             </div>
+                            <img src="images/slider-bg.jpg" alt=" "/>
                         </div>
+                    </div>
 
                     <!-- Add Arrows -->
-                        <div class="swiper-button-next more-next">
+                    <div class="swiper-button-next more-next"></div>
+                    <div class="swiper-button-prev more-prev"></div>
 
-                         </div>
-                    <div class="swiper-button-prev more-prev">
+                </div>
+                <div class="blue-block">
+<!--                    <div class="blue-icon">-->
+<!--                        --><?php //include('svg/back.svg'); ?>
+<!--                    </div>-->
+                    <div class="swiper-container gallery-thumbs">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
 
-                    </div>
-                    </div>
+                                    Классическая музыка
+
+                            </div>
+                            <div class="swiper-slide">
+
+                                    Другое видео
+
+                            </div>
+                            <div class="swiper-slide">
+
+                                    Видео 3
+
+                            </div>
+                        </div>
+<!--                    <div class="blue-icon-down">-->
+<!--                        --><?php //include('svg/back.svg'); ?>
+<!--                    </div>-->
                 </div>
             </div>
 
@@ -1489,7 +1509,7 @@ if (file_exists('SxGeo.php')) {
                 <div class="col-1-2">
                     <div class="si-phone">
                         <a href="tel:+74955329441" class="phone-link">+7 (495) 532-94-41</a>
-                        <a href="#" class="btn btn-ghost open-phone-modal consult" data-extra="1">Оставьте заявку</a>
+                        <a href="#" class="btn btn-ghost open-lite-modal consult" data-extra="1">Оставьте заявку</a>
                     </div>
                 </div>
 
@@ -1627,7 +1647,7 @@ if (file_exists('SxGeo.php')) {
                 <div class="modal-sub-time">
                     Вы согласны получать от нас и другие письма с полезной информацией?
                     <br><br>
-                    Вы всегда сможете отписаться
+                    <span>Вы всегда сможете отписаться</span>
                 </div>
                 <form method="post" class="send-form" autocomplete="off">
 
@@ -1673,12 +1693,12 @@ if (file_exists('SxGeo.php')) {
                 <div class="row">
                     <div class="col-1-2">
                         <div class="modal-form-title">
-                            Закажить коммерческое
+                            Закажите коммерческое
                             предложение
                         </div>
 
                         <div class="modal-sub-time">
-                            Оставьте Ваши контактные данные
+                            Оставьте Ваши контактные данные<br>
                             и мы с Вами свяжемся
                         </div>
                         <form method="post" class="send-form" autocomplete="off">
@@ -1717,6 +1737,62 @@ if (file_exists('SxGeo.php')) {
         </div>
 
 
+        <!--============================================== man modal -->
+        <div class="si-modal man-modal man-modal-1">
+            <a href="#" class="si-close close">
+
+            </a>
+
+            <div class="modal-container align-center">
+
+
+
+                <div class="row">
+                    <div class="col-1-2">
+                        <div class="modal-form-title">
+                            Получите скидку 30% на госпошлины
+                        </div>
+
+                        <div class="modal-sub-time">
+                            Наш менеджер свяжется с Вами в ближайшее время
+                        </div>
+                        <form method="post" class="send-form" autocomplete="off">
+
+                            <input type="text" name="client_name" class="client-name" placeholder="Ваше имя">
+
+                            <input type="tel" name="client_phone" class="client-phone" placeholder="+7 (_)__-__-__">
+
+                            <input type="email" name="client_mail" class="client-mail" placeholder="Ваше email">
+
+                            <input type="hidden" name="send_type" class="send-type" value="1">
+                            <input type="hidden" name="send_extra" class="send-extra" value="1">
+                            <input type="hidden" name="key" value="<?php echo $_SESSION['sf_key'] ?>">
+                            <?php //Поле выше для защиты формы от спам-ботов ?>
+
+                            <div class="btn-holder">
+                                <button type="submit" class="btn blue-button">Заказать комплекс<br> услуг</button>
+                                <!--<div class="g-recaptcha" id="g-recaptcha"></div>-->
+                            </div>
+
+                            <!-- Agreement -->
+                            <div class="form-agree align-left">
+                                <label class="checkbox-label form-agree-check checked">
+                                    <input type="checkbox" checked>
+                                    Я даю своё согласие на обработку моих
+                                    персональных данных.
+                                </label>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-1-2">
+                        <img src="images/man-img.png" alt=" ">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
         <!--============================================== request modal -->
         <div class="si-modal request-modal request-modal-1">
             <a href="#" class="si-close close">
@@ -1729,13 +1805,11 @@ if (file_exists('SxGeo.php')) {
 
                 <div class="row">
                     <div class="modal-form-title">
-                        Закажить коммерческое
-                        предложение
+                        Оставить заявку
                     </div>
 
                     <div class="modal-sub-time">
-                        Оставьте Ваши контактные данные
-                        и мы с Вами свяжемся
+                        Наш менеджер свяжется с Вами<br> в ближайшее время
                     </div>
                     <form method="post" class="send-form" autocomplete="off">
 
@@ -1751,8 +1825,7 @@ if (file_exists('SxGeo.php')) {
                         <?php //Поле выше для защиты формы от спам-ботов ?>
 
                         <div class="btn-holder">
-                            <button type="submit" class="btn blue-button">Получить коммерческое<br>
-                                предложение</button>
+                            <button type="submit" class="btn blue-button">Оставить заявку</button>
                             <!--<div class="g-recaptcha" id="g-recaptcha"></div>-->
                         </div>
 
@@ -1787,24 +1860,24 @@ if (file_exists('SxGeo.php')) {
 
                     <ul class="packet-list">
                         <li>
-                            Подготовка расшифровок МКТУ;
+                            Подготовка расшифровок МКТУ.
                         </li>
                         <li>
-                            Подготовка комплекта заявительной документации;
+                            Подготовка комплекта заявительной документации.
                         </li>
                         <li>
-                            Согласование перечня товаров и услуг с заказчиком;
+                            Согласование перечня товаров и услуг с заказчиком.
                         </li>
                         <li >
-                            Консультирование по оплате пошлин;
+                            Консультирование по оплате пошлин.
                         </li>
                         <li>
-                            Электронная подача заявки в Роспатент
+                            Электронная подача заявки в Роспатент.
                         </li>
                     </ul>
 
                     <div class="packet-text">
-                        Итог: Получение из Роспатента приоритетной справки на товарный знак
+                        Итог: Получение из Роспатента приоритетной справки на товарный знак.
                     </div>
 
                 </div>
@@ -1826,27 +1899,27 @@ if (file_exists('SxGeo.php')) {
 
                     <ul class="packet-list">
                         <li>
-                            Подбор классов МКТУ
+                            Подбор классов МКТУ.
                         </li>
                         <li>
-                            Проверка по официальным российским и зарубежным базам зарегистрированных товарных знаков и поданных заявок;
+                            Проверка по официальным российским и зарубежным базам зарегистрированных товарных знаков и поданных заявок.
                         </li>
                         <li>
-                            Выявление наличия сходства до степени смешения по фонетическому, графическому и семантическому критерию;
+                            Выявление наличия сходства до степени смешения по фонетическому, графическому и семантическому критерию.
                         </li>
                         <li>
-                            Разработка оптимальных стратегий регистрации знака;
+                            Разработка оптимальных стратегий регистрации знака.
                         </li>
                         <li>
-                            Доработка знака в случае необходимости;
+                            Доработка знака в случае необходимости.
                         </li>
                         <li>
-                            Письменное экспертное заключение и консультация юриста по итогам;
+                            Письменное экспертное заключение и консультация юриста по итогам.
                         </li>
                     </ul>
 
                     <div class="packet-text">
-                        Итог: утверждение финального знака и определение стратегии его регистрации;
+                        Итог: утверждение финального знака и определение стратегии его регистрации.
                     </div>
 
 
@@ -1856,15 +1929,15 @@ if (file_exists('SxGeo.php')) {
 
                 <ul class="packet-list">
                     <li>
-                        Подготовка расшифровок МКТУ;
+                        Подготовка расшифровок МКТУ.
                     </li>
                     <li>
-                        Подготовка комплекта заявительной документации;
+                        Подготовка комплекта заявительной документации.
                     <li>
-                        Согласование перечня товаров и услуг с заказчиком;
+                        Согласование перечня товаров и услуг с заказчиком.
                     </li>
                     <li>
-                        Консультирование по оплате пошлин;
+                        Консультирование по оплате пошлин.
                     </li>
                     <li>
                         Электронная подача заявки в Роспатент
@@ -1873,7 +1946,7 @@ if (file_exists('SxGeo.php')) {
                 </ul>
 
                 <div class="packet-text">
-                    Итог: Получение из Роспатента приоритетной справки на товарный знак
+                    Итог: Получение из Роспатента приоритетной справки на товарный знак.
                 </div>
 
 
@@ -1883,15 +1956,15 @@ if (file_exists('SxGeo.php')) {
 
                 <ul class="packet-list">
                     <li>
-                        Ответы на вопросы экспертизы;
+                        Ответы на вопросы экспертизы.
                     </li>
                     <li>
-                        Ответы на уведомления (предварительный отказ) экспертизы;
+                        Ответы на уведомления (предварительный отказ) экспертизы.
                     <li>
-                        Процессуальные ходатайства;
+                        Процессуальные ходатайства.
                     </li>
                     <li>
-                        Мониторинг делопроизводства;
+                        Мониторинг делопроизводства.
                     </li>
                     <li>
                         Пересылка заказчику копий документа.
@@ -1900,7 +1973,7 @@ if (file_exists('SxGeo.php')) {
                 </ul>
 
                 <div class="packet-text">
-                    Итог: регистрация товарного знака
+                    Итог: регистрация товарного знака.
                 </div>
 
             </div>
@@ -1912,6 +1985,7 @@ if (file_exists('SxGeo.php')) {
 
             </a>
 
+
             <div class="modal-container align-center">
 
                     <div class="modal-form-title">
@@ -1920,27 +1994,27 @@ if (file_exists('SxGeo.php')) {
 
                     <ul class="packet-list">
                         <li >
-                            Подбор классов МКТУ
+                            Подбор классов МКТУ.
                         </li>
                         <li >
-                            Проверка по официальным российским и зарубежным базам зарегистрированных товарных знаков и поданных заявок;
+                            Проверка по официальным российским и зарубежным базам зарегистрированных товарных знаков и поданных заявок.
                         </li>
                         <li>
-                            Выявление наличия сходства до степени смешения по фонетическому, графическому и семантическому критерию;
+                            Выявление наличия сходства до степени смешения по фонетическому, графическому и семантическому критерию.
                         </li>
                         <li>
-                            Разработка оптимальных стратегий регистрации знака;
+                            Разработка оптимальных стратегий регистрации знака.
                         </li>
                         <li>
-                            Доработка знака в случае необходимости;
+                            Доработка знака в случае необходимости.
                         </li>
                         <li>
-                            Письменное экспертное заключение и консультация юриста по итогам;
+                            Письменное экспертное заключение и консультация юриста по итогам.
                         </li>
                     </ul>
 
                     <div class="packet-text">
-                        Итог: утверждение финального знака и определение стратегии его регистрации;
+                        Итог: утверждение финального знака и определение стратегии его регистрации.
                     </div>
 
                 <div class="modal-form-title">
@@ -1949,24 +2023,24 @@ if (file_exists('SxGeo.php')) {
 
                 <ul class="packet-list">
                     <li>
-                        Подготовка расшифровок МКТУ;
+                        Подготовка расшифровок МКТУ.
                     </li>
                     <li>
-                        Подготовка комплекта заявительной документации;
+                        Подготовка комплекта заявительной документации.
                     </li>
                     <li >
-                        Согласование перечня товаров и услуг с заказчиком;
+                        Согласование перечня товаров и услуг с заказчиком.
                     </li>
                     <li >
-                        Консультирование по оплате пошлин;
+                        Консультирование по оплате пошлин.
                     </li>
                     <li>
-                        Электронная подача заявки в Роспатент
+                        Электронная подача заявки в Роспатент.
                     </li>
                 </ul>
 
                 <div class="packet-text">
-                    Итог: Получение из Роспатента приоритетной справки на товарный знак
+                    Итог: Получение из Роспатента приоритетной справки на товарный знак.
                 </div>
 
                 <div class="modal-form-title">
@@ -1975,16 +2049,16 @@ if (file_exists('SxGeo.php')) {
 
                 <ul class="packet-list">
                     <li>
-                        Ответы на вопросы экспертизы;
+                        Ответы на вопросы экспертизы.
                     </li>
                     <li>
-                        Ответы на уведомления (предварительный отказ) экспертизы;
+                        Ответы на уведомления (предварительный отказ) экспертизы.
                     </li>
                     <li>
-                        Процессуальные ходатайства;
-                    </li>H
+                        Процессуальные ходатайства.
+                    </li>
                     <li>
-                        Мониторинг делопроизводства;
+                        Мониторинг делопроизводства.
                     </li>
                     <li>
                         Пересылка заказчику копий документа.
@@ -1992,7 +2066,7 @@ if (file_exists('SxGeo.php')) {
                 </ul>
 
                 <div class="packet-text">
-                    Итог: регистрация товарного знака
+                    Итог: регистрация товарного знака.
                 </div>
 
                 <div class="modal-form-title">
@@ -2000,19 +2074,19 @@ if (file_exists('SxGeo.php')) {
                 </div>
 
                 <ul class="packet-list">
-                    <li >
-                        Ускоренная проверка знака Роспатентом за 10 дней;
+                    <li>
+                        Ускоренная проверка знака Роспатентом за 10 дней.
                     </li>
-                    <li >
-                        Ускоренная экспертиза знака в Роспатенте за 2 месяца;
+                    <li>
+                        Ускоренная экспертиза знака в Роспатенте за 2 месяца.
                     </li>
-                    <li >
-                        Дополнительная госпошлина за ускоренную процедуру – 94 400 рублей
+                    <li>
+                        Дополнительная госпошлина за ускоренную процедуру – 94 400 рублей.
                     </li>
                 </ul>
 
                 <div class="packet-text">
-                    Итог: регистрация товарного знака
+                    Итог: регистрация товарного знака.
                 </div>
             </div>
         </div>
@@ -2050,8 +2124,7 @@ if (file_exists('SxGeo.php')) {
                         <?php //Поле выше для защиты формы от спам-ботов ?>
 
                         <div class="btn-holder">
-                            <button type="submit" class="btn blue-button">Получить коммерческое<br>
-                                предложение</button>
+                            <button type="submit" class="btn blue-button">Заказать консультацию</button>
                             <!--<div class="g-recaptcha" id="g-recaptcha"></div>-->
                         </div>
 

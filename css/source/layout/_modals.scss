@@ -18,7 +18,7 @@ html {
 .si-overlay {
 	@include abs-center-fixed;
 	display: none;
-	background: transparentize(#fff, .2);
+	background: transparentize(#7b7b7b, .2);
 	z-index: 203;
 }
 
@@ -176,12 +176,13 @@ html {
 
 
 //============== commercial-modal
-.commercial-modal{
+.commercial-modal,
+.man-modal{
 	width: 906px;
 	box-shadow: 0 4px 27px 1px rgba(0, 0, 0, 0.16);
 
 	.modal-form-title{
-		font: 400 33px/35px 'Myriad', sans-serif;
+		font: 600 33px/35px 'Myriad', sans-serif;
 		color: #000;
 		text-align: center;
 		margin-top: 85px;
@@ -232,8 +233,14 @@ html {
 		height: 35px;
 		color: #000000;
 		display: block;
-		margin: 0 auto;
+		margin: 0 auto 50px;
 		font: 400 15px/20px 'Myriad', sans-serif;
+	}
+}
+
+.man-modal{
+	img{
+		margin-top: 50px;
 	}
 }
 
@@ -248,7 +255,7 @@ html {
 	padding: 0px 80px;
 
 	.modal-form-title{
-		font: 400 33px/35px 'Myriad', sans-serif;
+		font: 600 33px/35px 'Myriad', sans-serif;
 		color: #000;
 		text-align: center;
 		margin-top: 85px;
@@ -317,11 +324,22 @@ html {
 	padding: 0px 80px;
 
 	.modal-form-title{
-		font: 400 33px/35px 'Myriad', sans-serif;
+		font: 600 33px/35px 'Myriad', sans-serif;
 		color: #000;
 		text-align: center;
 		margin-top: 85px;
 		margin-bottom: 25px;
+	}
+
+	.modal-sub-time{
+		font: 400 24px/27px 'Myriad', sans-serif;
+		color: #000;
+		margin-bottom: 49px;
+
+		span{
+			font-size: 20px;
+			font-weight: 300;
+		}
 	}
 
 	.packet-list{
@@ -363,7 +381,7 @@ html {
 		border-radius: 34px;
 		background-color: #008df3;
 		background-image: linear-gradient(to top, #0054aa 0%, #00ace5 99%, #00ace5 100%);
-		font: 400 19px/68px 'Myriad', sans-serif;
+		font: 400 19px/70px 'Myriad', sans-serif;
 		color: #fff !important;
 		text-align: center;
 		margin: 30px auto 36px;

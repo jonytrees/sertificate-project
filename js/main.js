@@ -190,6 +190,7 @@ jQuery(function ($) {
         SIModals.attachModal('.open-packet-complex-modal', '.packet-complex-modal', {'.send-extra': 'extra'});
         SIModals.attachModal('.open-packet-last-modal', '.packet-last-modal', {'.send-extra': 'extra'});
         SIModals.attachModal('.open-commercial-modal', '.commercial-modal', {'.send-extra': 'extra'});
+        SIModals.attachModal('.open-man-modal', '.man-modal', {'.send-extra': 'extra'});
         SIModals.attachModal('.open-lite-modal', '.lite-modal', {'.send-extra': 'extra'});
         SIModals.attachModal('.open-request-modal', '.request-modal', {'.send-extra': 'extra'});
         SIModals.attachModal('.open-text-modal', '.text-modal', false, function () {
@@ -220,9 +221,9 @@ jQuery(function ($) {
     //     }
     // }
 
-    var headindHeight = $('.section-trade').height();
+    var headindHeight = $('.section-trade').outerHeight(true);
     function upBtn() {
-        if($(window).scrollTop() > headindHeight) {
+        if($(window).scrollTop() > headindHeight + 300) {
             $('.position-block').addClass('active');
         } else {
             $('.position-block').removeClass('active');
@@ -294,12 +295,25 @@ jQuery(function ($) {
        });
     }
 
-    var swiper = new Swiper('.swiper-container', {
-        slidesPerView: 'auto',
-        spaceBetween: 30,
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
+    var galleryThumbs = new Swiper('.gallery-thumbs', {
+        spaceBetween: 10,
+        slidesPerView: 3,
+        loop: true,
+        freeMode: true,
+        loopedSlides: 5,
+        watchSlidesVisibility: true,
+        watchSlidesProgress: true,
+    });
+    var galleryTop = new Swiper('.gallery-top', {
+        spaceBetween: 10,
+        loop:true,
+        loopedSlides: 5,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        thumbs: {
+            swiper: galleryThumbs,
         },
     });
 
