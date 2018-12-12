@@ -2557,6 +2557,48 @@ textarea {
   bottom: auto !important;
   z-index: -1 !important; }
 
+.file-loader {
+  width: 300px;
+  display: block !important;
+  margin: 0 auto;
+  position: relative;
+  border-bottom: 1px solid #fff; }
+  .file-loader input {
+    width: 100% !important; }
+
+.file-icon {
+  position: absolute;
+  top: 0; }
+  .file-icon svg {
+    width: 30px;
+    height: 30px; }
+
+.jq-file {
+  width: 300px;
+  box-shadow: none;
+  border-radius: 0;
+  z-index: 1;
+  display: block;
+  margin: 0 auto; }
+
+.jq-file__name {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  font: 600 30px/30px 'Myriad', sans-serif;
+  color: #fff;
+  border: 0 !important;
+  border-radius: 0;
+  box-shadow: none;
+  background: transparent; }
+
+.jq-file__browse {
+  display: none;
+  width: 100%; }
+
+.client_file {
+  width: 100%; }
+
 .btn-holder {
   position: relative;
   z-index: 1; }
@@ -2746,6 +2788,9 @@ textarea {
 
 .telegram {
   fill: #3C3C3C; }
+
+.file-icon {
+  fill: #fff; }
 
 .layout-header {
   padding-top: 40px;
@@ -3235,14 +3280,13 @@ html.si-lock2 {
     font: 400 15px/20px 'Myriad', sans-serif; }
 
 .man-modal img {
-  margin-top: 50px; }
+  margin-top: 100px; }
 
 .request-modal,
 .lite-modal {
   width: 508px;
   height: auto;
   box-shadow: 0 4px 27px 1px rgba(0, 0, 0, 0.08);
-  border: 13px solid #008df3;
   background-color: #ffffff;
   padding: 0px 80px; }
   .request-modal .modal-form-title, .request-modal .si-success-modal-title,
@@ -3302,9 +3346,8 @@ html.si-lock2 {
   width: 708px;
   height: auto;
   box-shadow: 0 4px 27px 1px rgba(0, 0, 0, 0.08);
-  border: 13px solid #008df3;
   background-color: #ffffff;
-  padding: 0px 80px; }
+  padding: 80px 80px; }
   .packet-modal .modal-form-title, .packet-modal .si-success-modal-title,
   .packet-complex-modal .modal-form-title,
   .packet-complex-modal .si-success-modal-title,
@@ -3315,7 +3358,6 @@ html.si-lock2 {
     font: 600 33px/35px 'Myriad', sans-serif;
     color: #000;
     text-align: center;
-    margin-top: 85px;
     margin-bottom: 25px; }
   .packet-modal .modal-sub-time,
   .packet-complex-modal .modal-sub-time,
@@ -3394,7 +3436,7 @@ html.si-lock2 {
     height: 35px;
     color: #000000;
     display: block;
-    margin: 0 auto 93px;
+    margin: 0 auto;
     font: 400 15px/20px 'Myriad', sans-serif; }
 
 .position-block {
@@ -3556,6 +3598,8 @@ html.si-lock2 {
   .section-sub_header .sub_header-icon {
     display: inline-block;
     margin-right: 15px; }
+  .section-sub_header .card-icon {
+    margin-right: 10px; }
   .section-sub_header .sub_header-block {
     display: inline-block;
     vertical-align: top;
@@ -3740,7 +3784,7 @@ html.si-lock2 {
         font: 400 20px/28px 'Myriad', sans-serif;
         color: #fff; }
   .section-brand input {
-    width: 50%;
+    width: 400px;
     border: none !important;
     border-bottom: 1px solid #fff !important;
     background-color: transparent !important;
@@ -3833,8 +3877,12 @@ html.si-lock2 {
 
 .section-registration {
   background-color: #fff;
-  padding-top: 161px;
+  padding-top: 111px;
   padding-bottom: 146px; }
+  .section-registration #registration-tab {
+    width: 100px;
+    height: 50px;
+    display: block; }
   .section-registration h2 {
     font: 300 48px/50px 'Myriad', sans-serif;
     color: #2c2c2c;
@@ -3966,8 +4014,12 @@ html.si-lock2 {
 
 .section-packet {
   background-color: #f7f7f7;
-  padding-top: 129px;
+  padding-top: 79px;
   padding-bottom: 193px; }
+  .section-packet #packet-tab {
+    width: 100px;
+    height: 50px;
+    display: block; }
   .section-packet h2 {
     font: 300 48px/50px 'Myriad', sans-serif;
     color: #2c2c2c;
@@ -4307,8 +4359,12 @@ html.si-lock2 {
 
 .section-lite {
   background-color: #f7f7f7;
-  padding-top: 232px;
+  padding-top: 132px;
   padding-bottom: 159px; }
+  .section-lite #lite-tab {
+    width: 100px;
+    height: 50px;
+    display: block; }
   .section-lite h2 {
     font: 400 48px/48px 'Myriad', sans-serif;
     color: #2c2c2c;
@@ -4345,8 +4401,12 @@ html.si-lock2 {
       background-image: linear-gradient(to top, #fdc913 0%, #ffb400 99%, #ffb400 100%); }
 
 .section-more {
-  padding-top: 153px;
+  padding-top: 103px;
   padding-bottom: 137px; }
+  .section-more #more-tab {
+    width: 100px;
+    height: 50px;
+    display: block; }
   .section-more h2 {
     font: 400 48px/48px 'Myriad', sans-serif;
     color: #2c2c2c;
@@ -4374,30 +4434,10 @@ html.si-lock2 {
     .section-more .description-block .description-text {
       font: 400 17px/24px 'Myriad', sans-serif;
       color: #2c2c2c; }
-  .section-more .blue-block {
-    width: 100%;
-    background-color: #00a0e1;
-    display: block;
-    padding: 27px 43px 27px 29px;
-    top: 225px;
-    left: 0;
-    z-index: 10; }
-    .section-more .blue-block .blue-icon {
-      display: block;
-      margin: 0 auto 19px;
-      width: 29px;
-      height: 17px; }
-    .section-more .blue-block .blue-icon-down {
-      transform: rotate(180deg);
-      display: block;
-      margin: 0 auto 0px;
-      width: 29px;
-      height: 17px; }
   .section-more .swiper-container {
     width: 100%;
     display: block;
     margin: 0 auto;
-    padding-left: 100px;
     position: relative; }
   .section-more .swiper-slide {
     text-align: center;
@@ -4427,6 +4467,25 @@ html.si-lock2 {
       -ms-transition: 1s;
       -o-transition: 1s;
       transition: 1s; }
+  .section-more .blue-block {
+    width: 100%;
+    background-color: #00a0e1;
+    display: block;
+    padding: 27px 27px 27px 29px;
+    top: 225px;
+    left: 0;
+    z-index: 10; }
+    .section-more .blue-block .blue-icon {
+      display: block;
+      margin: 0 auto 19px;
+      width: 29px;
+      height: 17px; }
+    .section-more .blue-block .blue-icon-down {
+      transform: rotate(180deg);
+      display: block;
+      margin: 0 auto 0;
+      width: 29px;
+      height: 17px; }
   .section-more .swiper-container {
     width: 100%;
     height: 300px;
@@ -4444,7 +4503,6 @@ html.si-lock2 {
     padding: 10px 0; }
     .section-more .gallery-thumbs .swiper-slide {
       text-decoration: underline;
-      margin-bottom: 24px;
       display: block;
       background-color: transparent;
       font: 400 26px/29px 'Myriad', sans-serif;

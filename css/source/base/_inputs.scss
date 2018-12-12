@@ -254,3 +254,57 @@ textarea {
 	bottom: auto !important;
 	z-index: -1 !important;
 }
+
+
+//==================== file
+
+.file-loader{
+	width: 300px;
+	display: block !important;
+	margin: 0 auto;
+	position: relative;
+	border-bottom: 1px solid #fff;
+
+	input{
+		width: 100% !important;
+	}
+}
+
+.file-icon{
+	position: absolute;
+	top: 0;
+
+	svg{
+		width: 30px;
+		height: 30px;
+	}
+}
+.jq-file {
+	width: 300px;
+	box-shadow: none;
+	border-radius: 0;
+	z-index: 1;
+	display: block;
+	margin: 0 auto;
+}
+
+.jq-file__name {
+	text-align: center;
+	margin: 0 auto;
+	padding: 0;
+	font: 600 30px/30px 'Myriad', sans-serif;
+	color: #fff;
+	border: 0 !important;
+	border-radius: 0;
+	box-shadow: none;
+	background: transparent;
+}
+
+.jq-file__browse {
+	display: none;
+	width: 100%;
+}
+
+.client_file{
+	width: 100%;
+}

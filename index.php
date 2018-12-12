@@ -69,6 +69,10 @@ if (file_exists('SxGeo.php')) {
     <link rel="shortcut icon" href="favicon.png" type="image/png">
 
 
+    <!-- Share -->
+    <script type="text/javascript" src="https://vk.com/js/api/share.js?93" charset="windows-1251"></script>
+
+
     <!-- CSS styles -->
     <link rel="stylesheet" href="css/jquery.fancybox.min.css" type="text/css" media="screen">
     <link rel="stylesheet" href="css/jquery.formstyler.min.css" type="text/css" media="screen">
@@ -121,7 +125,8 @@ if (file_exists('SxGeo.php')) {
 
     <!--===================================================== Header -->
     <header class="layout-header">
-        <div class="woman-block">
+        <div class="woman-block cre-animate" data-animation="slide-in-from-right" data-speed="1500"
+             data-delay="300" data-offset="90%" data-easing="easeOut">
             <img src="images/header-woman.png" alt=" "/>
         </div>
         <div class="container">
@@ -175,27 +180,29 @@ if (file_exists('SxGeo.php')) {
                                 <a class="si-jump" href="#trade">Возможности</a>
                             </li>
                             <li>
-                                <a class="si-jump" href="#registration">Схема регистрации</a>
+                                <a class="si-jump" href="#registration-tab">Схема регистрации</a>
                             </li>
                             <li>
-                                <a class="si-jump" href="#packet">Тарифы</a>
+                                <a class="si-jump" href="#packet-tab">Тарифы</a>
                             </li>
                             <li>
-                                <a class="si-jump" href="#lite">Преимущества</a>
+                                <a class="si-jump" href="#lite-tab">Преимущества</a>
                             </li>
                             <li>
-                                <a class="si-jump" href="#more">Полезные новости</a>
+                                <a class="si-jump" href="#more-tab">Полезные новости</a>
                             </li>
                         </ul>
                     </div>
 
                 </div>
             </div>
-            <h1>
+            <h1 class="cre-animate" data-animation="slide-in-from-left" data-speed="1500"
+                data-delay="100" data-offset="90%" data-easing="easeOut">
                 Зарегистрируйте свой бренд
                 в Роспатент за 3 месяца
             </h1>
-            <div class="sub_title">
+            <div class="sub_title cre-animate" data-animation="slide-in-from-left" data-speed="1500"
+                 data-delay="200" data-offset="90%" data-easing="easeOut">
                 Оформление заявок на товарные знаки<br>
                 и сопровождение на всех этапах экспертизы.
             </div>
@@ -204,7 +211,8 @@ if (file_exists('SxGeo.php')) {
 
 
     <!--===================================================== section form-header -->
-    <section class="section-form form-header" id="form-header">
+    <section class="section-form form-header cre-animate" data-animation="scale-up" data-speed="1500"
+             data-delay="400" data-offset="90%" data-easing="easeOut" id="form-header">
         <div class="container align-center">
 
 
@@ -251,7 +259,8 @@ if (file_exists('SxGeo.php')) {
     <section class="section-sub_header" id="sub_header">
         <div class="container">
             <div class="row">
-                <div class="col-1-3">
+                <div class="col-1-3 cre-animate" data-animation="scale-down" data-speed="1500"
+                     data-delay="600" data-offset="90%" data-easing="easeOut">
                     <div class="sub_header-icon card-icon">
                         <?php include('svg/card.svg'); ?>
                     </div>
@@ -265,7 +274,8 @@ if (file_exists('SxGeo.php')) {
                         </div>
                     </div>
                 </div>
-                <div class="col-1-3 align-center">
+                <div class="col-1-3 align-center cre-animate" data-animation="scale-down" data-speed="1500"
+                     data-delay="800" data-offset="90%" data-easing="easeOut">
                     <div class="sub_header-center">
                         <div class="sub_header-icon stopwatch-icon">
                             <?php include('svg/stopwatch.svg'); ?>
@@ -281,7 +291,8 @@ if (file_exists('SxGeo.php')) {
                         </div>
                     </div>
                 </div>
-                <div class="col-1-3">
+                <div class="col-1-3 cre-animate" data-animation="scale-down" data-speed="1500"
+                     data-delay="1000" data-offset="90%" data-easing="easeOut">
                     <div class="sub_header-right">
                         <div class="sub_header-icon">
                             <?php include('svg/title.svg'); ?>
@@ -305,11 +316,13 @@ if (file_exists('SxGeo.php')) {
     <!--===================================================== section trade -->
     <section class="section-trade" id="trade">
         <div class="container">
-            <h2>
+            <h2 class="cre-animate" data-animation="slide-in-from-left" data-speed="1500"
+                data-delay="100" data-offset="90%" data-easing="easeOut">
                 <span>Товарный знак откроет</span> возможности<Br>
                 развития бизнеса
             </h2>
-            <div class="find-block">
+            <div class="find-block cre-animate" data-animation="slide-in-from-right" data-speed="1500"
+                 data-delay="300" data-offset="90%" data-easing="easeOut">
                 <div class="find-title">
                     5 ключевых критериев,
                 </div>
@@ -322,7 +335,8 @@ if (file_exists('SxGeo.php')) {
                 </a>
             </div>
             <div class="row">
-                <div class="col-1-3">
+                <div class="col-1-3 cre-animate" data-animation="scale-up" data-speed="1500"
+                     data-delay="400" data-offset="90%" data-easing="easeOut">
                    <div class="trade-block">
                        <img src="images/rocket.png" alt=" "/>
                        <div class="trade-title">
@@ -342,7 +356,8 @@ if (file_exists('SxGeo.php')) {
                        </ul>
                    </div>
                 </div>
-                <div class="col-1-3">
+                <div class="col-1-3 cre-animate" data-animation="scale-up" data-speed="1500"
+                     data-delay="600" data-offset="90%" data-easing="easeOut">
                     <div class="trade-block">
                         <img class="market" src="images/market.png" alt=" "/>
                         <div class="trade-title">
@@ -358,7 +373,8 @@ if (file_exists('SxGeo.php')) {
                         </ul>
                     </div>
                 </div>
-                <div class="col-1-3">
+                <div class="col-1-3 cre-animate" data-animation="scale-up" data-speed="1500"
+                     data-delay="800" data-offset="90%" data-easing="easeOut">
                     <img class="factory" src="images/factory.png" alt=" "/>
                     <div class="trade-title">
                         Производство и В2В
@@ -377,7 +393,7 @@ if (file_exists('SxGeo.php')) {
                     </ul>
                 </div>
             </div>
-            <a class="btn yellow-button open-commercial-modal" href="#">
+            <a class="btn yellow-button open-man-modal" href="#">
                 Получите консультацию<br>
                 и коммерческое предложение
             </a>
@@ -397,10 +413,12 @@ if (file_exists('SxGeo.php')) {
                         <!-- single slide -->
                         <div class="swiper-slide">
                             <div class="wrapper-slide">
-                                <h2>
+                                <h2 class="cre-animate" data-animation="slide-in-from-left" data-speed="1500"
+                                    data-delay="100" data-offset="90%" data-easing="easeOut">
                                     Ваш бренд <span>правоохранный</span>?
                                 </h2>
-                                <div class="sub_h2">
+                                <div class="sub_h2 cre-animate" data-animation="slide-in-from-left" data-speed="1500"
+                                     data-delay="300" data-offset="90%" data-easing="easeOut">
                                     Ответьте на несколько вопросов и получите аудит Вашего фирменного обозначения, в который входит:
                                 </div>
 
@@ -805,14 +823,18 @@ if (file_exists('SxGeo.php')) {
                                 <div class="sub_h2">
                                     При наличии
                                 </div>
-                                <label>
-                                    <div class="jq-file">
-                                        <input type="file" name="file" id="uploade-file">
-                                        <span>Выберите файл</span>
+                                <form method="post" class="send-form file-loader" autocomplete="off">
+                                    <div class="file-icon">
+                                        <?php include('svg/add_file.svg'); ?>
                                     </div>
-
-                                </label>
-                                <input type="submit" value="Отправить">
+                                    <input type="file" class="client_file" name="client_file">
+                                    <div>
+                                        <input type="hidden" name="send_type" class="send-type" value="12">
+                                        <input type="hidden" name="send_extra" class="send-extra" value="1">
+                                        <input type="hidden" name="key" value="<?php echo $_SESSION['sf_key'] ?>">
+                                        <?php //Поле выше для защиты формы от спам-ботов ?>
+                                    </div>
+                                </form>
                                 <div class="swiper-button-next yellow-button brand-next">
                                     Далее
                                 </div>
@@ -888,15 +910,19 @@ if (file_exists('SxGeo.php')) {
 
     <!--===================================================== section registration -->
     <section class="section-registration" id="registration">
+        <div id="registration-tab"></div>
         <div class="container">
-            <h2>
+            <h2 class="cre-animate" data-animation="slide-in-from-left" data-speed="1500"
+                data-delay="100" data-offset="90%" data-easing="easeOut">
                 <span>Поможем в регистрации</span> Вашего бренда.
             </h2>
-            <div class="sub_h2">
+            <div class="sub_h2 cre-animate" data-animation="slide-in-from-left" data-speed="1500"
+                 data-delay="300" data-offset="90%" data-easing="easeOut">
                 Возьмём на себя всю работу.
             </div>
 
-            <div class="registration-basic-row-1">
+            <div class="registration-basic-row-1 cre-animate" data-animation="scale-down" data-speed="1500"
+                 data-delay="500" data-offset="90%" data-easing="easeOut">
                 <div class="registration-block">
                     <div class="right-hover-icon right-hover">
                         <?php include('svg/righ_hover.svg'); ?>
@@ -922,7 +948,8 @@ if (file_exists('SxGeo.php')) {
                     </div>
                 </div>
             </div>
-            <div class="registration-basic-row-2">
+            <div class="registration-basic-row-2 cre-animate" data-animation="scale-down" data-speed="1500"
+                 data-delay="700" data-offset="90%" data-easing="easeOut">
                 <div class="registration-block">
                    <div class="registration-text">
                        <div class="registration-icon checked-icon">
@@ -958,7 +985,8 @@ if (file_exists('SxGeo.php')) {
                 </div>
             </div>
 
-            <div class="registration-basic-row-3">
+            <div class="registration-basic-row-3 cre-animate" data-animation="scale-down" data-speed="1500"
+                 data-delay="900" data-offset="90%" data-easing="easeOut">
                 <div class="registration-block">
                     <div class="registration-text">
                         <div class="registration-icon">
@@ -996,7 +1024,8 @@ if (file_exists('SxGeo.php')) {
                 </div>
             </div>
 
-            <div class="registration-basic-row-4">
+            <div class="registration-basic-row-4 cre-animate" data-animation="scale-down" data-speed="1500"
+                 data-delay="1100" data-offset="90%" data-easing="easeOut">
                 <div class="registration-block">
                     <div class="registration-text">
                         <div class="registration-icon">
@@ -1041,13 +1070,16 @@ if (file_exists('SxGeo.php')) {
 
     <!--===================================================== section packet -->
     <section class="section-packet" id="packet">
+        <div id="packet-tab"></div>
         <div class="container">
-            <h2>
+            <h2 class="cre-animate" data-animation="slide-in-from-left" data-speed="1500"
+                data-delay="100" data-offset="90%" data-easing="easeOut">
                 Выбирайте <span>удобный вариант</span>
             </h2>
 
             <div class="row">
-                <div class="col-1-3">
+                <div class="col-1-3 cre-animate" data-animation="slide-in-from-left" data-speed="1500"
+                     data-delay="300" data-offset="90%" data-easing="easeOut">
                     <div class="packet-block">
                         <div class="packet-title">
                             Экспресс-подача<br>
@@ -1114,7 +1146,8 @@ if (file_exists('SxGeo.php')) {
                         </div>
                     </div>
                 </div>
-                <div class="col-1-3">
+                <div class="col-1-3 cre-animate" data-animation="slide-in-from-right" data-speed="1500"
+                     data-delay="300" data-offset="90%" data-easing="easeOut">
                     <div class="packet-block">
                         <div class="packet-title i-1">
                             Сопровождение<Br>
@@ -1156,16 +1189,20 @@ if (file_exists('SxGeo.php')) {
     <!--===================================================== section wait -->
     <section class="section-wait" id="wait">
         <div class="container">
-            <h2 class="align-center">
+            <h2 class="align-center cre-animate" data-animation="slide-in-from-left" data-speed="1500"
+                data-delay="100" data-offset="90%" data-easing="easeOut">
                 Некогда ждать?
             </h2>
-            <div class="sub_h2 align-center">
+            <div class="sub_h2 align-center cre-animate" data-animation="slide-in-from-right" data-speed="1500"
+                 data-delay="200" data-offset="90%" data-easing="easeOut">
                 Специальный сервис
             </div>
-            <div class="wait-text align-center">
+            <div class="wait-text align-center cre-animate" data-animation="slide-in-from-left" data-speed="1500"
+                 data-delay="300" data-offset="90%" data-easing="easeOut">
                 Ускоренная регистрация
             </div>
-            <div class="wait-span align-center">
+            <div class="wait-span align-center cre-animate" data-animation="slide-in-from-right" data-speed="1500"
+                 data-delay="400" data-offset="90%" data-easing="easeOut">
                 Когда для вас время дороже денег
             </div>
 
@@ -1182,7 +1219,8 @@ if (file_exists('SxGeo.php')) {
                 Результат:
             </div>
             <div class="row">
-                <div class="col-1-3">
+                <div class="col-1-3 cre-animate" data-animation="scale-up" data-speed="1500"
+                     data-delay="500" data-offset="90%" data-easing="easeOut">
                     <div class="result-icon">
                         <?php include('svg/check.svg'); ?>
                     </div>
@@ -1190,7 +1228,8 @@ if (file_exists('SxGeo.php')) {
                         Отчёт о проведении тотального патентного поиска – через 10 дней;
                     </div>
                 </div>
-                <div class="col-1-3">
+                <div class="col-1-3 cre-animate" data-animation="scale-up" data-speed="1500"
+                     data-delay="700" data-offset="90%" data-easing="easeOut">
                     <div class="result-icon">
                         <?php include('svg/check.svg'); ?>
                     </div>
@@ -1198,7 +1237,8 @@ if (file_exists('SxGeo.php')) {
                         Приоритетная справка<br> Роспатент – через 2 дня;
                     </div>
                 </div>
-                <div class="col-1-3">
+                <div class="col-1-3 cre-animate" data-animation="scale-up" data-speed="1500"
+                     data-delay="900" data-offset="90%" data-easing="easeOut">
                     <div class="result-icon">
                         <?php include('svg/check.svg'); ?>
                     </div>
@@ -1225,13 +1265,16 @@ if (file_exists('SxGeo.php')) {
 
     <!--===================================================== section lite -->
     <section class="section-lite" id="lite">
+        <div id="lite-tab"></div>
         <div class="container">
-            <h2 class="align-center">
+            <h2 class="align-center cre-animate" data-animation="slide-in-from-left" data-speed="1500"
+                data-delay="100" data-offset="90%" data-easing="easeOut">
                 С нами легко и удобно работать:
             </h2>
 
             <div class="row">
-                <div class="col-1-3">
+                <div class="col-1-3 cre-animate" data-animation="scale-up" data-speed="1500"
+                     data-delay="300" data-offset="90%" data-easing="easeOut">
                    <div class="lite-center a-1">
                        <img src="images/aircraft.png" alt=" "/>
                        <div class="lite-title">
@@ -1242,7 +1285,8 @@ if (file_exists('SxGeo.php')) {
                        </div>
                    </div>
                 </div>
-                <div class="col-1-3">
+                <div class="col-1-3 cre-animate" data-animation="scale-up" data-speed="1500"
+                     data-delay="700" data-offset="90%" data-easing="easeOut">
                     <div class="lite-center a-1">
                         <img src="images/reg.png" alt=" "/>
                         <div class="lite-title">
@@ -1253,7 +1297,8 @@ if (file_exists('SxGeo.php')) {
                         </div>
                     </div>
                 </div>
-                <div class="col-1-3">
+                <div class="col-1-3 cre-animate" data-animation="scale-up" data-speed="1500"
+                     data-delay="500" data-offset="90%" data-easing="easeOut">
                     <div class="lite-center a-1">
                         <img src="images/letter.png" alt=" "/>
                         <div class="lite-title">
@@ -1267,7 +1312,8 @@ if (file_exists('SxGeo.php')) {
             </div>
 
             <div class="row">
-                <div class="col-1-2">
+                <div class="col-1-2 cre-animate" data-animation="scale-up" data-speed="1500"
+                     data-delay="1100" data-offset="90%" data-easing="easeOut">
                     <div class="lite-center a-1">
                         <img src="images/clock.png" alt=" "/>
                         <div class="lite-title">
@@ -1278,7 +1324,8 @@ if (file_exists('SxGeo.php')) {
                         </div>
                     </div>
                 </div>
-                <div class="col-1-2">
+                <div class="col-1-2 cre-animate" data-animation="scale-up" data-speed="1500"
+                     data-delay="900" data-offset="90%" data-easing="easeOut">
                     <div class="lite-center">
                         <img src="images/folder.png" alt=" "/>
                         <div class="lite-title">
@@ -1300,9 +1347,10 @@ if (file_exists('SxGeo.php')) {
 
     <!--===================================================== section more -->
     <section class="section-more" id="more">
+        <div id="more-tab"></div>
         <div class="container">
             <h2 class="align-center">
-                <span>Узнайте ещё больше</span> про товарные знаки
+                Узнайте ещё больше про товарные знаки
             </h2>
 
             <div class="wrapper-more-slider">
@@ -1409,6 +1457,10 @@ if (file_exists('SxGeo.php')) {
                     <a href="#" class="smm-icon i-1">
                         <?php include('svg/vk.svg'); ?>
                     </a>
+                    <script type="text/javascript">
+
+                        document.write(VK.Share.button());
+                    </script>
                 </div>
                 <div class="smm-block">
                     <a href="#" class="smm-icon i-2">
