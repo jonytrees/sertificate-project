@@ -3074,7 +3074,7 @@ html.si-lock2 {
   right: 0;
   margin: auto;
   display: none;
-  background: rgba(123, 123, 123, 0.8);
+  background: rgba(46, 46, 46, 0.8);
   z-index: 203; }
 
 .si-overlay-2 {
@@ -3279,17 +3279,38 @@ html.si-lock2 {
     margin: 0 auto 50px;
     font: 400 15px/20px 'Myriad', sans-serif; }
 
-.man-modal img {
-  margin-top: 100px; }
+.man-modal {
+  background-color: #ffda00; }
+  .man-modal .img-block {
+    width: 100%;
+    height: 20px;
+    display: block;
+    position: relative; }
+    .man-modal .img-block img {
+      position: absolute;
+      width: 580px;
+      height: 610px;
+      display: block;
+      top: 163px;
+      left: 50px; }
 
-.request-modal,
+.request-first-modal,
+.request-second-modal,
+.request-third-modal,
+.request-fast-modal,
 .lite-modal {
   width: 508px;
   height: auto;
   box-shadow: 0 4px 27px 1px rgba(0, 0, 0, 0.08);
   background-color: #ffffff;
   padding: 0px 80px; }
-  .request-modal .modal-form-title, .request-modal .si-success-modal-title,
+  .request-first-modal .modal-form-title, .request-first-modal .si-success-modal-title,
+  .request-second-modal .modal-form-title,
+  .request-second-modal .si-success-modal-title,
+  .request-third-modal .modal-form-title,
+  .request-third-modal .si-success-modal-title,
+  .request-fast-modal .modal-form-title,
+  .request-fast-modal .si-success-modal-title,
   .lite-modal .modal-form-title,
   .lite-modal .si-success-modal-title {
     font: 600 33px/35px 'Myriad', sans-serif;
@@ -3297,12 +3318,18 @@ html.si-lock2 {
     text-align: center;
     margin-top: 85px;
     margin-bottom: 25px; }
-  .request-modal .modal-sub-time,
+  .request-first-modal .modal-sub-time,
+  .request-second-modal .modal-sub-time,
+  .request-third-modal .modal-sub-time,
+  .request-fast-modal .modal-sub-time,
   .lite-modal .modal-sub-time {
     font: 300 24px/27px 'Myriad', sans-serif;
     color: #000;
     margin-bottom: 49px; }
-  .request-modal input,
+  .request-first-modal input,
+  .request-second-modal input,
+  .request-third-modal input,
+  .request-fast-modal input,
   .lite-modal input {
     width: 290px;
     border: none !important;
@@ -3313,7 +3340,10 @@ html.si-lock2 {
     font: 400 19px/17px 'Myriad', sans-serif;
     display: block;
     margin: 0 auto 54px; }
-  .request-modal .blue-button,
+  .request-first-modal .blue-button,
+  .request-second-modal .blue-button,
+  .request-third-modal .blue-button,
+  .request-fast-modal .blue-button,
   .lite-modal .blue-button {
     display: block;
     width: 289px;
@@ -3327,10 +3357,16 @@ html.si-lock2 {
     padding-top: 10px;
     text-align: center;
     margin: 0 auto 36px; }
-    .request-modal .blue-button:hover,
+    .request-first-modal .blue-button:hover,
+    .request-second-modal .blue-button:hover,
+    .request-third-modal .blue-button:hover,
+    .request-fast-modal .blue-button:hover,
     .lite-modal .blue-button:hover {
       background-image: linear-gradient(to top, #00ace5 0%, #0054aa 99%, #0054aa 100%); }
-  .request-modal .form-agree-check,
+  .request-first-modal .form-agree-check,
+  .request-second-modal .form-agree-check,
+  .request-third-modal .form-agree-check,
+  .request-fast-modal .form-agree-check,
   .lite-modal .form-agree-check {
     width: 258px;
     height: 35px;
@@ -3803,7 +3839,7 @@ html.si-lock2 {
     margin: 30px auto 0; }
     .section-brand .question-item .point-menu {
       color: #fff !important;
-      font: 400 35px/45px 'Myriad', sans-serif;
+      font: 400 30px/35px 'Myriad', sans-serif;
       margin-top: 20px;
       margin-bottom: 20px;
       cursor: pointer;
@@ -3819,7 +3855,7 @@ html.si-lock2 {
       color: #fff;
       display: block;
       height: auto;
-      font: 400 23px/25px 'Myriad', sans-serif; }
+      font: 400 20px/23px 'Myriad', sans-serif; }
       .section-brand .question-item .answer label {
         margin-bottom: 20px; }
         .section-brand .question-item .answer label:hover {
@@ -4443,19 +4479,7 @@ html.si-lock2 {
     text-align: center;
     font-size: 18px;
     background: #fff;
-    width: 80%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center; }
+    width: 80%; }
     .section-more .swiper-slide:hover .play-icon {
       -webkit-transform: scale(1.2);
       -moz-transform: scale(1.2);
@@ -4468,13 +4492,15 @@ html.si-lock2 {
       -o-transition: 1s;
       transition: 1s; }
   .section-more .blue-block {
-    width: 100%;
+    width: 300px;
+    height: 240px;
     background-color: #00a0e1;
     display: block;
     padding: 27px 27px 27px 29px;
-    top: 225px;
+    top: 33%;
     left: 0;
-    z-index: 10; }
+    z-index: 10;
+    position: absolute; }
     .section-more .blue-block .blue-icon {
       display: block;
       margin: 0 auto 19px;
@@ -4486,32 +4512,60 @@ html.si-lock2 {
       margin: 0 auto 0;
       width: 29px;
       height: 17px; }
-  .section-more .swiper-container {
-    width: 100%;
-    height: 300px;
-    margin-left: auto;
-    margin-right: auto; }
+      .section-more .blue-block .blue-icon-down .swiper-container {
+        width: 100%;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto; }
   .section-more .swiper-slide {
     background-size: cover;
     background-position: center; }
   .section-more .gallery-top {
     height: 80%;
-    width: 100%; }
+    width: 75%;
+    position: relative; }
+    .section-more .gallery-top:after {
+      content: '';
+      position: absolute;
+      width: 165px;
+      height: 490px;
+      display: block;
+      background-color: rgba(180, 180, 180, 0.8);
+      top: 0;
+      right: 0;
+      z-index: 1000; }
   .section-more .gallery-thumbs {
-    height: 20%;
+    width: 980px;
+    height: 300px;
     box-sizing: border-box;
-    padding: 10px 0; }
+    padding: 10px 0;
+    transform: rotate(90deg) !important;
+    position: absolute;
+    top: 30%;
+    left: -124%; }
+    .section-more .gallery-thumbs .swiper-wrapper {
+      display: block !important;
+      width: 300px;
+      height: 60px;
+      transform: rotate(270deg) !important;
+      margin-left: 190px; }
     .section-more .gallery-thumbs .swiper-slide {
       text-decoration: underline;
-      display: block;
+      display: block !important;
       background-color: transparent;
-      font: 400 26px/29px 'Myriad', sans-serif;
+      font: 400 16px/19px 'Myriad', sans-serif;
       color: #fff;
-      cursor: pointer; }
+      cursor: pointer;
+      width: 340px !important;
+      margin-left: -100px; }
       .section-more .gallery-thumbs .swiper-slide:hover {
         text-decoration: none; }
     .section-more .gallery-thumbs .swiper-slide-thumb-active {
       opacity: 1; }
+  .section-more .basic-slide {
+    width: 100%;
+    display: block;
+    position: relative; }
   .section-more .review-item {
     width: 98%;
     height: 98%;
@@ -4536,6 +4590,13 @@ html.si-lock2 {
       text-align: left; }
     .section-more .play-block .play-icon {
       display: inline-block; }
+  .section-more .share-block {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 80px;
+    margin-left: 80px; }
   .section-more h5 {
     font: 600 30px/30px 'Myriad', sans-serif;
     color: #2c2c2c;

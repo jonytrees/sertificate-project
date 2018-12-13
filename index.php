@@ -1,7 +1,7 @@
 <?php
 //Две строчки ниже для защиты форм от спам-ботов
 session_start();
-$_SESSION['sf_key'] = md5(substr( session_id(), mt_rand(0,10), mt_rand(3,10) ) . time() ); 
+$_SESSION['sf_key'] = md5(substr(session_id(), mt_rand(0, 10), mt_rand(3, 10)) . time());
 
 header('Content-Type: text/html; charset=utf-8');
 header('X-UA-Compatible: IE=edge');
@@ -169,7 +169,7 @@ if (file_exists('SxGeo.php')) {
             <div class="nav-block">
                 <div class="nav-item">
                     <div class="nav">
-                        <a class="burger-menu" href="#">
+                        <a href="#" class="burger-menu">
                             <?php include('svg/burger.svg'); ?>
                         </a>
                     </div>
@@ -193,7 +193,6 @@ if (file_exists('SxGeo.php')) {
                             </li>
                         </ul>
                     </div>
-
                 </div>
             </div>
             <h1 class="cre-animate" data-animation="slide-in-from-left" data-speed="1500"
@@ -233,26 +232,25 @@ if (file_exists('SxGeo.php')) {
                             <button type="submit" class="btn green-button">Оставьте заявку</button>
                             <!--<div class="g-recaptcha" id="g-recaptcha"></div>-->
                             <!-- Agreement -->
-<!--                            <div class="form-agree align-left">-->
-<!--                                <label class="checkbox-label form-agree-check checked">-->
-<!--                                    <input type="checkbox" checked>-->
-<!--                                    Нажимая кнопку "Оставьте заявку", я&nbsp;даю своё согласие на&nbsp;обработку-->
-<!--                                    моих персональных данных-->
-<!--                                </label>-->
-<!--                            </div>-->
+                            <!--                            <div class="form-agree align-left">-->
+                            <!--                                <label class="checkbox-label form-agree-check checked">-->
+                            <!--                                    <input type="checkbox" checked>-->
+                            <!--                                    Нажимая кнопку "Оставьте заявку", я&nbsp;даю своё согласие на&nbsp;обработку-->
+                            <!--                                    моих персональных данных-->
+                            <!--                                </label>-->
+                            <!--                            </div>-->
                         </div>
                     </div>
 
-                <input type="hidden" name="send_type" class="send-type" value="2">
-                <input type="hidden" name="send_extra" class="send-extra" value="1">
-                <input type="hidden" name="key" value="<?php echo $_SESSION['sf_key'] ?>">
-                <?php //Поле выше для защиты формы от спам-ботов ?>
+                    <input type="hidden" name="send_type" class="send-type" value="2">
+                    <input type="hidden" name="send_extra" class="send-extra" value="1">
+                    <input type="hidden" name="key" value="<?php echo $_SESSION['sf_key'] ?>">
+                    <?php //Поле выше для защиты формы от спам-ботов ?>
                 </div>
             </form>
 
         </div>
     </section>
-
 
 
     <!--===================================================== section sub_header -->
@@ -274,7 +272,7 @@ if (file_exists('SxGeo.php')) {
                         </div>
                     </div>
                 </div>
-                <div class="col-1-3 align-center cre-animate" data-animation="scale-down" data-speed="1500"
+                <div class="col-1-3 cre-animate" data-animation="scale-down" data-speed="1500"
                      data-delay="800" data-offset="90%" data-easing="easeOut">
                     <div class="sub_header-center">
                         <div class="sub_header-icon stopwatch-icon">
@@ -337,24 +335,24 @@ if (file_exists('SxGeo.php')) {
             <div class="row">
                 <div class="col-1-3 cre-animate" data-animation="scale-up" data-speed="1500"
                      data-delay="400" data-offset="90%" data-easing="easeOut">
-                   <div class="trade-block">
-                       <img src="images/rocket.png" alt=" "/>
-                       <div class="trade-title">
-                           Стартапы
-                       </div>
-                       <ul class="trade-list">
-                           <li>
-                               <span>Закрепите за собой исключительное право на нейминг и логотип</span>
-                           </li>
-                           <li>
-                               <span>Обретите защиту от копирования и подражания</span>
-                           </li>
-                           <li>
+                    <div class="trade-block">
+                        <img src="images/rocket.png" alt=" "/>
+                        <div class="trade-title">
+                            Стартапы
+                        </div>
+                        <ul class="trade-list">
+                            <li>
+                                <span>Закрепите за собой исключительное право на нейминг и логотип</span>
+                            </li>
+                            <li>
+                                <span>Обретите защиту от копирования и подражания</span>
+                            </li>
+                            <li>
                               <span> Привлекайте инвестиции
                                к своему бренду</span>
-                           </li>
-                       </ul>
-                   </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="col-1-3 cre-animate" data-animation="scale-up" data-speed="1500"
                      data-delay="600" data-offset="90%" data-easing="easeOut">
@@ -381,7 +379,7 @@ if (file_exists('SxGeo.php')) {
                     </div>
                     <ul class="trade-list">
                         <li>
-                           <span> Выводите защищённые бренды на рынок</span>
+                            <span> Выводите защищённые бренды на рынок</span>
                         </li>
                         <li>
                             <span>Получите инструмент для борьбы с контрафактной продукцией</span>
@@ -403,509 +401,476 @@ if (file_exists('SxGeo.php')) {
 
     <!--===================================================== section brand -->
     <section class="section-brand" id="brand">
-<!--        <div class="container">-->
-            <div class="wrapper-brand-slider">
+        <!--        <div class="container">-->
+        <div class="wrapper-brand-slider">
 
-                <!-- Swiper -->
-                <div class="swiper-container brand-slider">
-                    <div class="swiper-wrapper">
+            <!-- Swiper -->
+            <div class="swiper-container brand-slider">
+                <div class="swiper-wrapper">
 
-                        <!-- single slide -->
-                        <div class="swiper-slide">
-                            <div class="wrapper-slide">
-                                <h2 class="cre-animate" data-animation="slide-in-from-left" data-speed="1500"
-                                    data-delay="100" data-offset="90%" data-easing="easeOut">
-                                    Ваш бренд <span>правоохранный</span>?
-                                </h2>
-                                <div class="sub_h2 cre-animate" data-animation="slide-in-from-left" data-speed="1500"
-                                     data-delay="300" data-offset="90%" data-easing="easeOut">
-                                    Ответьте на несколько вопросов и получите аудит Вашего фирменного обозначения, в который входит:
-                                </div>
+                    <!-- single slide -->
+                    <div class="swiper-slide">
+                        <div class="wrapper-slide">
+                            <h2 class="cre-animate" data-animation="slide-in-from-left" data-speed="1500"
+                                data-delay="100" data-offset="90%" data-easing="easeOut">
+                                Ваш бренд <span>правоохранный</span>?
+                            </h2>
+                            <div class="sub_h2 cre-animate" data-animation="slide-in-from-left" data-speed="1500"
+                                 data-delay="300" data-offset="90%" data-easing="easeOut">
+                                Ответьте на несколько вопросов и получите аудит Вашего фирменного обозначения, в который
+                                входит:
+                            </div>
 
-                                <div class="frame-basic">
-                                    <div class="frame-block">
-                                        <div class="frame-title">
-                                            01
-                                        </div>
-                                        <div class="frame-line"></div>
-                                        <div class="frame-text">
-                                            Анализ соответствия Вашего обозначения требованиям Роспатент.
-                                        </div>
+                            <div class="frame-basic">
+                                <div class="frame-block">
+                                    <div class="frame-title">
+                                        01
                                     </div>
-                                    <div class="frame-block">
-                                        <div class="frame-title">
-                                            02
-                                        </div>
-                                        <div class="frame-line"></div>
-                                        <div class="frame-text">
-                                            Проверка по актуальной базе Роспатент зарегистрированных товарных знаков РФ.
-                                        </div>
-                                    </div>
-                                    <div class="frame-block">
-                                        <div class="frame-title">
-                                            03
-                                        </div>
-                                        <div class="frame-line"></div>
-                                        <div class="frame-text">
-                                            Рекомендации по доработке Вашего обозначения для повышения вероятности положительного решения (при необходимости).
-                                        </div>
+                                    <div class="frame-line"></div>
+                                    <div class="frame-text">
+                                        Анализ соответствия Вашего обозначения требованиям Роспатент.
                                     </div>
                                 </div>
-                                <div class="swiper-button-next yellow-button brand-next">
-                                    Узнайте
+                                <div class="frame-block">
+                                    <div class="frame-title">
+                                        02
+                                    </div>
+                                    <div class="frame-line"></div>
+                                    <div class="frame-text">
+                                        Проверка по актуальной базе Роспатент зарегистрированных товарных знаков РФ.
+                                    </div>
+                                </div>
+                                <div class="frame-block">
+                                    <div class="frame-title">
+                                        03
+                                    </div>
+                                    <div class="frame-line"></div>
+                                    <div class="frame-text">
+                                        Рекомендации по доработке Вашего обозначения для повышения вероятности
+                                        положительного решения (при необходимости).
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-
-                        <!-- single slide -->
-                        <div class="swiper-slide">
-                            <div class="wrapper-slide">
-                               <h2>
-                                   Как называется Ваш бренд?
-                               </h2>
-
-                                   <form method="post" class="send-form" autocomplete="off">
-                                       <input type="text" name="client_name" class="client-name" placeholder="Введите название бренда">
-
-                                       <div class="btn-holder">
-                                           <button type="submit" class="swiper-button-next btn brand-next yellow-button">Далее</button>
-                                       </div>
-                                       <div>
-                                           <input type="hidden" name="send_type" class="send-type" value="2">
-                                           <input type="hidden" name="send_extra" class="send-extra" value="1">
-                                           <input type="hidden" name="key" value="<?php echo $_SESSION['sf_key'] ?>">
-                                           <?php //Поле выше для защиты формы от спам-ботов ?>
-                                       </div>
-                                   </form>
-
-                            </div>
-                        </div>
-
-                        <!-- single slide -->
-                        <div class="swiper-slide">
-                            <div class="wrapper-slide">
-                                <h2>
-                                    Выберите отрасль
-                                </h2>
-
-                                <div class="row questions-block">
-                                    <div class="col-1-3">
-                                        <div class="question_block active cre-animate" data-animation="scale-up" data-speed="1200" data-delay="300"
-                                             data-offset="90%" data-easing="ease">
-
-                                            <div class="question-item">
-                                                <p class="point-menu">
-                                                    Химические товары
-                                                </p>
-
-                                                <div class="answer">
-                                                    <label class="radio-label i-1">
-                                                        <input name="special" type="radio" checked>
-                                                        Химические продукты;
-                                                    </label>
-                                                    <label class="radio-label i-1">
-                                                        <input name="special" type="radio" checked>
-                                                        Краски, олифы лаки;
-                                                    </label>
-                                                    <label class="radio-label i-1">
-                                                        <input name="special" type="radio" checked>
-                                                        Препараты для чистки, парфюмерия и косметика;
-                                                    </label>
-                                                    <label class="radio-label i-1">
-                                                        <input name="special" type="radio" checked>
-                                                        Препараты для чистки, парфюмерия и косметика;
-                                                    </label>
-                                                    <label class="radio-label i-1">
-                                                        <input name="special" type="radio" checked>
-                                                        Фармацевтические препараты
-                                                    </label>
-                                                </div>
-
-                                            </div>
-                                        </div>
-
-                                        <div class="question_block active cre-animate" data-animation="scale-up" data-speed="1200" data-delay="300"
-                                             data-offset="90%" data-easing="ease">
-
-                                            <div class="question-item">
-                                                <p class="point-menu">
-                                                    Машины и устройства
-                                                </p>
-
-                                                <div class="answer">
-                                                    <label class="radio-label i-1">
-                                                        <input name="special" type="radio" checked>
-                                                        Машинки, станки и двигатели
-                                                    </label>
-                                                    <label class="radio-label i-1">
-                                                        <input name="special" type="radio" checked>
-                                                        Приборы, инструменты, оборудование
-                                                    </label>
-                                                    <label class="radio-label i-1">
-                                                        <input name="special" type="radio" checked>
-                                                        Устройства для получения тепла
-                                                    </label>
-                                                    <label class="radio-label i-1">
-                                                        <input name="special" type="radio" checked>
-                                                        Транспортные средства
-                                                    </label>
-
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="question_block active cre-animate" data-animation="scale-up" data-speed="1200" data-delay="300"
-                                             data-offset="90%" data-easing="ease">
-
-                                            <div class="question-item">
-                                                <p class="point-menu">
-                                                    Металлы и сплавы
-                                                </p>
-
-                                                <div class="answer">
-                                                    <label class="radio-label i-1">
-                                                        <input name="special" type="radio" checked>
-                                                        Обычные металлы и сплавы
-                                                    </label>
-                                                    <label class="radio-label i-1">
-                                                        <input name="special" type="radio" checked>
-                                                        Благородные металлы и их  сплавы, изделия из них
-                                                    </label>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-                                    <div class="col-1-3">
-                                        <div class="question_block margin-center cre-animate" data-animation="scale-up" data-speed="1200" data-delay="300"
-                                             data-offset="90%" data-easing="ease">
-
-                                            <div class="question-item">
-                                                <p class="point-menu">
-                                                    Изделия и материалы
-                                                </p>
-                                            <div class="answer">
-                                                <label class="radio-label i-1">
-                                                    <input name="special" type="radio" checked>
-                                                    Бумага и изделия из бумаги
-                                                </label>
-                                                <label class="radio-label i-1">
-                                                    <input name="special" type="radio" checked>
-                                                    Резина, асбет, пластмассы
-                                                </label>
-                                                <label class="radio-label i-1">
-                                                    <input name="special" type="radio" checked>
-                                                    Кожа и имитация кожи
-                                                </label>
-                                                <label class="radio-label i-1">
-                                                    <input name="special" type="radio" checked>
-                                                    Неметаллические строительные материалы
-                                                </label>
-                                            </div>
-                                        </div>
-                                        </div>
-
-                                        <div class="question_block margin-center cre-animate" data-animation="scale-up" data-speed="1200" data-delay="300"
-                                             data-offset="90%" data-easing="ease">
-
-                                            <div class="question-item">
-                                                <p class="point-menu">
-                                                    Товары для дома
-                                                </p>
-
-                                                <div class="answer">
-                                                    <label class="radio-label i-1">
-                                                        <input name="special" type="radio" checked>
-                                                        Мебель и другие изделия
-                                                    </label>
-                                                    <label class="radio-label i-1">
-                                                        <input name="special" type="radio" checked>
-                                                        Домашняя и кухонная утварь
-                                                    </label>
-                                                    <label class="radio-label i-1">
-                                                        <input name="special" type="radio" checked>
-                                                        Игрушки и спортные товары
-                                                    </label>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="question_block margin-center cre-animate" data-animation="scale-up" data-speed="1200" data-delay="300"
-                                             data-offset="90%" data-easing="ease">
-
-                                            <div class="question-item">
-                                                <p class="point-menu">
-                                                    Текстиль и одежда
-                                                </p>
-
-                                                <div class="answer">
-                                                    <label class="radio-label i-1">
-                                                        <input name="special" type="radio" checked>
-                                                        Веревочно-канатные изделия
-                                                    </label>
-                                                    <label class="radio-label i-1">
-                                                        <input name="special" type="radio" checked>
-                                                        Нити текстильные и пряжа
-                                                    </label>
-                                                    <label class="radio-label i-1">
-                                                        <input name="special" type="radio" checked>
-                                                        Ткани, одеяла, покрывала и скатерти
-                                                    </label>
-                                                    <label class="radio-label i-1">
-                                                        <input name="special" type="radio" checked>
-                                                        Одежда, обувь, головные уборы
-                                                    </label>
-                                                    <label class="radio-label i-1">
-                                                        <input name="special" type="radio" checked>
-                                                        Галантерейные и басонные изделия
-                                                    </label>
-                                                    <label class="radio-label i-1">
-                                                        <input name="special" type="radio" checked>
-                                                        Покрытия для полов
-                                                    </label>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="question_block margin-center cre-animate" data-animation="scale-up" data-speed="1200" data-delay="300"
-                                             data-offset="90%" data-easing="ease">
-
-                                            <div class="question-item">
-                                                <p class="point-menu">
-                                                    Приборы и инструменты
-                                                </p>
-
-                                                <div class="answer">
-                                                    <label class="radio-label i-1">
-                                                        <input name="special" type="radio" checked>
-                                                        Ручные инструменты
-                                                    </label>
-                                                    <label class="radio-label i-1">
-                                                        <input name="special" type="radio" checked>
-                                                        Медицинские приборы и инструменты
-                                                    </label>
-                                                    <label class="radio-label i-1">
-                                                        <input name="special" type="radio" checked>
-                                                        Огнестрельное оружие и пиротехнические средства
-                                                    </label>
-                                                    <label class="radio-label i-1">
-                                                        <input name="special" type="radio" checked>
-                                                        Музыкальные инструменты
-                                                    </label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-1-3">
-
-                                        <div class="question_block margin-right cre-animate" data-animation="scale-up" data-speed="1200" data-delay="300"
-                                             data-offset="90%" data-easing="ease">
-
-                                            <div class="question-item">
-                                                <p class="point-menu">
-                                                    Продукты питания
-                                                </p>
-
-                                            <div class="answer">
-                                                <label class="radio-label i-1">
-                                                    <input name="special" type="radio" checked>
-                                                    Продукты животного происхождения
-                                                </label>
-                                                <label class="radio-label i-1">
-                                                    <input name="special" type="radio" checked>
-                                                    Растительные пищевые продукты
-                                                </label>
-                                                <label class="radio-label i-1">
-                                                    <input name="special" type="radio" checked>
-                                                    Продукты земледелия и лесного хозяйства
-                                                </label>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="question_block margin-right cre-animate" data-animation="scale-up" data-speed="1200" data-delay="300"
-                                             data-offset="90%" data-easing="ease">
-
-                                            <div class="question-item">
-                                                <p class="point-menu">
-                                                    Напитки и табак
-                                                </p>
-
-                                            <div class="answer">
-                                                <label class="radio-label i-1">
-                                                    <input name="special" type="radio" checked>
-                                                    Безалкогольные напитки и пиво
-                                                </label>
-                                                <label class="radio-label i-1">
-                                                    <input name="special" type="radio" checked>
-                                                    Алкогольные напитки (за исключением пива)
-                                                </label>
-                                                <label class="radio-label i-1">
-                                                    <input name="special" type="radio" checked>
-                                                    Табак и курительные принадлежности
-                                                </label>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="question_block margin-right cre-animate" data-animation="scale-up" data-speed="1200" data-delay="300"
-                                             data-offset="90%" data-easing="ease">
-
-                                            <div class="question-item">
-                                                <p class="point-menu">
-                                                    Услуги
-                                                </p>
-
-                                            <div class="answer">
-                                                <label class="radio-label i-1">
-                                                    <input name="special" type="radio" checked>
-                                                    Помощь в управлении бизнесом
-                                                </label>
-                                                <label class="radio-label i-1">
-                                                    <input name="special" type="radio" checked>
-                                                    Финансовые услуги
-                                                </label>
-                                                <label class="radio-label i-1">
-                                                    <input name="special" type="radio" checked>
-                                                    Строительство и ремонт
-                                                </label>
-                                                <label class="radio-label i-1">
-                                                    <input name="special" type="radio" checked>
-                                                    Телекоммуникации
-                                                </label>
-                                                <label class="radio-label i-1">
-                                                    <input name="special" type="radio" checked>
-                                                    Перевозка людей и товаров
-                                                </label>
-                                                <label class="radio-label i-1">
-                                                    <input name="special" type="radio" checked>
-                                                    Обработка материалов
-                                                </label>
-                                                <label class="radio-label i-1">
-                                                    <input name="special" type="radio" checked>
-                                                    Услуги обучения и развлекательные мероприятия
-                                                </label>
-                                                <label class="radio-label i-1">
-                                                    <input name="special" type="radio" checked>
-                                                    Научные и технические услуги
-                                                </label>
-                                                <label class="radio-label i-1">
-                                                    <input name="special" type="radio" checked>
-                                                    Гостиницы, кейтеринг
-                                                </label>
-                                                <label class="radio-label i-1">
-                                                    <input name="special" type="radio" checked>
-                                                    Медицинские и косметологические услуги
-                                                </label>
-                                                <label class="radio-label i-1">
-                                                    <input name="special" type="radio" checked>
-                                                    Юридические услуги и службы безопасности
-                                                </label>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                                <div class="swiper-button-next yellow-button margin-under brand-next">
-                                    Далее
-                                </div>
-                            </div>
-                        </div>
-                        <!-- single slide -->
-                        <div class="swiper-slide">
-                            <div class="wrapper-slide">
-                                <h2>
-                                    Загрузите логотип
-                                </h2>
-                                <div class="sub_h2">
-                                    При наличии
-                                </div>
-                                <form method="post" class="send-form file-loader" autocomplete="off">
-                                    <div class="file-icon">
-                                        <?php include('svg/add_file.svg'); ?>
-                                    </div>
-                                    <input type="file" class="client_file" name="client_file">
-                                    <div>
-                                        <input type="hidden" name="send_type" class="send-type" value="12">
-                                        <input type="hidden" name="send_extra" class="send-extra" value="1">
-                                        <input type="hidden" name="key" value="<?php echo $_SESSION['sf_key'] ?>">
-                                        <?php //Поле выше для защиты формы от спам-ботов ?>
-                                    </div>
-                                </form>
-                                <div class="swiper-button-next yellow-button brand-next">
-                                    Далее
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- single slide -->
-                        <div class="swiper-slide">
-                            <div class="wrapper-slide">
-                                <h2>
-                                    Почти готово!
-                                </h2>
-                                <div class="sub_h2">
-                                    Куда направить результаты
-                                </div>
-
-                                <form method="post" class="send-form" autocomplete="off">
-                                    <input type="email" name="client_mail" class="client-mail" placeholder="Ваш email">
-
-                                    <div class="btn-holder">
-                                        <button type="submit" class="swiper-button-next btn brand-next yellow-button">Далее</button>
-                                    </div>
-                                    <div>
-                                        <input type="hidden" name="send_type" class="send-type" value="2">
-                                        <input type="hidden" name="send_extra" class="send-extra" value="1">
-                                        <input type="hidden" name="key" value="<?php echo $_SESSION['sf_key'] ?>">
-                                        <?php //Поле выше для защиты формы от спам-ботов ?>
-                                    </div>
-                                </form>
-
-                            </div>
-                        </div>
-
-                        <!-- single slide -->
-                        <div class="swiper-slide">
-                            <div class="wrapper-slide">
-                                <h2>
-                                    Подтвердите бесплатный заказ
-                                </h2>
-                                <div class="sub_h2">
-                                    Мы перезвоним Вам и уточним детали заказа
-                                </div>
-
-                                <form method="post" class="send-form" autocomplete="off">
-                                    <input type="text" name="client_text" class="client-text" placeholder="Ваше имя">
-                                    <input type="tel" name="client_tel" class="client-tel" placeholder="Ваш телефон">
-
-                                    <div class="btn-holder">
-                                        <button type="submit" class="btn yellow-button">Подтвердите</button>
-                                    </div>
-                                    <div>
-                                        <input type="hidden" name="send_type" class="send-type" value="2">
-                                        <input type="hidden" name="send_extra" class="send-extra" value="1">
-                                        <input type="hidden" name="key" value="<?php echo $_SESSION['sf_key'] ?>">
-                                        <?php //Поле выше для защиты формы от спам-ботов ?>
-                                    </div>
-                                </form>
-
+                            <div class="swiper-button-next yellow-button brand-next">
+                                Узнайте
                             </div>
                         </div>
                     </div>
-<!--                    <div class="swiper-button-next yellow-button brand-next">-->
-<!--                        Узнайте-->
-<!--                    </div>-->
+
+                    <!-- single slide -->
+                    <div class="swiper-slide">
+                        <div class="wrapper-slide">
+                            <h2>
+                                Как называется Ваш бренд?
+                            </h2>
+
+                            <form method="post" class="send-form" autocomplete="off">
+                                <input type="text" name="client_name" class="client-name"
+                                       placeholder="Введите название бренда">
+
+                                <div class="btn-holder">
+                                    <button type="submit" class="swiper-button-next btn brand-next yellow-button">
+                                        Далее
+                                    </button>
+                                </div>
+                                <div>
+                                    <input type="hidden" name="send_type" class="send-type" value="2">
+                                    <input type="hidden" name="send_extra" class="send-extra" value="1">
+                                    <input type="hidden" name="key" value="<?php echo $_SESSION['sf_key'] ?>">
+                                    <?php //Поле выше для защиты формы от спам-ботов ?>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+
+                    <!-- single slide -->
+                    <div class="swiper-slide">
+                        <div class="wrapper-slide">
+                            <h2>
+                                Выберите отрасль
+                            </h2>
+
+                            <div class="row questions-block">
+                                <div class="col-1-3">
+                                    <div class="question-item">
+
+                                        <p class="question point-menu">
+                                            Химические товары
+                                        </p>
+
+                                        <div class="answer">
+                                            <label class="radio-label i-1">
+                                                <input name="special" type="radio" checked>
+                                                Химические продукты;
+                                            </label>
+                                            <label class="radio-label i-1">
+                                                <input name="special" type="radio" checked>
+                                                Краски, олифы лаки;
+                                            </label>
+                                            <label class="radio-label i-1">
+                                                <input name="special" type="radio" checked>
+                                                Препараты для чистки, парфюмерия и косметика;
+                                            </label>
+                                            <label class="radio-label i-1">
+                                                <input name="special" type="radio" checked>
+                                                Препараты для чистки, парфюмерия и косметика;
+                                            </label>
+                                            <label class="radio-label i-1">
+                                                <input name="special" type="radio" checked>
+                                                Фармацевтические препараты
+                                            </label>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="question-item">
+
+                                        <p class="question point-menu">
+                                            Машины и устройства
+                                        </p>
+
+                                        <div class="answer">
+                                            <label class="radio-label i-1">
+                                                <input name="special" type="radio" checked>
+                                                Машинки, станки и двигатели
+                                            </label>
+                                            <label class="radio-label i-1">
+                                                <input name="special" type="radio" checked>
+                                                Приборы, инструменты, оборудование
+                                            </label>
+                                            <label class="radio-label i-1">
+                                                <input name="special" type="radio" checked>
+                                                Устройства для получения тепла
+                                            </label>
+                                            <label class="radio-label i-1">
+                                                <input name="special" type="radio" checked>
+                                                Транспортные средства
+                                            </label>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="question-item">
+
+                                        <p class="question point-menu">
+                                            Металлы и сплавы
+                                        </p>
+
+                                        <div class="answer">
+                                            <label class="radio-label i-1">
+                                                <input name="special" type="radio" checked>
+                                                Обычные металлы и сплавы
+                                            </label>
+                                            <label class="radio-label i-1">
+                                                <input name="special" type="radio" checked>
+                                                Благородные металлы и их сплавы, изделия из них
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-1-3">
+                                    <div class="question-item">
+
+                                        <p class="question point-menu">
+                                            Изделия и материалы
+                                        </p>
+                                        <div class="answer">
+                                            <label class="radio-label i-1">
+                                                <input name="special" type="radio" checked>
+                                                Бумага и изделия из бумаги
+                                            </label>
+                                            <label class="radio-label i-1">
+                                                <input name="special" type="radio" checked>
+                                                Резина, асбет, пластмассы
+                                            </label>
+                                            <label class="radio-label i-1">
+                                                <input name="special" type="radio" checked>
+                                                Кожа и имитация кожи
+                                            </label>
+                                            <label class="radio-label i-1">
+                                                <input name="special" type="radio" checked>
+                                                Неметаллические строительные материалы
+                                            </label>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="question-item">
+                                        <p class="question point-menu">
+                                            Товары для дома
+                                        </p>
+
+                                        <div class="answer">
+                                            <label class="radio-label i-1">
+                                                <input name="special" type="radio" checked>
+                                                Мебель и другие изделия
+                                            </label>
+                                            <label class="radio-label i-1">
+                                                <input name="special" type="radio" checked>
+                                                Домашняя и кухонная утварь
+                                            </label>
+                                            <label class="radio-label i-1">
+                                                <input name="special" type="radio" checked>
+                                                Игрушки и спортные товары
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                    <div class="question-item">
+                                        <p class="question point-menu">
+                                            Текстиль и одежда
+                                        </p>
+
+                                        <div class="answer">
+                                            <label class="radio-label i-1">
+                                                <input name="special" type="radio" checked>
+                                                Веревочно-канатные изделия
+                                            </label>
+                                            <label class="radio-label i-1">
+                                                <input name="special" type="radio" checked>
+                                                Нити текстильные и пряжа
+                                            </label>
+                                            <label class="radio-label i-1">
+                                                <input name="special" type="radio" checked>
+                                                Ткани, одеяла, покрывала и скатерти
+                                            </label>
+                                            <label class="radio-label i-1">
+                                                <input name="special" type="radio" checked>
+                                                Одежда, обувь, головные уборы
+                                            </label>
+                                            <label class="radio-label i-1">
+                                                <input name="special" type="radio" checked>
+                                                Галантерейные и басонные изделия
+                                            </label>
+                                            <label class="radio-label i-1">
+                                                <input name="special" type="radio" checked>
+                                                Покрытия для полов
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                    <div class="question-item">
+                                        <p class="question point-menu">
+                                            Приборы и инструменты
+                                        </p>
+
+                                        <div class="answer">
+                                            <label class="radio-label i-1">
+                                                <input name="special" type="radio" checked>
+                                                Ручные инструменты
+                                            </label>
+                                            <label class="radio-label i-1">
+                                                <input name="special" type="radio" checked>
+                                                Медицинские приборы и инструменты
+                                            </label>
+                                            <label class="radio-label i-1">
+                                                <input name="special" type="radio" checked>
+                                                Огнестрельное оружие и пиротехнические средства
+                                            </label>
+                                            <label class="radio-label i-1">
+                                                <input name="special" type="radio" checked>
+                                                Музыкальные инструменты
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-1-3">
+
+                                    <div class="question-item">
+                                        <p class="question point-menu">
+                                            Продукты питания
+                                        </p>
+
+                                        <div class="answer">
+                                            <label class="radio-label i-1">
+                                                <input name="special" type="radio" checked>
+                                                Продукты животного происхождения
+                                            </label>
+                                            <label class="radio-label i-1">
+                                                <input name="special" type="radio" checked>
+                                                Растительные пищевые продукты
+                                            </label>
+                                            <label class="radio-label i-1">
+                                                <input name="special" type="radio" checked>
+                                                Продукты земледелия и лесного хозяйства
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                    <div class="question-item">
+                                        <p class="question point-menu">
+                                            Напитки и табак
+                                        </p>
+
+                                        <div class="answer">
+                                            <label class="radio-label i-1">
+                                                <input name="special" type="radio" checked>
+                                                Безалкогольные напитки и пиво
+                                            </label>
+                                            <label class="radio-label i-1">
+                                                <input name="special" type="radio" checked>
+                                                Алкогольные напитки (за исключением пива)
+                                            </label>
+                                            <label class="radio-label i-1">
+                                                <input name="special" type="radio" checked>
+                                                Табак и курительные принадлежности
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                    <div class="question-item">
+                                        <p class="question point-menu">
+                                            Услуги
+                                        </p>
+
+                                        <div class="answer">
+                                            <label class="radio-label i-1">
+                                                <input name="special" type="radio" checked>
+                                                Помощь в управлении бизнесом
+                                            </label>
+                                            <label class="radio-label i-1">
+                                                <input name="special" type="radio" checked>
+                                                Финансовые услуги
+                                            </label>
+                                            <label class="radio-label i-1">
+                                                <input name="special" type="radio" checked>
+                                                Строительство и ремонт
+                                            </label>
+                                            <label class="radio-label i-1">
+                                                <input name="special" type="radio" checked>
+                                                Телекоммуникации
+                                            </label>
+                                            <label class="radio-label i-1">
+                                                <input name="special" type="radio" checked>
+                                                Перевозка людей и товаров
+                                            </label>
+                                            <label class="radio-label i-1">
+                                                <input name="special" type="radio" checked>
+                                                Обработка материалов
+                                            </label>
+                                            <label class="radio-label i-1">
+                                                <input name="special" type="radio" checked>
+                                                Услуги обучения и развлекательные мероприятия
+                                            </label>
+                                            <label class="radio-label i-1">
+                                                <input name="special" type="radio" checked>
+                                                Научные и технические услуги
+                                            </label>
+                                            <label class="radio-label i-1">
+                                                <input name="special" type="radio" checked>
+                                                Гостиницы, кейтеринг
+                                            </label>
+                                            <label class="radio-label i-1">
+                                                <input name="special" type="radio" checked>
+                                                Медицинские и косметологические услуги
+                                            </label>
+                                            <label class="radio-label i-1">
+                                                <input name="special" type="radio" checked>
+                                                Юридические услуги и службы безопасности
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-button-next yellow-button margin-under brand-next">
+                                Далее
+                            </div>
+                        </div>
+                    </div>
+                    <!-- single slide -->
+                    <div class="swiper-slide">
+                        <div class="wrapper-slide">
+                            <h2>
+                                Загрузите логотип
+                            </h2>
+                            <div class="sub_h2">
+                                При наличии
+                            </div>
+                            <form method="post" class="send-form file-loader" autocomplete="off">
+                                <div class="file-icon">
+                                    <?php include('svg/add_file.svg'); ?>
+                                </div>
+                                <input type="file" class="client_file" name="client_file">
+                                <div>
+                                    <input type="hidden" name="send_type" class="send-type" value="12">
+                                    <input type="hidden" name="send_extra" class="send-extra" value="1">
+                                    <input type="hidden" name="key" value="<?php echo $_SESSION['sf_key'] ?>">
+                                    <?php //Поле выше для защиты формы от спам-ботов ?>
+                                </div>
+                            </form>
+                            <div class="swiper-button-next yellow-button brand-next">
+                                Далее
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- single slide -->
+                    <div class="swiper-slide">
+                        <div class="wrapper-slide">
+                            <h2>
+                                Почти готово!
+                            </h2>
+                            <div class="sub_h2">
+                                Куда направить результаты
+                            </div>
+
+                            <form method="post" class="send-form" autocomplete="off">
+                                <input type="email" name="client_mail" class="client-mail" placeholder="Ваш email">
+
+                                <div class="btn-holder">
+                                    <button type="submit" class="swiper-button-next btn brand-next yellow-button">
+                                        Далее
+                                    </button>
+                                </div>
+                                <div>
+                                    <input type="hidden" name="send_type" class="send-type" value="2">
+                                    <input type="hidden" name="send_extra" class="send-extra" value="1">
+                                    <input type="hidden" name="key" value="<?php echo $_SESSION['sf_key'] ?>">
+                                    <?php //Поле выше для защиты формы от спам-ботов ?>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+
+                    <!-- single slide -->
+                    <div class="swiper-slide">
+                        <div class="wrapper-slide">
+                            <h2>
+                                Подтвердите бесплатный заказ
+                            </h2>
+                            <div class="sub_h2">
+                                Мы перезвоним Вам и уточним детали заказа
+                            </div>
+
+                            <form method="post" class="send-form" autocomplete="off">
+                                <input type="text" name="client_text" class="client-text" placeholder="Ваше имя">
+                                <input type="tel" name="client_tel" class="client-tel" placeholder="Ваш телефон">
+
+                                <div class="btn-holder">
+                                    <button type="submit" class="btn yellow-button">Подтвердите</button>
+                                </div>
+                                <div>
+                                    <input type="hidden" name="send_type" class="send-type" value="2">
+                                    <input type="hidden" name="send_extra" class="send-extra" value="1">
+                                    <input type="hidden" name="key" value="<?php echo $_SESSION['sf_key'] ?>">
+                                    <?php //Поле выше для защиты формы от спам-ботов ?>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
                 </div>
+                <!--                    <div class="swiper-button-next yellow-button brand-next">-->
+                <!--                        Узнайте-->
+                <!--                    </div>-->
+            </div>
         </div>
-<!--        </div>-->
+        <!--        </div>-->
     </section>
-
-
-
 
 
     <!--===================================================== section registration -->
@@ -951,15 +916,15 @@ if (file_exists('SxGeo.php')) {
             <div class="registration-basic-row-2 cre-animate" data-animation="scale-down" data-speed="1500"
                  data-delay="700" data-offset="90%" data-easing="easeOut">
                 <div class="registration-block">
-                   <div class="registration-text">
-                       <div class="registration-icon checked-icon">
-                           <?php include('svg/checked.svg'); ?>
-                       </div>
-                       <div class="registration-span">
-                           Проведём классификацию
-                           Ваших товаров и услуг.
-                       </div>
-                   </div>
+                    <div class="registration-text">
+                        <div class="registration-icon checked-icon">
+                            <?php include('svg/checked.svg'); ?>
+                        </div>
+                        <div class="registration-span">
+                            Проведём классификацию
+                            Ваших товаров и услуг.
+                        </div>
+                    </div>
                 </div>
                 <div class="registration-block">
                     <div class="registration-text">
@@ -978,7 +943,7 @@ if (file_exists('SxGeo.php')) {
                             <?php include('svg/checked.svg'); ?>
                         </div>
                         <div class="registration-span">
-                            Проинформируем о  поступлении
+                            Проинформируем о поступлении
                             корреспонденции из Роспатент.
                         </div>
                     </div>
@@ -1032,7 +997,7 @@ if (file_exists('SxGeo.php')) {
                             <?php include('svg/checked.svg'); ?>
                         </div>
                         <div class="registration-span">
-                            Дадим рекомендации  по
+                            Дадим рекомендации по
                             доработке знака (если необходимо).
                         </div>
                     </div>
@@ -1107,7 +1072,7 @@ if (file_exists('SxGeo.php')) {
                                 </div>
                             </div>
                         </div>
-                        <a class="btn packet-button open-request-modal" href="#">
+                        <a class="btn packet-button open-request-first-modal" href="#">
                             Оставьте заявку
                         </a>
                     </div>
@@ -1126,21 +1091,22 @@ if (file_exists('SxGeo.php')) {
                             </span>
                         </div>
                         <div class="packet-text-complex">
-                            Вы предпочитаете делегировать задачи профессионалам, а сами занимаетесь развитием профильного бизнеса.
+                            Вы предпочитаете делегировать задачи профессионалам, а сами занимаетесь развитием
+                            профильного бизнеса.
                             <span>
                                 Результат:
                             </span>
                             Закажите подачу и сопровождение заявки в рамках единого договора и сэкономьте ещё больше.
-<!--                            <a class="packet-link-complex open-packet-complex-modal" href="#">-->
-<!--                                Состав работ-->
-<!--                            </a>-->
+                            <!--                            <a class="packet-link-complex open-packet-complex-modal" href="#">-->
+                            <!--                                Состав работ-->
+                            <!--                            </a>-->
                             <div class="packet-price-complex">
                                 25 000
                                 <div class="ruble-icon">
                                     <?php include('svg/ruble.svg'); ?>
                                 </div>
                             </div>
-                            <a class="btn packet-button-complex open-request-modal" href="#">
+                            <a class="btn packet-button-complex open-request-second-modal" href="#">
                                 Оставьте заявку
                             </a>
                         </div>
@@ -1158,7 +1124,8 @@ if (file_exists('SxGeo.php')) {
                             <span>
                                 Результат:
                             </span>
-                            Представление Ваших интересов в Роспатент и ответы на все запросы экспертов вплоть до получения решения о выдаче свидетельства на товарный знак.
+                            Представление Ваших интересов в Роспатент и ответы на все запросы экспертов вплоть до
+                            получения решения о выдаче свидетельства на товарный знак.
                             <a class="packet-link open-packet-complex-modal" href="#">
                                 Состав работ
                             </a>
@@ -1175,7 +1142,7 @@ if (file_exists('SxGeo.php')) {
                                 </div>
                             </div>
                         </div>
-                        <a class="btn packet-button open-request-modal" href="#">
+                        <a class="btn packet-button open-request-third-modal" href="#">
                             Оставьте заявку
                         </a>
                     </div>
@@ -1256,7 +1223,7 @@ if (file_exists('SxGeo.php')) {
                 Срок - 3 месяца
             </div>
 
-            <a class="btn yellow-button open-request-modal" href="#">
+            <a class="btn yellow-button open-request-fast-modal" href="#">
                 Оставьте заявку
             </a>
         </div>
@@ -1275,15 +1242,15 @@ if (file_exists('SxGeo.php')) {
             <div class="row">
                 <div class="col-1-3 cre-animate" data-animation="scale-up" data-speed="1500"
                      data-delay="300" data-offset="90%" data-easing="easeOut">
-                   <div class="lite-center a-1">
-                       <img src="images/aircraft.png" alt=" "/>
-                       <div class="lite-title">
-                           Подача заявки
-                       </div>
-                       <div class="lite-text">
-                           Наши специалисты помогут подобрать для Вас классы МКТУ для подачи заявки на товарный знак.
-                       </div>
-                   </div>
+                    <div class="lite-center a-1">
+                        <img src="images/aircraft.png" alt=" "/>
+                        <div class="lite-title">
+                            Подача заявки
+                        </div>
+                        <div class="lite-text">
+                            Наши специалисты помогут подобрать для Вас классы МКТУ для подачи заявки на товарный знак.
+                        </div>
+                    </div>
                 </div>
                 <div class="col-1-3 cre-animate" data-animation="scale-up" data-speed="1500"
                      data-delay="700" data-offset="90%" data-easing="easeOut">
@@ -1293,7 +1260,8 @@ if (file_exists('SxGeo.php')) {
                             Регистрация
                         </div>
                         <div class="lite-text">
-                            Благодаря электронному взаимодействию с Роспатентом, мы отслеживаем информацию по Вашей заявке и своевременное выполнение этапов регистрации.
+                            Благодаря электронному взаимодействию с Роспатентом, мы отслеживаем информацию по Вашей
+                            заявке и своевременное выполнение этапов регистрации.
                         </div>
                     </div>
                 </div>
@@ -1320,7 +1288,8 @@ if (file_exists('SxGeo.php')) {
                             Скорость работы
                         </div>
                         <div class="lite-text">
-                            Вся информация о входящей корреспонденции из Роспатент направляется Вам в течение 3-5 рабочих дней с комментариями нашего Патентного поверенного.
+                            Вся информация о входящей корреспонденции из Роспатент направляется Вам в течение 3-5
+                            рабочих дней с комментариями нашего Патентного поверенного.
                         </div>
                     </div>
                 </div>
@@ -1332,14 +1301,15 @@ if (file_exists('SxGeo.php')) {
                             Хранение корреспонденции
                         </div>
                         <div class="lite-text">
-                            Мы храним всю корреспонденцию и документы, отправленные и полученные из Роспатента  и при необходимости предоставляем их Вам.
+                            Мы храним всю корреспонденцию и документы, отправленные и полученные из Роспатента и при
+                            необходимости предоставляем их Вам.
                         </div>
                     </div>
                 </div>
             </div>
 
             <a class="btn yellow-button open-lite-modal" href="#">
-               Заказать консультацию
+                Заказать консультацию
             </a>
         </div>
     </section>
@@ -1373,47 +1343,126 @@ if (file_exists('SxGeo.php')) {
 
                         <!-- single slide -->
                         <div class="swiper-slide">
-                            <a href="https://www.youtube.com/watch?v=XOIfBhSmoOc&amp;autoplay=1" class="review-item"
-                               data-fancybox="review">
-                            </a>
-                            <div class="play-block">
-                                <span> Смотреть<Br>Классическая<br>музыка</span>
-                                <div class="play-icon">
-                                    <?php include('svg/play.svg'); ?>
+                            <div class="basic-slide">
+                                <a href="https://www.youtube.com/watch?v=XOIfBhSmoOc&amp;autoplay=1" class="review-item"
+                                   data-fancybox="review">
+                                </a>
+                                <div class="play-block">
+                                    <span> Смотреть<Br>Классическая<br>музыка</span>
+                                    <div class="play-icon">
+                                        <?php include('svg/play.svg'); ?>
+                                    </div>
+                                </div>
+                                <img src="images/slider-bg.jpg" alt=" "/>
+                            </div>
+
+                            <div class="share-block">
+                                <h5 class="align-center">
+                                    Поделитесь этим видео с коллегами и руководителем
+                                </h5>
+
+                                <div class="smm-wrapper">
+                                    <div class="smm-block">
+                                        <a href="https://vk.com/share.php?url=https://www.youtube.com/watch?v=XOIfBhSmoOc" class="smm-icon i-1">
+                                            <?php include('svg/vk.svg'); ?>
+                                        </a>
+                                    </div>
+                                    <div class="smm-block">
+                                        <a href="https://www.facebook.com/sharer.php?u=https://www.youtube.com/watch?v=XOIfBhSmoOc" class="smm-icon i-2">
+                                            <?php include('svg/facebook.svg'); ?>
+                                        </a>
+                                    </div>
+                                    <div class="smm-block">
+                                        <a href="http://twitter.com/share?text=https://www.youtube.com/watch?v=XOIfBhSmoOc" class="smm-icon i-3">
+                                            <?php include('svg/telegram.svg'); ?>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                            <img src="images/slider-bg.jpg" alt=" "/>
                         </div>
 
 
                         <!-- single slide -->
                         <div class="swiper-slide">
-                            <a href="https://www.youtube.com/watch?v=XOIfBhSmoOc&amp;autoplay=1" class="review-item"
-                               data-fancybox="review">
-                            </a>
-                            <div class="play-block">
-                                <span> Смотреть<Br>Другое видео</span>
-                                <div class="play-icon">
-                                    <?php include('svg/play.svg'); ?>
+                            <div class="basic-slide">
+                                <a href="https://www.youtube.com/watch?v=StZcUAPRRac&amp;autoplay=1" class="review-item"
+                                   data-fancybox="review">
+                                </a>
+                                <div class="play-block">
+                                    <span> Смотреть<Br>Другое видео</span>
+                                    <div class="play-icon">
+                                        <?php include('svg/play.svg'); ?>
+                                    </div>
+                                </div>
+                                <img src="images/slider-bg.jpg" alt=" "/>
+                            </div>
+
+                            <div class="share-block">
+                                <h5 class="align-center">
+                                    Поделитесь этим видео с коллегами и руководителем
+                                </h5>
+
+                                <div class="smm-wrapper">
+                                    <div class="smm-block">
+                                        <a href="https://vk.com/share.php?url=https://www.youtube.com/watch?v=StZcUAPRRac" class="smm-icon i-1">
+                                            <?php include('svg/vk.svg'); ?>
+                                        </a>
+                                    </div>
+                                    <div class="smm-block">
+                                        <a href="https://www.facebook.com/sharer.php?u=https://www.youtube.com/watch?v=StZcUAPRRac" class="smm-icon i-2">
+                                            <?php include('svg/facebook.svg'); ?>
+                                        </a>
+                                    </div>
+                                    <div class="smm-block">
+                                        <a href="http://twitter.com/share?text=https://www.youtube.com/watch?v=StZcUAPRRac" class="smm-icon i-3">
+                                            <?php include('svg/telegram.svg'); ?>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                            <img src="images/slider-bg.jpg" alt=" "/>
                         </div>
 
                         <!-- single slide -->
                         <div class="swiper-slide">
-                            <a href="https://www.youtube.com/watch?v=XOIfBhSmoOc&amp;autoplay=1" class="review-item"
-                               data-fancybox="review">
-                            </a>
-                            <div class="play-block">
-                                <span> Смотреть<Br>Видео 3</span>
-                                <div class="play-icon">
-                                    <?php include('svg/play.svg'); ?>
+                           <div class="basic-slide">
+                               <a href="https://www.youtube.com/watch?v=f4Mc-NYPHaQ&amp;autoplay=1" class="review-item"
+                                  data-fancybox="review">
+                               </a>
+                               <div class="play-block">
+                                   <span> Смотреть<Br>Видео 3</span>
+                                   <div class="play-icon">
+                                       <?php include('svg/play.svg'); ?>
+                                   </div>
+                               </div>
+                               <img src="images/slider-bg.jpg" alt=" "/>
+                           </div>
+
+                            <div class="share-block">
+                                <h5 class="align-center">
+                                    Поделитесь этим видео с коллегами и руководителем
+                                </h5>
+
+                                <div class="smm-wrapper">
+                                    <div class="smm-block">
+                                        <a href="https://vk.com/share.php?url=https://www.youtube.com/watch?v=f4Mc-NYPHaQ" class="smm-icon i-1">
+                                            <?php include('svg/vk.svg'); ?>
+                                        </a>
+                                    </div>
+                                    <div class="smm-block">
+                                        <a href="https://www.facebook.com/sharer.php?u=https://www.youtube.com/watch?v=f4Mc-NYPHaQ" class="smm-icon i-2">
+                                            <?php include('svg/facebook.svg'); ?>
+                                        </a>
+                                    </div>
+                                    <div class="smm-block">
+                                        <a href="http://twitter.com/share?text=https://www.youtube.com/watch?v=f4Mc-NYPHaQ" class="smm-icon i-3">
+                                            <?php include('svg/telegram.svg'); ?>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                            <img src="images/slider-bg.jpg" alt=" "/>
                         </div>
                     </div>
+
 
                     <!-- Add Arrows -->
                     <div class="swiper-button-next more-next"></div>
@@ -1421,60 +1470,43 @@ if (file_exists('SxGeo.php')) {
 
                 </div>
                 <div class="blue-block">
-<!--                    <div class="blue-icon">-->
-<!--                        --><?php //include('svg/back.svg'); ?>
-<!--                    </div>-->
+                    <!--                    <div class="blue-icon">-->
+                    <!--                        --><?php //include('svg/back.svg'); ?>
+                    <!--                    </div>-->
                     <div class="swiper-container gallery-thumbs">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
 
+                               <span>
                                     Классическая музыка
+                               </span>
+
 
                             </div>
                             <div class="swiper-slide">
 
+                               <span>
                                     Другое видео
+                               </span>
 
                             </div>
                             <div class="swiper-slide">
 
+                                <span>
                                     Видео 3
+                                </span>
 
                             </div>
                         </div>
-<!--                    <div class="blue-icon-down">-->
-<!--                        --><?php //include('svg/back.svg'); ?>
-<!--                    </div>-->
+                        <!--                    <div class="blue-icon-down">-->
+                        <!--                        --><?php //include('svg/back.svg'); ?>
+                        <!--                    </div>-->
+                    </div>
                 </div>
+
+
+
             </div>
-
-            <h5 class="align-center">
-                Поделитесь этим видео с коллегами и руководителем
-            </h5>
-
-            <div class="smm-wrapper">
-                <div class="smm-block">
-                    <a href="#" class="smm-icon i-1">
-                        <?php include('svg/vk.svg'); ?>
-                    </a>
-                    <script type="text/javascript">
-
-                        document.write(VK.Share.button());
-                    </script>
-                </div>
-                <div class="smm-block">
-                    <a href="#" class="smm-icon i-2">
-                        <?php include('svg/facebook.svg'); ?>
-                    </a>
-                </div>
-                <div class="smm-block">
-                    <a href="#" class="smm-icon i-3">
-                        <?php include('svg/telegram.svg'); ?>
-                    </a>
-                </div>
-            </div>
-
-        </div>
     </section>
 
     <!--===================================================== section form-registration -->
@@ -1509,8 +1541,8 @@ if (file_exists('SxGeo.php')) {
 
                 <input type="hidden" name="send_type" class="send-type" value="2">
                 <input type="hidden" name="send_extra" class="send-extra" value="1">
-				<input type="hidden" name="key" value="<?php echo $_SESSION['sf_key'] ?>">
-				<?php //Поле выше для защиты формы от спам-ботов ?>
+                <input type="hidden" name="key" value="<?php echo $_SESSION['sf_key'] ?>">
+                <?php //Поле выше для защиты формы от спам-ботов ?>
 
 
                 <!-- Agreement -->
@@ -1600,7 +1632,8 @@ if (file_exists('SxGeo.php')) {
     <!---->
     <!--                           <input type="hidden" name="send_type" class="send-type" value="1">-->
     <!--                           <input type="hidden" name="send_extra" class="send-extra" value="1">-->
-    <!--                           <input type="hidden" name="key" value="--><?php //echo $_SESSION['sf_key'] ?><!--">-->
+    <!--                           <input type="hidden" name="key" value="-->
+    <?php //echo $_SESSION['sf_key'] ?><!--">-->
     <!--                           --><?php ////Поле выше для защиты формы от спам-ботов ?>
     <!--                       </div>-->
     <!--                       <div class="col-1-2">-->
@@ -1645,7 +1678,6 @@ if (file_exists('SxGeo.php')) {
     <div class="si-modals-wrapper-2"></div>
 
 
-
     <div class="si-modals-wrapper">
 
         <!--============================================== success modal -->
@@ -1686,9 +1718,7 @@ if (file_exists('SxGeo.php')) {
 
         <!--============================================== commercial modal -->
         <div class="si-modal get-modal get-modal-1">
-            <a href="#" class="si-close close">
-
-            </a>
+            <a href="#" class="si-close close"></a>
 
             <div class="modal-container align-center">
 
@@ -1731,16 +1761,12 @@ if (file_exists('SxGeo.php')) {
                 </form>
             </div>
         </div>
-	
+
         <!--============================================== commercial modal -->
         <div class="si-modal commercial-modal commercial-modal-1">
-            <a href="#" class="si-close close">
-
-            </a>
+            <a href="#" class="si-close close"></a>
 
             <div class="modal-container align-center">
-
-
 
                 <div class="row">
                     <div class="col-1-2">
@@ -1766,7 +1792,8 @@ if (file_exists('SxGeo.php')) {
 
                             <div class="btn-holder">
                                 <button type="submit" class="btn blue-button">Получить коммерческое<br>
-                                    предложение</button>
+                                    предложение
+                                </button>
                                 <!--<div class="g-recaptcha" id="g-recaptcha"></div>-->
                             </div>
 
@@ -1791,13 +1818,9 @@ if (file_exists('SxGeo.php')) {
 
         <!--============================================== man modal -->
         <div class="si-modal man-modal man-modal-1">
-            <a href="#" class="si-close close">
-
-            </a>
+            <a href="#" class="si-close close"></a>
 
             <div class="modal-container align-center">
-
-
 
                 <div class="row">
                     <div class="col-1-2">
@@ -1837,7 +1860,9 @@ if (file_exists('SxGeo.php')) {
                         </form>
                     </div>
                     <div class="col-1-2">
-                        <img src="images/man-img.png" alt=" ">
+                        <div class="img-block">
+                            <img src="images/man-img.png" alt=" ">
+                        </div>
                     </div>
                 </div>
 
@@ -1845,19 +1870,150 @@ if (file_exists('SxGeo.php')) {
         </div>
 
 
-        <!--============================================== request modal -->
-        <div class="si-modal request-modal request-modal-1">
-            <a href="#" class="si-close close">
-
-            </a>
+        <!--============================================== request first modal -->
+        <div class="si-modal request-first-modal request-first-modal-1">
+            <a href="#" class="si-close close"></a>
 
             <div class="modal-container align-center">
 
+                <div class="row">
+                    <div class="modal-form-title">
+                        Оставить заявку на тариф Экспресс
+                    </div>
 
+                    <div class="modal-sub-time">
+                        Наш менеджер свяжется с Вами<br> в ближайшее время
+                    </div>
+                    <form method="post" class="send-form" autocomplete="off">
+
+                        <input type="text" name="client_name" class="client-name" placeholder="Ваше имя">
+
+                        <input type="tel" name="client_phone" class="client-phone" placeholder="+7 (_)__-__-__">
+
+                        <input type="email" name="client_mail" class="client-mail" placeholder="Ваше email">
+
+                        <input type="hidden" name="send_type" class="send-type" value="1">
+                        <input type="hidden" name="send_extra" class="send-extra" value="1">
+                        <input type="hidden" name="key" value="<?php echo $_SESSION['sf_key'] ?>">
+                        <?php //Поле выше для защиты формы от спам-ботов ?>
+
+                        <div class="btn-holder">
+                            <button type="submit" class="btn blue-button">Оставить заявку</button>
+                            <!--<div class="g-recaptcha" id="g-recaptcha"></div>-->
+                        </div>
+
+                        <!-- Agreement -->
+                        <div class="form-agree align-left">
+                            <label class="checkbox-label form-agree-check checked">
+                                <input type="checkbox" checked>
+                                Я даю своё согласие на обработку моих
+                                персональных данных.
+                            </label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!--============================================== request second modal -->
+        <div class="si-modal request-second-modal request-second-modal-1">
+            <a href="#" class="si-close close"></a>
+
+            <div class="modal-container align-center">
 
                 <div class="row">
                     <div class="modal-form-title">
-                        Оставить заявку
+                        Оставить заявку на тариф Комплекс
+                    </div>
+
+                    <div class="modal-sub-time">
+                        Наш менеджер свяжется с Вами<br> в ближайшее время
+                    </div>
+                    <form method="post" class="send-form" autocomplete="off">
+
+                        <input type="text" name="client_name" class="client-name" placeholder="Ваше имя">
+
+                        <input type="tel" name="client_phone" class="client-phone" placeholder="+7 (_)__-__-__">
+
+                        <input type="email" name="client_mail" class="client-mail" placeholder="Ваше email">
+
+                        <input type="hidden" name="send_type" class="send-type" value="1">
+                        <input type="hidden" name="send_extra" class="send-extra" value="1">
+                        <input type="hidden" name="key" value="<?php echo $_SESSION['sf_key'] ?>">
+                        <?php //Поле выше для защиты формы от спам-ботов ?>
+
+                        <div class="btn-holder">
+                            <button type="submit" class="btn blue-button">Оставить заявку</button>
+                            <!--<div class="g-recaptcha" id="g-recaptcha"></div>-->
+                        </div>
+
+                        <!-- Agreement -->
+                        <div class="form-agree align-left">
+                            <label class="checkbox-label form-agree-check checked">
+                                <input type="checkbox" checked>
+                                Я даю своё согласие на обработку моих
+                                персональных данных.
+                            </label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!--============================================== request third modal -->
+        <div class="si-modal request-third-modal request-third-modal-1">
+            <a href="#" class="si-close close"></a>
+
+            <div class="modal-container align-center">
+
+                <div class="row">
+                    <div class="modal-form-title">
+                        Оставить заявку на тариф Сопровождение
+                    </div>
+
+                    <div class="modal-sub-time">
+                        Наш менеджер свяжется с Вами<br> в ближайшее время
+                    </div>
+                    <form method="post" class="send-form" autocomplete="off">
+
+                        <input type="text" name="client_name" class="client-name" placeholder="Ваше имя">
+
+                        <input type="tel" name="client_phone" class="client-phone" placeholder="+7 (_)__-__-__">
+
+                        <input type="email" name="client_mail" class="client-mail" placeholder="Ваше email">
+
+                        <input type="hidden" name="send_type" class="send-type" value="1">
+                        <input type="hidden" name="send_extra" class="send-extra" value="1">
+                        <input type="hidden" name="key" value="<?php echo $_SESSION['sf_key'] ?>">
+                        <?php //Поле выше для защиты формы от спам-ботов ?>
+
+                        <div class="btn-holder">
+                            <button type="submit" class="btn blue-button">Оставить заявку</button>
+                            <!--<div class="g-recaptcha" id="g-recaptcha"></div>-->
+                        </div>
+
+                        <!-- Agreement -->
+                        <div class="form-agree align-left">
+                            <label class="checkbox-label form-agree-check checked">
+                                <input type="checkbox" checked>
+                                Я даю своё согласие на обработку моих
+                                персональных данных.
+                            </label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!--============================================== request fast modal -->
+        <div class="si-modal request-fast-modal request-fast-modal-1">
+            <a href="#" class="si-close close"></a>
+
+            <div class="modal-container align-center">
+
+                <div class="row">
+                    <div class="modal-form-title">
+                        Оставить заявку на тариф Ускоренная регистрация
                     </div>
 
                     <div class="modal-sub-time">
@@ -1897,12 +2053,9 @@ if (file_exists('SxGeo.php')) {
 
         <!--============================================== packet modal-1 -->
         <div id="1" class="si-modal packet-modal packet-modal-1">
-            <a href="#" class="si-close close">
-
-            </a>
+            <a href="#" class="si-close close"></a>
 
             <div class="modal-container align-center">
-
 
 
                 <div class="row">
@@ -1920,7 +2073,7 @@ if (file_exists('SxGeo.php')) {
                         <li>
                             Согласование перечня товаров и услуг с заказчиком.
                         </li>
-                        <li >
+                        <li>
                             Консультирование по оплате пошлин.
                         </li>
                         <li>
@@ -1939,40 +2092,40 @@ if (file_exists('SxGeo.php')) {
 
         <!--============================================== packet modal-2 -->
         <div id="2" class="si-modal packet-complex-modal packet-complex-modal-2">
-            <a href="#" class="si-close close">
-
-            </a>
+            <a href="#" class="si-close close"></a>
 
             <div class="modal-container align-center">
 
-                    <div class="modal-form-title">
-                        Экспертный поиск на сходство
-                    </div>
+                <div class="modal-form-title">
+                    Экспертный поиск на сходство
+                </div>
 
-                    <ul class="packet-list">
-                        <li>
-                            Подбор классов МКТУ.
-                        </li>
-                        <li>
-                            Проверка по официальным российским и зарубежным базам зарегистрированных товарных знаков и поданных заявок.
-                        </li>
-                        <li>
-                            Выявление наличия сходства до степени смешения по фонетическому, графическому и семантическому критерию.
-                        </li>
-                        <li>
-                            Разработка оптимальных стратегий регистрации знака.
-                        </li>
-                        <li>
-                            Доработка знака в случае необходимости.
-                        </li>
-                        <li>
-                            Письменное экспертное заключение и консультация юриста по итогам.
-                        </li>
-                    </ul>
+                <ul class="packet-list">
+                    <li>
+                        Подбор классов МКТУ.
+                    </li>
+                    <li>
+                        Проверка по официальным российским и зарубежным базам зарегистрированных товарных знаков и
+                        поданных заявок.
+                    </li>
+                    <li>
+                        Выявление наличия сходства до степени смешения по фонетическому, графическому и семантическому
+                        критерию.
+                    </li>
+                    <li>
+                        Разработка оптимальных стратегий регистрации знака.
+                    </li>
+                    <li>
+                        Доработка знака в случае необходимости.
+                    </li>
+                    <li>
+                        Письменное экспертное заключение и консультация юриста по итогам.
+                    </li>
+                </ul>
 
-                    <div class="packet-text">
-                        Итог: утверждение финального знака и определение стратегии его регистрации.
-                    </div>
+                <div class="packet-text">
+                    Итог: утверждение финального знака и определение стратегии его регистрации.
+                </div>
 
 
                 <div class="modal-form-title">
@@ -2033,41 +2186,40 @@ if (file_exists('SxGeo.php')) {
 
         <!--============================================== packet modal-2 -->
         <div id="2" class="si-modal packet-last-modal packet-last-modal-3">
-            <a href="#" class="si-close close">
-
-            </a>
-
+            <a href="#" class="si-close close"></a>
 
             <div class="modal-container align-center">
 
-                    <div class="modal-form-title">
-                        Экспертный поиск на сходство
-                    </div>
+                <div class="modal-form-title">
+                    Экспертный поиск на сходство
+                </div>
 
-                    <ul class="packet-list">
-                        <li >
-                            Подбор классов МКТУ.
-                        </li>
-                        <li >
-                            Проверка по официальным российским и зарубежным базам зарегистрированных товарных знаков и поданных заявок.
-                        </li>
-                        <li>
-                            Выявление наличия сходства до степени смешения по фонетическому, графическому и семантическому критерию.
-                        </li>
-                        <li>
-                            Разработка оптимальных стратегий регистрации знака.
-                        </li>
-                        <li>
-                            Доработка знака в случае необходимости.
-                        </li>
-                        <li>
-                            Письменное экспертное заключение и консультация юриста по итогам.
-                        </li>
-                    </ul>
+                <ul class="packet-list">
+                    <li>
+                        Подбор классов МКТУ.
+                    </li>
+                    <li>
+                        Проверка по официальным российским и зарубежным базам зарегистрированных товарных знаков и
+                        поданных заявок.
+                    </li>
+                    <li>
+                        Выявление наличия сходства до степени смешения по фонетическому, графическому и семантическому
+                        критерию.
+                    </li>
+                    <li>
+                        Разработка оптимальных стратегий регистрации знака.
+                    </li>
+                    <li>
+                        Доработка знака в случае необходимости.
+                    </li>
+                    <li>
+                        Письменное экспертное заключение и консультация юриста по итогам.
+                    </li>
+                </ul>
 
-                    <div class="packet-text">
-                        Итог: утверждение финального знака и определение стратегии его регистрации.
-                    </div>
+                <div class="packet-text">
+                    Итог: утверждение финального знака и определение стратегии его регистрации.
+                </div>
 
                 <div class="modal-form-title">
                     Подача заявки в Роспатент
@@ -2080,10 +2232,10 @@ if (file_exists('SxGeo.php')) {
                     <li>
                         Подготовка комплекта заявительной документации.
                     </li>
-                    <li >
+                    <li>
                         Согласование перечня товаров и услуг с заказчиком.
                     </li>
-                    <li >
+                    <li>
                         Консультирование по оплате пошлин.
                     </li>
                     <li>
@@ -2146,13 +2298,9 @@ if (file_exists('SxGeo.php')) {
 
         <!--============================================== request modal -->
         <div class="si-modal lite-modal lite-modal-1">
-            <a href="#" class="si-close close">
-
-            </a>
+            <a href="#" class="si-close close"></a>
 
             <div class="modal-container align-center">
-
-
 
                 <div class="row">
                     <div class="modal-form-title">

@@ -192,7 +192,10 @@ jQuery(function ($) {
         SIModals.attachModal('.open-commercial-modal', '.commercial-modal', {'.send-extra': 'extra'});
         SIModals.attachModal('.open-man-modal', '.man-modal', {'.send-extra': 'extra'});
         SIModals.attachModal('.open-lite-modal', '.lite-modal', {'.send-extra': 'extra'});
-        SIModals.attachModal('.open-request-modal', '.request-modal', {'.send-extra': 'extra'});
+        SIModals.attachModal('.open-request-first-modal', '.request-first-modal', {'.send-extra': 'extra'});
+        SIModals.attachModal('.open-request-second-modal', '.request-second-modal', {'.send-extra': 'extra'});
+        SIModals.attachModal('.open-request-third-modal', '.request-third-modal', {'.send-extra': 'extra'});
+        SIModals.attachModal('.open-request-fast-modal', '.request-fast-modal', {'.send-extra': 'extra'});
         SIModals.attachModal('.open-text-modal', '.text-modal', false, function () {
             return '.text-modal-' + $(this).data('id');
         });
@@ -298,16 +301,24 @@ jQuery(function ($) {
     var galleryThumbs = new Swiper('.gallery-thumbs', {
         spaceBetween: 10,
         slidesPerView: 3,
-        loop: true,
+        loop: false,
         freeMode: true,
-        loopedSlides: 5,
+        // loopedSlides: 3,
         watchSlidesVisibility: true,
         watchSlidesProgress: true,
+
     });
+
     var galleryTop = new Swiper('.gallery-top', {
+        slidesPerView: 'auto',
+        // centeredSlides: true,
         spaceBetween: 10,
         loop:true,
-        loopedSlides: 5,
+        loopedSlides: 3,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
@@ -316,6 +327,9 @@ jQuery(function ($) {
             swiper: galleryThumbs,
         },
     });
+
+
+
 
     // =====================================================dotdotdot
     $('.ellipsis').dotdotdot();
@@ -354,15 +368,14 @@ jQuery(function ($) {
     });
 
     //accordion
-    $('.nav-item:first').addClass('active').find('.answer').css('display', 'block');
     $('.nav-item').each(function () {
         var item = $(this),
             nav = item.find('.nav'),
             menu = item.find('.menu');
         menu.slideUp();
-        //if (item.hasClass('active')) {
-        //    $(this).find('.menu').slideDown();
-        //}
+        if (item.hasClass('active')) {
+            $(this).find('.menu').slideDown();
+        }
         nav.click(function () {
             if (nav.parents('.nav-item').hasClass('active')) {
                 menu.slideUp();
@@ -377,30 +390,17 @@ jQuery(function ($) {
         });
     });
 
-    //accordion
-    $('.question-item:first').addClass('active').find('.answer').css('display', 'block');
-    $('.question_block').each(function () {
+    //accordion (выберите отрасль)
+    $('.question-item').each(function () {
         var item = $(this),
-            question = item.find('.question-item'),
+            question = item.find('.question'),
             answer = item.find('.answer');
         answer.slideUp();
-        // if (item.hasClass('active')) {
-        //     $(this).find('.answer').slideDown();
-        // }
+        if (item.hasClass('active')) {
+            $(this).find('.answer').slideDown();
+        }
         question.click(function () {
-            if (question.parents('.question_block').hasClass('active')) {
-                answer.slideUp();
-                item.removeClass('active');
-            }
-            else {
-                item.parents('.questions-block').find('.question-item').find('.answer').slideUp();
-                answer.slideDown();
-                item.parents('.questions-block').find('.question-item').removeClass('active');
-                item.addClass('active');
-            }
-        });
-        answer.click(function () {
-            if (question.parents('.question_block').hasClass('active')) {
+            if (question.parents('.question-item').hasClass('active')) {
                 answer.slideUp();
                 item.removeClass('active');
             }

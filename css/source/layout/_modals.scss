@@ -18,7 +18,7 @@ html {
 .si-overlay {
 	@include abs-center-fixed;
 	display: none;
-	background: transparentize(#7b7b7b, .2);
+	background: transparentize(#2e2e2e, .2);
 	z-index: 203;
 }
 
@@ -239,13 +239,31 @@ html {
 }
 
 .man-modal{
-	img{
-		margin-top: 100px;
+	background-color: #ffda00;
+	.img-block{
+		width: 100%;
+		height: 20px;
+		display: block;
+		position: relative;
+
+		img{
+			position: absolute;
+			width: 580px;
+			height: 610px;
+			display: block;
+			top: 163px;
+			left: 50px;
+		}
 	}
+
+
 }
 
 //=========================== request-modal
-.request-modal,
+.request-first-modal,
+.request-second-modal,
+.request-third-modal,
+.request-fast-modal,
 .lite-modal{
 	width: 508px;
 	height: auto;
