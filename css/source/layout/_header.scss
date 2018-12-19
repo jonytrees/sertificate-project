@@ -1,252 +1,227 @@
 //====================global header
 .layout-header {
-//	@include abs-center;
+	//@include abs-center;
 	//@include abs-center-fixed;
-//	bottom: auto;
-//	z-index: 50;
+	bottom: auto;
+	z-index: 50;
 	padding-top: 40px;
-    padding-bottom: 190px;
-    background: url('../images/header-bg.jpg') no-repeat;
-    background-size: cover;
-    color: #fff;
-    position: relative;
+	padding-bottom: 135px;
+	background: url("../images/header-fon.png") no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
 
-  .woman-block{
-    position: absolute;
-    bottom: -15px;
-    right: 265px;
-  }
-}
+	&.active {
 
-//===================== sms-modal
-.sms-modal{
-  width: 1024px;
-  height: 361px;
-  display: none;
-  padding-left: 50px;
-  position: fixed;
-  top: 100px;
-  z-index: 200;
-  margin: 0 auto;
-  @include abs-center-fixed;
-  background: #ffda00 url("../images/sms-bg.png") no-repeat;
-  -webkit-background-size: cover;
-  background-size: cover;
-  -webkit-transition: 1s time;
-  -moz-transition: 1s time;
-  -ms-transition: 1s time;
-  -o-transition: 1s time;
-  transition: 1s time;
+	}
 
+	.si-phone {
+		padding-top: 0px;
+	}
 
-
-  .modal-form-title{
-    font: 400 47px/47px 'Myriad', sans-serif;
-    color: #000;
-    margin-bottom: 18px;
-    margin-top: 57px;
-    text-align: left;
-  }
-
-  .modal-sub-time{
-    font: 300 24px/24px 'Myriad', sans-serif;
-    color: #000;
-    margin-bottom: 46px;
-    text-align: left;
-  }
-
-  form{
-    width: 472px;
-    display: block;
-
-  }
-
-  input{
-    display: inline-block;
-    width: 290px;
-    border: none !important;
-    border-bottom: 1px solid #000 !important;
-    background-color: transparent !important;
-    padding-bottom: 10px;
-    color: #000;
-    font: 400 19px/17px 'Myriad', sans-serif;
-    margin-bottom: 25px;
-    vertical-align: top;
-    margin-top: 10px;
-  }
-
-  .btn-holder{
-    width: 229px;
-    display: inline-block;
-  }
-
-  .blue-button{
-    display: block;
-    width: 229px;
-    height: 56px;
-    box-shadow: 0 5px 0 #00498a;
-    border-radius: 34px;
-    background-color: #008df3;
-    background-image: linear-gradient(to top, #0054aa 0%, #00ace5 99%, #00ace5 100%);
-    font: 400 19px/56px 'Myriad', sans-serif;
-    color: #fff !important;
-    margin: 0 auto 25px;
-    vertical-align: top;
-
-
-    &:hover{
-      background-image: linear-gradient(to top, #00ace5 0%, #0054aa 99%, #0054aa 100%);
-    }
-  }
-
-  .hand-img{
-    margin-top: -36px;
-  }
-
-  .form-agree-check{
-    width: 435px;
-    height: 35px;
-    color: #000000;
-    display: block;
-    font: 400 15px/20px 'Myriad', sans-serif;
-    margin-bottom: 74px;
-  }
-}
-
-//=========================== logo
 
 .logo {
 	display: inline-block;
-    width: 75px;
-    height: 161px;
-    background-color: #008df3;
-    margin-top: -40px;
-
-  .logo-icon{
-    width: 45px;
-    height: 51px;
-    display: block;
-    padding-top: 55px;
-    padding-left: 17px;
-  }
 
 	img {
 		display: block;
+		margin-right: 26px;
 	}
 }
 
 .logo-text{
-  display: inline-block;
-  width: 190px;
-  margin-left: 36px;
-  vertical-align: top;
+	display: inline-block;
+	width: 170px;
+	color: #fff;
+	margin-top: 15px;
+	vertical-align: top;
 
-  .logo-title{
-    font: 700 23px/26px 'Myriad', sans-serif;
-    margin-bottom: 10px;
-  }
+	.logo-title{
+		font: 600 23px/23px "Myriad", sans-serif;
+		margin-bottom: 12px;
+	}
 
-  p{
-    font: 400 15px/20px 'Myriad', sans-serif;
-  }
+	p{
+		font: 300 17px/22px "Myriad", sans-serif;
+	}
+
 }
 
-.time-text{
-  display: inline-block;
-  width: 150px;
-  margin-left: 78px;
-  vertical-align: top;
-  margin-top: 4px;
+.si-phone {
+	display: inline-block;
+	margin-top: 15px;
+	margin-right: 70px;
 
-  .time-title{
-    font: 400 18px/20px 'Myriad', sans-serif;
-    margin-bottom: 10px;
-  }
 
-  p{
-    font: 400 15px/15px 'Myriad', sans-serif;
-  }
+	.phone-link {
+		display: block;
+		margin-bottom: 18px;
+		font: 700 23px/23px "Agora Slab", sans-serif;
+		color: #fff !important;
+	}
+
+	.consult{
+		font: 700 16px/16px "Agora Slab", sans-serif;
+		color: #e1be78 !important;
+		border-bottom: 1px dashed #e1be78;
+		display: block;
+		width: 140px;
+		background-color: transparent !important;
+		float: right;
+
+		&:hover{
+			border-bottom: none;
+		}
+	}
 }
 
+.nav-block {
+	display: block;
+	width: 100%;
+	position: relative;
+	margin-top: 60px;
+	margin-bottom: 60px;
 
+	.nav{
+		position: absolute;
+		top: -163px;
+		right: 0;
+	}
 
-.phone-link {
-  display: inline-block;
-  margin-top: 16px;
-  font: 400 27px/1 'Myriad', sans-serif;
-  color: #fff !important;
+	.menu{
+		width: 100%;
+		display: block;
+
+		ul{
+			display: flex;
+			justify-content: space-between;
+			margin: 0;
+			padding: 0;
+			list-style-type: none;
+
+			li{
+				display: inline-block;
+
+				a{
+					font: 700 23px/23px "Agora Slab", sans-serif;
+					color: #fff !important;
+					text-decoration: none;
+
+					&:hover{
+						text-decoration: underline;
+					}
+				}
+			}
+		}
+	}
 }
 
-.consult{
-  margin-left: 33px;
-  margin-right: 55px;
-  display: inline-block;
-  width: 214px;
-  height: 56px;
-  border-radius: 28px;
-  border: 2px solid #00ade5;
-  text-align: center;
-  font: 300 21px/52px 'Myriad', sans-serif;
-  color: #fff !important;
-  background-color: transparent !important;
+	.title-block{
+		width: 800px;
+		display: inline-block;
+	}
+
+	h1{
+		width: 800px;
+		display: block;
+		font: 700 57px/60px "Agora Slab", sans-serif;
+		color: #fff;
+		margin-bottom: 26px;
+
+		span{
+			color: #e1be78;
+		}
+	}
+
+	.sub_title{
+		width: 600px;
+		display: block;
+		font: 300 32px/38px "Myriad", sans-serif;
+		color: #fff;
+		margin-bottom: 70px;
+	}
+
+	.brown-button{
+		display: block;
+		width: 248px;
+		height: 60px;
+		border-radius: 30px;
+		border: 1px solid #e1be78;
+		text-align: center;
+		font: 700 16px/60px "Myriad", sans-serif;
+		color: #fff !important;
+		background-color: transparent;
+		margin-bottom: 100px;
+	}
+
+	.header-door-block{
+		width: 350px;
+		vertical-align: top;
+		display: inline-block;
+		position: relative;
+		float: right;
+	}
+
+	.header-door{
+		display: block;
+		position: relative;
+		float: right;
+		z-index: 10;
+
+		&.i-1{
+			position: absolute;
+			margin-top: 93px;
+			z-index: 5;
+			left: 58px;
+		}
+
+		&.i-2{
+			position: absolute;
+			margin-top: 157px;
+			z-index: -1;
+		}
+	}
+
+
+	.sub-header{
+		width: 600px;
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 75px;
+
+		.sub-header-block{
+			width: 130px;
+			display: inline-block;
+
+			p{
+				font: 400 15px/15px "Myriad", sans-serif;
+				color: #fff;
+				display: block;
+				margin-bottom: 16px;
+			}
+
+			span{
+				font: 700 23px/23px "Agora Slab", sans-serif;
+				color: #e1be78;
+			}
+		}
+	}
+
+	.down{
+		width: 30px;
+		display: block;
+		margin: 0 auto;
+		font: 400 14px/14px "Myriad", sans-serif;
+		color: #fff;
+		position: relative;
+
+		&:after{
+			content: '';
+			position: absolute;
+			width: 1px;
+			height: 35px;
+			background-color: #ffffff;
+			bottom: -40px;
+			left: 50%;
+		}
+	}
 }
-
-.burger-menu{
-  position: absolute;
-  top: 25px;
-  right: 0;
-}
-
-.menu{
-  ul{
-    padding: 20px;
-    list-style-type: none;
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-    margin: 30px auto;
-    border-top: 1px solid #fff;
-    border-bottom: 1px solid #fff;
-
-    li{
-      list-style-type: none;
-      display: inline-block;
-
-      a{
-        font: 300 21px/52px 'Myriad', sans-serif;
-        COLOR: #fff;
-        text-align: center;
-
-        &:hover{
-          text-decoration: underline;
-        }
-      }
-    }
-
-  }
-}
-
-
-  h1{
-    width: 810px;
-    font: 700 60px/62px 'Myriad', sans-serif;
-    margin-bottom: 35px;
-    margin-top: 80px;
-  }
-
-  .sub_title{
-    width: 650px;
-    font: 300 33px/37px 'Myriad', sans-serif;
-    margin-bottom: 50px;
-  }
-
-  .button-more{
-    width: 216px;
-    height: 58px;
-    border-radius: 29px;
-    background: rgba(255, 255, 255, .1) !important;
-    display: block;
-    color: #fff !important;
-    text-align: center;
-    font: 300 19px/58px 'Myriad', sans-serif;
-  }

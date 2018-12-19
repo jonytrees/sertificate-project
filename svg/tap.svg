@@ -1,1 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34" height="37" viewBox="0 0 34 37"><defs><path id="ulgqa" d="M1432 1171c9.389 0 17 7.611 17 17 0 9.388-7.611 17-17 17s-17-7.612-17-17c0-9.389 7.611-17 17-17z"/><mask id="ulgqc" width="2" height="2" x="-1" y="-1"><path fill="#fff" d="M1415 1171h34v34h-34z"/><use xlink:href="#ulgqa"/></mask><filter id="ulgqb" width="54" height="57" x="1405" y="1161" filterUnits="userSpaceOnUse"><feOffset dy="3" in="SourceGraphic" result="FeOffset1023Out"/><feGaussianBlur in="FeOffset1023Out" result="FeGaussianBlur1024Out" stdDeviation="0 0"/></filter></defs><g><g transform="translate(-1415 -1171)"><g filter="url(#ulgqb)"><use fill="none" stroke-width="0" mask="url(&quot;#ulgqc&quot;)" xlink:href="#ulgqa"/><use fill="#00a0e1" xlink:href="#ulgqa"/></g><use fill="#fff" xlink:href="#ulgqa"/></g><g transform="translate(-1415 -1171)"><image width="19" height="15" transform="translate(1423 1179)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAPCAYAAAAGRPQsAAACLElEQVQ4T5XTT0hUcRDA8e+8J/4p2CxKYv9UmBIGQUUQLKEERREFUeol93kR1ItIEF06eIoCSSgqokj3bUskHapFVoog6NIh8BAR/cGofbvVQWvLSnP3TeyKsOuftLnO8GF+M/MTcmGnNoCeAd0DTKDEqCjto7lqIp9fZgjRRC1ZeQz0oTqImB5wu4Hd/DaCtHt/FVnh5D6EIJgRrPXvC3OC7cRQ7iIlcSRzGhijLN3LpOcq8AwrcB07VYe6pxD5Ae4RkJsonRjaQCjwbhbMYV8J+NbxMRlFZBTUC6yGkjbI9KJ4EWqAc8BhYCWWfy+20wScRTL1hDZ9yoE5bJxR31qqk/dRvYPljxJJXgEaEYZQ9zbIIK7RxIpvT5jyWIQCN/LdRJxOlA7Kp+pp3pwW7GQcZQDNPseQR4jRTYs3lgeVWirSh5j07ADjHpjBuXMinOhBpIGAb78QSe1EdQi0C9ERlIdFIPgoTzfyZ1UVPz9/oX3X9Lzl2k6u+xHJJ24ltpHlOK2BHiKJmmLQuYTKC1r91xa9kOiHajLm8Aw2NwrBkO/Bss7MdsYWxvLDLehwKfDi2zIqK1KLY/8DhhMtGMax+Vh+fsZB0DqELcBW4BWWP7jgc3P1rsRxsweKMTvRABJGpB9XX2Lqa8Yn39BVO7UolJVhRDqwfLG52HmQ72SnL/9z6KXGGjLmUYSTCO2E/EMzP6Aw+p3tmAwAlUtsMA36FNO9wImNo7O1fwHaT9r2wH2WPAAAAABJRU5ErkJggg=="/></g></g></svg>
+<svg version="1.1" class="tap" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<g>
+	<g>
+		<path class="tap" d="M478.7,203.3l-87.5-96.2c-17.3-17.3-45.5-17.3-63,0.1c-5.5,5.5-9.3,12.2-11.3,19.2c-17.4-13.3-42.5-12-58.6,4
+			c-5.5,5.5-9.3,12.2-11.3,19.2c-17.4-13.3-42.5-12-58.5,4c-5.4,5.4-9.1,11.9-11.2,18.8l-41.2-41.2c-17.3-17.3-45.5-17.3-63,0.1
+			c-17.3,17.3-17.3,45.5,0,62.9l158.4,158.4l-94,14.8c-25.4,3.6-44.5,25.7-44.5,51.4c0,19.2,15.7,34.9,34.9,34.9h219.4
+			c34.2,0,66.3-13.3,90.5-37.5l36.6-36.6c24.2-24.1,37.4-56.3,37.4-90.4C512,257.4,500.2,226.9,478.7,203.3z M458.1,363.3
+			l-36.6,36.6c-19.8,19.8-46.1,30.7-74.1,30.7H128c-6.4,0-11.6-5.2-11.6-11.6c0-14.2,10.6-26.3,24.7-28.3l116.7-18.3
+			c4.3-0.7,7.9-3.7,9.3-7.9c1.3-4.1,0.3-8.7-2.8-11.8L89.6,177.9c-8.3-8.3-8.3-21.7,0.1-30.1c4.1-4.1,9.6-6.2,15-6.2
+			c5.4,0,10.8,2.1,15,6.2l116.4,116.4c4.5,4.5,11.9,4.5,16.5,0c2.3-2.3,3.4-5.3,3.4-8.2s-1.1-6-3.4-8.2L205,200.2
+			c-8.3-8.3-8.3-21.7,0.1-30.1c8.2-8.2,21.7-8.2,30,0l47.6,47.6c4.5,4.5,11.9,4.5,16.5,0c2.3-2.3,3.4-5.3,3.4-8.2c0-3-1.1-6-3.4-8.2
+			l-24.3-24.3c-8.3-8.3-8.3-21.7,0.1-30.1c8.2-8.2,21.7-8.2,30,0l24.4,24.4c0,0,0,0,0,0l0,0c0,0,0,0,0,0c0,0,0,0,0,0h0c0,0,0,0,0,0
+			c4.6,4.3,11.8,4.2,16.2-0.2c4.5-4.5,4.5-11.9,0-16.5l-1-1c-4-4-6.2-9.3-6.2-15c0-5.7,2.2-11,6.3-15.1c8.3-8.2,21.7-8.2,29.6-0.4
+			l87.1,95.8c17.5,19.3,27.2,44.3,27.2,70.4C488.7,317.3,477.9,343.5,458.1,363.3z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path class="tap" d="M200.1,119.9c-16.9-37.5-54.4-61.7-95.3-61.7C47,58.2,0,105.2,0,162.9c0,41,24.2,78.4,61.7,95.3
+			c1.6,0.7,3.2,1,4.8,1c4.4,0,8.7-2.6,10.6-6.8c2.6-5.9,0-12.8-5.8-15.4c-29.2-13.2-48.1-42.3-48.1-74.1c0-44.9,36.5-81.5,81.5-81.5
+			c31.8,0,60.9,18.9,74.1,48.1c2.6,5.9,9.5,8.5,15.4,5.8C200.1,132.7,202.7,125.8,200.1,119.9z"/>
+	</g>
+</g>
+</svg>

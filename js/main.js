@@ -63,16 +63,16 @@ jQuery(function ($) {
         removeTransform($('.si-floating4'), 'si-floating4');
 
         // Mobile stretch
-        //$('html, body').css('min-width', '1280px').addClass('mobile');
-        //$('html').css('width', window.innerWidth + 'px');
-
+        $('html, body').css('min-width', '1280px').addClass('mobile');
         $('html').css('width', window.innerWidth + 'px');
-        $(window).resize(function () {
-            $('html').css('width', window.innerWidth + 'px');
-        });
-        $(window).bind('scroll', function () {
-            $('html').css('width', window.innerWidth + 'px');
-        });
+
+        //$('html').css('width', window.innerWidth + 'px');
+        //$(window).resize(function () {
+        //    $('html').css('width', window.innerWidth + 'px');
+        //});
+        //$(window).bind('scroll', function () {
+        //    $('html').css('width', window.innerWidth + 'px');
+        //});
 
         // ===================================================== All sound load
         $.ionSound({
@@ -185,17 +185,7 @@ jQuery(function ($) {
         SIModals.init();
 
         // Init modals
-        SIModals.attachModal('.open-packet-modal', '.packet-modal', {'.send-extra': 'extra'});
-        SIModals.attachModal('.open-get-modal', '.get-modal', {'.send-extra': 'extra'});
-        SIModals.attachModal('.open-packet-complex-modal', '.packet-complex-modal', {'.send-extra': 'extra'});
-        SIModals.attachModal('.open-packet-last-modal', '.packet-last-modal', {'.send-extra': 'extra'});
-        SIModals.attachModal('.open-commercial-modal', '.commercial-modal', {'.send-extra': 'extra'});
-        SIModals.attachModal('.open-man-modal', '.man-modal', {'.send-extra': 'extra'});
-        SIModals.attachModal('.open-lite-modal', '.lite-modal', {'.send-extra': 'extra'});
-        SIModals.attachModal('.open-request-first-modal', '.request-first-modal', {'.send-extra': 'extra'});
-        SIModals.attachModal('.open-request-second-modal', '.request-second-modal', {'.send-extra': 'extra'});
-        SIModals.attachModal('.open-request-third-modal', '.request-third-modal', {'.send-extra': 'extra'});
-        SIModals.attachModal('.open-request-fast-modal', '.request-fast-modal', {'.send-extra': 'extra'});
+        SIModals.attachModal('.open-phone-modal', '.phone-modal', {'.send-extra': 'extra'});
         SIModals.attachModal('.open-text-modal', '.text-modal', false, function () {
             return '.text-modal-' + $(this).data('id');
         });
@@ -209,42 +199,6 @@ jQuery(function ($) {
     //SIModals.afterOpen = function () {
     //grecaptcha.reset(recaptcha);
     //};
-
-
-
-    //menu
-    // function headerBehaviour() {
-    //     if ($(window).scrollTop() > 0) {
-    //         $('.layout-header').addClass('active');
-    //         $('.menu-btn').addClass('active-top');
-    //     }
-    //     else {
-    //         $('.layout-header').removeClass('active');
-    //         $('.menu-btn').removeClass('active-top');
-    //     }
-    // }
-
-    var headindHeight = $('.section-trade').outerHeight(true);
-    function upBtn() {
-        if($(window).scrollTop() > headindHeight + 300) {
-            $('.position-block').addClass('active');
-        } else {
-            $('.position-block').removeClass('active');
-        }
-    }
-    upBtn();
-
-    headerBehaviour();
-    $(window).resize(function () {
-        headerBehaviour();
-        upBtn();
-    });
-    $(window).bind('scroll', function () {
-        headerBehaviour();
-        upBtn();
-    });
-
-
 
     // ===================================================== Styler
     $('input[type=file], input[type=radio], input[type=checkbox], select').styler();
@@ -278,58 +232,29 @@ jQuery(function ($) {
     $(".spoiler").spoiler();
 
     // ===================================================== swiper
-    if($('html').find('.brand-slider-holder')){
-       var brandSlider = new Swiper('.brand-slider', {
-           slidesPerView: 1,
-           spaceBetween: 20,
+    if($('html').find('.block-slider-holder')){
+        var blockSlider = new Swiper('.block-slider', {
+            slidesPerView: 1,
+            spaceBetween: 20,
 			pagination: {
 				el: '.swiper-pagination',
 				clickable: true,
 			  },
-           navigation: {
-				nextEl: '.brand-next',
+            navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev',
 			  },
-           loop: true,
+            loop: true,
+            autoplay: {
+				delay: 5000,
+			  },
 			on: {
 				slideChange: function() {
 					$.ionSound.play('wuf-1');
 				}
 			}
-       });
-    }
-
-    var galleryThumbs = new Swiper('.gallery-thumbs', {
-        spaceBetween: 10,
-        slidesPerView: 3,
-        loop: false,
-        freeMode: true,
-        // loopedSlides: 3,
-        watchSlidesVisibility: true,
-        watchSlidesProgress: true,
-
-    });
-
-    var galleryTop = new Swiper('.gallery-top', {
-        slidesPerView: 'auto',
-        // centeredSlides: true,
-        spaceBetween: 10,
-        loop:true,
-        loopedSlides: 3,
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-        thumbs: {
-            swiper: galleryThumbs,
-        },
-    });
-
-
-
+        });
+	}
 
     // =====================================================dotdotdot
     $('.ellipsis').dotdotdot();
@@ -385,29 +310,6 @@ jQuery(function ($) {
                 item.parents('.nav-block').find('.nav-item').find('.menu').slideUp();
                 menu.slideDown();
                 item.parents('.nav-block').find('.nav-item').removeClass('active');
-                item.addClass('active');
-            }
-        });
-    });
-
-    //accordion (выберите отрасль)
-    $('.question-item').each(function () {
-        var item = $(this),
-            question = item.find('.question'),
-            answer = item.find('.answer');
-        answer.slideUp();
-        if (item.hasClass('active')) {
-            $(this).find('.answer').slideDown();
-        }
-        question.click(function () {
-            if (question.parents('.question-item').hasClass('active')) {
-                answer.slideUp();
-                item.removeClass('active');
-            }
-            else {
-                item.parents('.questions-block').find('.question-item').find('.answer').slideUp();
-                answer.slideDown();
-                item.parents('.questions-block').find('.question-item').removeClass('active');
                 item.addClass('active');
             }
         });
@@ -484,13 +386,27 @@ jQuery(function ($) {
     //    }, 500);
     //}, 1000);
 
-    //======================================================= sms modal
-    setTimeout(function(){
-        $('.sms-modal').fadeIn(1000);
-    },10000);
 
-    $('.sms-close').mouseout(function(){
-        $('.sms-modal').hide(500);
+    $( ".slider" ).slider({
+        animate: true,
+        range: "min",
+        value: 0,
+        min: 10000,
+        max: 15000,
+        step: 1000,
+
+        slide: function( event, ui ) {
+            $( "#slider-result" ).html(ui.value);
+        },
+
+        change: function(event, ui) {
+            $('#znch').attr('value', ui.value);
+        }
+
     });
-
 });
+
+
+
+
+

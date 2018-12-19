@@ -1,18 +1,17 @@
-//====================html & body
 * {
   box-sizing: border-box;
 }
 
 html {
-	color: $font-color;
-	background: #fff;
-	font: 16px/24px 'Myriad';
-	width: 100%;
-	min-width: 1200px;
-	max-width: 100%;
-	min-height: 100% !important;
-	position: relative;
-	overflow-x: auto !important;
+  color: $font-color;
+  background: #fff;
+  font: 16px/24px 'Myriad';
+  width: 100%;
+  min-width: 1200px;
+  max-width: 100%;
+  min-height: 100% !important;
+  position: relative;
+  overflow-x: auto !important;
 
   @include mobile{
     min-width: 640px;
@@ -20,37 +19,37 @@ html {
 }
 
 body {
-	width: 100%;
-	min-width: 1200px;
-	max-width: 100%;
-	position: relative;
-	overflow: hidden;
+  width: 100%;
+  min-width: 1200px;
+  max-width: 100%;
+  position: relative;
+  overflow: hidden;
 
-    @include mobile{
-      min-width: 640px;
-    }
+  @include mobile{
+    min-width: 640px;
+  }
 }
 
 //====================global container
 #global-wrapper {
-	overflow: hidden;
-    min-width: 1200px;
-	position: relative;
+  overflow: hidden;
+  min-width: 1200px;
+  position: relative;
 }
 
 //====================container
 .container {
-	display: block;
-	width: 1200px;
-	padding: 0 15px;
-	margin: 0 auto;
-	position: relative;
-	z-index: 10;
+  display: block;
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 10;
 
-    @include mobile{
-      width: 600px;
-      padding: 0;
-    }
+  @include mobile{
+    width: 600px;
+    padding: 0;
+  }
 }
 
 //====================headers

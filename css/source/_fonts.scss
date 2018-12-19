@@ -49,6 +49,8 @@
   font-weight: 700;
   font-style: normal;
 }
+
+
 @font-face {
   font-family: 'Myriad';
   src: url('../fonts/MyriadProBoldIt.eot');
@@ -59,4 +61,30 @@
   url('../fonts/MyriadProBoldIt.svg#MyriadProBoldIt') format('svg');
   font-weight: 700;
   font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'Agora Slab';
+  src: url('../fonts/pfagoraslabpro-reg-webfont.eot');
+  src: url('../fonts/pfagoraslabpro-reg-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/pfagoraslabpro-reg-webfont.woff2') format('woff2'),
+  url('../fonts/pfagoraslabpro-reg-webfont.woff') format('woff'),
+  url('../fonts/pfagoraslabpro-reg-webfont.ttf') format('truetype'),
+  url('../fonts/pfagoraslabpro-reg-webfont.svg#pf_agora_slab_proregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Agora Slab';
+  src: url('../fonts/pfagoraslabpro-bold-webfont.eot');
+  src: url('../fonts/pfagoraslabpro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/pfagoraslabpro-bold-webfont.woff2') format('woff2'),
+  url('../fonts/pfagoraslabpro-bold-webfont.woff') format('woff'),
+  url('../fonts/pfagoraslabpro-bold-webfont.ttf') format('truetype'),
+  url('../fonts/pfagoraslabpro-bold-webfont.svg#pf_agora_slab_probold') format('svg');
+  font-weight: 700;
+  font-style: normal;
 }

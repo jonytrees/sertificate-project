@@ -69,10 +69,9 @@
 }
 
 .close {
-	width: 28px !important;
-	height: 28px !important;
-	fill:#3D3D3D;
-	background: url("../svg/cancel.svg");
+	width: 24px !important;
+	height: 24px !important;
+	fill: $font-color;
 
 	a:hover &,
 	a:active & {
@@ -81,58 +80,95 @@
 }
 
 
-.card-icon{
-  width: 91px;
-  height: 117px;
-  fill:#00a0e1;
+
+.calendar{
+  fill:#1F1F1F;
 }
 
-.stopwatch-icon{
-  fill:#00a0e1;
-  width: 91px;
-  height: 91px;
+.cancel{
+  fill:#3D3D3D;
 }
 
-.title-icon{
-	fill:#05a2e1;
+.car{
+  fill:#1F1F1F;
 }
 
-.right-hover{
-  fill:#D4D4D4;
+.carving{
+  fill:#E1BE78;
 }
 
-.checked-icon{
-  fill:#008DF3;
+.carving1{
+  fill:#2C2C2C;
 }
 
-.ruble-icon{
-  fill: #191919;
+.checked{
+  fill:#E1BE78;
 }
 
-.wait-icon{
-  fill:#008DF3;
+.debit-card{
+  fill:#E1BE78;
 }
 
-.result-icon{
-  fill:#008DF3;
+.door-icon{
+  fill:#E1BE78;
 }
 
-.back{
-  fill: #fff;
+.download{
+  fill:#FFFFFF;
 }
 
-.vk{
-  fill:#3C3C3C;
+.eye{
+  fill:#E1BE78;
 }
 
-.facebook{
-  fill:#3C3C3C;
+.forest{
+  fill:#E1BE78;
 }
 
-.telegram{
-  fill:#3C3C3C;
+.forest1{
+  fill:#2C2C2C;
 }
 
-.file-icon{
-	fill: #fff;
+.measuring-tape{
+  fill:#1F1F1F;
+}
+
+.painting{
+  fill:#E1BE78;
+}
+
+.painting1{
+  fill:#2C2C2C;
+}
+
+.pay{
+  fill:#1F1F1F;
+}
+
+.placeholder{
+  fill:#1F1F1F;
+}
+
+.shield{
+  fill:#E1BE78;
+}
+
+.smartphone{
+  fill:#1F1F1F;
+}
+
+.tap{
+  fill:#1F1F1F;
+}
+
+.trophy{
+  fill:#E1BE78;
+}
+
+.wood{
+  fill:#E1BE78;
+}
+
+.wood1{
+  fill:#2C2C2C;
 }

@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="55423883-a8b9-4830-b3f2-2e52c7abbb12" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/SxGeo.dat" beforeDir="false" afterPath="$PROJECT_DIR$/SxGeo.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SxGeo.php" beforeDir="false" afterPath="$PROJECT_DIR$/SxGeo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SxGeoCity.dat" beforeDir="false" afterPath="$PROJECT_DIR$/SxGeoCity.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmsmagazine2f345f737ed0d95e9259d18f5edc8cd7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmsmagazine2f345f737ed0d95e9259d18f5edc8cd7.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/copyright.txt" beforeDir="false" afterPath="$PROJECT_DIR$/copyright.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/01737e3f0efb60c2b4b0f3c3967f41c65d9e69e2/_form.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/01737e3f0efb60c2b4b0f3c3967f41c65d9e69e2/_form.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/01737e3f0efb60c2b4b0f3c3967f41c65d9e69e2/_section.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/01737e3f0efb60c2b4b0f3c3967f41c65d9e69e2/_section.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/0240d67be0c9f3500735dc99d065487f3be180f9/style.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/5d50e27882d12206072c71da2ad1197ab1e0d7f0/_footer.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/5d50e27882d12206072c71da2ad1197ab1e0d7f0/_header.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/5d50e27882d12206072c71da2ad1197ab1e0d7f0/_modals.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/5d50e27882d12206072c71da2ad1197ab1e0d7f0/_popups.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/5d50e27882d12206072c71da2ad1197ab1e0d7f0/_tabs.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/5f1b457537274e6658bb66cab7c66177e23ff164/_footer.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/5f1b457537274e6658bb66cab7c66177e23ff164/_footer.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/5f1b457537274e6658bb66cab7c66177e23ff164/_header.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/5f1b457537274e6658bb66cab7c66177e23ff164/_header.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/5f1b457537274e6658bb66cab7c66177e23ff164/_modals.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/5f1b457537274e6658bb66cab7c66177e23ff164/_modals.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/5f1b457537274e6658bb66cab7c66177e23ff164/_popups.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/5f1b457537274e6658bb66cab7c66177e23ff164/_popups.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/5f1b457537274e6658bb66cab7c66177e23ff164/_tabs.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/5f1b457537274e6658bb66cab7c66177e23ff164/_tabs.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/a6eb2f83d1e3f78632ab2a4d7796df7a543de783/_fonts.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/a6eb2f83d1e3f78632ab2a4d7796df7a543de783/_fonts.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/a6eb2f83d1e3f78632ab2a4d7796df7a543de783/_grid.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/a6eb2f83d1e3f78632ab2a4d7796df7a543de783/_grid.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/a6eb2f83d1e3f78632ab2a4d7796df7a543de783/_media.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/a6eb2f83d1e3f78632ab2a4d7796df7a543de783/_media.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/a6eb2f83d1e3f78632ab2a4d7796df7a543de783/_mixins.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/a6eb2f83d1e3f78632ab2a4d7796df7a543de783/_mixins.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/a6eb2f83d1e3f78632ab2a4d7796df7a543de783/_reset.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/a6eb2f83d1e3f78632ab2a4d7796df7a543de783/_reset.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/ac299a1726a2e7313d1f46f10f41d2248cc20676/_animations.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/ac299a1726a2e7313d1f46f10f41d2248cc20676/_base.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/ac299a1726a2e7313d1f46f10f41d2248cc20676/_buttons.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/ac299a1726a2e7313d1f46f10f41d2248cc20676/_icons.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/ac299a1726a2e7313d1f46f10f41d2248cc20676/_inputs.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/ac299a1726a2e7313d1f46f10f41d2248cc20676/_loader.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/ac299a1726a2e7313d1f46f10f41d2248cc20676/_theme.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/db31d73511182a1d17cbaa0e97c789703de305ae/_animations.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/db31d73511182a1d17cbaa0e97c789703de305ae/_animations.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/db31d73511182a1d17cbaa0e97c789703de305ae/_base.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/db31d73511182a1d17cbaa0e97c789703de305ae/_base.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/db31d73511182a1d17cbaa0e97c789703de305ae/_buttons.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/db31d73511182a1d17cbaa0e97c789703de305ae/_buttons.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/db31d73511182a1d17cbaa0e97c789703de305ae/_icons.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/db31d73511182a1d17cbaa0e97c789703de305ae/_icons.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/db31d73511182a1d17cbaa0e97c789703de305ae/_inputs.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/db31d73511182a1d17cbaa0e97c789703de305ae/_inputs.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/db31d73511182a1d17cbaa0e97c789703de305ae/_loader.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/db31d73511182a1d17cbaa0e97c789703de305ae/_loader.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/db31d73511182a1d17cbaa0e97c789703de305ae/_theme.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/db31d73511182a1d17cbaa0e97c789703de305ae/_theme.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/dcab2830c3833f7b9f21d95d66681b0ecc5c4636/_fonts.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/dcab2830c3833f7b9f21d95d66681b0ecc5c4636/_grid.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/dcab2830c3833f7b9f21d95d66681b0ecc5c4636/_media.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/dcab2830c3833f7b9f21d95d66681b0ecc5c4636/_mixins.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/dcab2830c3833f7b9f21d95d66681b0ecc5c4636/_reset.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/e17c4d656f18b8f5fd20cd587faafe5dcaa741c7/style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/e17c4d656f18b8f5fd20cd587faafe5dcaa741c7/style.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/edda9d0b73a7845f058a2f9d35c4aaa291ef4c41/_form.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/edda9d0b73a7845f058a2f9d35c4aaa291ef4c41/_section.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/ie.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/ie.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/jquery.fancybox.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/jquery.fancybox.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/jquery.formstyler.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/jquery.formstyler.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/source/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/source/_fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/source/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/source/_grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/source/_media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/source/_media.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/source/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/source/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/source/_reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/source/_reset.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/source/base/_animations.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/source/base/_animations.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/source/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/source/base/_base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/source/base/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/source/base/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/source/base/_icons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/source/base/_icons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/source/base/_inputs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/source/base/_inputs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/source/base/_loader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/source/base/_loader.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/source/base/_theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/source/base/_theme.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/source/layout/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/source/layout/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/source/layout/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/source/layout/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/source/layout/_modals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/source/layout/_modals.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/source/layout/_popups.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/source/layout/_popups.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/source/layout/_tabs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/source/layout/_tabs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/source/modules/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/source/modules/_form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/source/modules/_section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/source/modules/_section.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style-fix.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style-fix.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/swiper.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/swiper.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MyriadProBlack.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MyriadProBlack.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MyriadProBlack.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MyriadProBlack.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MyriadProBlack.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MyriadProBlackIt.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MyriadProBlackIt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MyriadProBlackIt.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MyriadProBlackIt.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MyriadProBlackIt.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MyriadProBold.eot" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/MyriadProBold.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MyriadProBold.svg" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/MyriadProBold.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MyriadProBold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/MyriadProBold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MyriadProBold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/MyriadProBold.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MyriadProBold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/MyriadProBold.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MyriadProLight.eot" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/MyriadProLight.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MyriadProLight.svg" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/MyriadProLight.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MyriadProLight.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/MyriadProLight.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MyriadProLight.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/MyriadProLight.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MyriadProLight.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/MyriadProLight.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MyriadProLightIt.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MyriadProLightIt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MyriadProLightIt.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MyriadProLightIt.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MyriadProLightIt.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MyriadProRegular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/MyriadProRegular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MyriadProRegular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/MyriadProRegular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MyriadProRegular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/MyriadProRegular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MyriadProRegular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/MyriadProRegular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MyriadProRegular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/MyriadProRegular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MyriadProSemibold.eot" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/MyriadProSemibold.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MyriadProSemibold.svg" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/MyriadProSemibold.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MyriadProSemibold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/MyriadProSemibold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MyriadProSemibold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/MyriadProSemibold.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MyriadProSemibold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/MyriadProSemibold.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/aircraft.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/arrow-down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backup/icon-zoom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/box.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/checkbox-bg-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/checkbox-bg-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/checkbox-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/clock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/factory.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/folder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/form-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/header-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/header-woman.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/lamp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/letter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/man-img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/market.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/option-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/percent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/product-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/reg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/rocket.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sertificate.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/slider-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sms-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sms-hand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/wait-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/woman-modal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/html5shiv.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/html5shiv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery-1.9.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery-1.9.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery-3.1.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery-3.1.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery-migrate-1.4.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery-migrate-1.4.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.easing.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery.easing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/plugins-all.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/plugins-all.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/share.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/share.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/smooth-scroll-1.4.4.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/smooth-scroll-1.4.4.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mthumb.php" beforeDir="false" afterPath="$PROJECT_DIR$/mthumb.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/send.php" beforeDir="false" afterPath="$PROJECT_DIR$/send.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/si-engine.php" beforeDir="false" afterPath="$PROJECT_DIR$/si-engine.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sounds/bip-1.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/sounds/bip-1.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sounds/bip-1.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/sounds/bip-1.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sounds/bip-2.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/sounds/bip-2.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sounds/bip-2.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/sounds/bip-2.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sounds/wuf-1.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/sounds/wuf-1.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sounds/wuf-1.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/sounds/wuf-1.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sounds/wuf-2.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/sounds/wuf-2.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sounds/wuf-2.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/sounds/wuf-2.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sounds/wuf-3.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/sounds/wuf-3.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sounds/wuf-3.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/sounds/wuf-3.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sounds/wuf-4.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/sounds/wuf-4.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sounds/wuf-4.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/sounds/wuf-4.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svg/add_file.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/svg/back.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/svg/burger.svg" beforeDir="false" afterPath="$PROJECT_DIR$/svg/burger.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svg/button.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/svg/cancel.svg" beforeDir="false" afterPath="$PROJECT_DIR$/svg/cancel.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svg/card.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/svg/check.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/svg/checked.svg" beforeDir="false" afterPath="$PROJECT_DIR$/svg/checked.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svg/facebook.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/svg/interest.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/svg/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/svg/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svg/logo_bg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/svg/play.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/svg/righ_hover.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/svg/right_arrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/svg/right_down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/svg/ruble-blue.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/svg/ruble.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/svg/send.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/svg/stopwatch.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/svg/tap.svg" beforeDir="false" afterPath="$PROJECT_DIR$/svg/tap.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svg/telegram.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/svg/title.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/svg/vk.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Архив (сделал ебучий слайдер).zip" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-13">
+              <caret line="229" column="12" selection-start-line="229" selection-start-column="12" selection-end-line="229" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/source/modules/_section.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="598">
+              <caret line="175" column="34" selection-start-line="175" selection-start-column="34" selection-end-line="175" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="857">
+              <caret line="395" column="19" lean-forward="true" selection-start-line="395" selection-start-column="19" selection-end-line="395" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/source/base/_inputs.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-start-column="2" selection-end-line="5" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/source/layout/_header.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="752">
+              <caret line="195" column="43" selection-start-line="195" selection-start-column="37" selection-end-line="195" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>white-text</find>
+      <find>trust_title-text</find>
+      <find>trust_title-text-2</find>
+      <find>block-profile</find>
+      <find>quotes</find>
+      <find>quotes-bottom</find>
+      <find>ext-review-block</find>
+      <find>section-form-free</find>
+      <find>form-title</find>
+      <find>header-icon-bg</find>
+      <find>map</find>
+      <find>review</find>
+      <find>swiper</find>
+      <find>btn-ghost</find>
+      <find>accor</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/css/source/layout/_modals.scss" />
+        <option value="$PROJECT_DIR$/svg/play-icon.svg" />
+        <option value="$PROJECT_DIR$/css/swiper.min.css" />
+        <option value="$PROJECT_DIR$/js/plugins-all.js" />
+        <option value="$PROJECT_DIR$/svg/logo.svg" />
+        <option value="$PROJECT_DIR$/css/source/base/_icons.scss" />
+        <option value="$PROJECT_DIR$/css/source/base/_animations.scss" />
+        <option value="$PROJECT_DIR$/css/source/layout/_header.scss" />
+        <option value="$PROJECT_DIR$/css/source/base/_inputs.scss" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/css/source/modules/_section.scss" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1265" />
+    <option name="y" value="23" />
+    <option name="width" value="1295" />
+    <option name="height" value="1341" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="svg" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="55423883-a8b9-4830-b3f2-2e52c7abbb12" name="Default Changelist" comment="" />
+      <created>1544965555292</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1544965555292</updated>
+      <workItem from="1544965558151" duration="3783000" />
+      <workItem from="1545238875616" duration="10971000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="14754000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1265" y="23" width="1295" height="1341" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1811652" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3298639" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Downloads/Работы для портфолио/Пластиковые погреба Дарвин исходник для портфолио/pogrebplast/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-398" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/map-style.json" />
+    <entry file="file://$USER_HOME$/Downloads/домой (1)/§ЃђЃ©/intensiveagressive/www/js/plugins-all.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="20" column="1288" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="20" selection-end-column="1288" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svg/play-icon.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/swiper.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/plugins-all.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/source/layout/_modals.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1112">
+          <caret line="172" column="1" selection-start-line="172" selection-start-column="1" selection-end-line="172" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Архив (сделал ебучий слайдер)/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1103">
+          <caret line="207" column="14" selection-start-line="131" selection-start-column="8" selection-end-line="207" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svg/burger.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svg/logo.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/source/base/_icons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/source/_fonts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="67" column="26" lean-forward="true" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/source/base/_buttons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="932">
+          <caret line="64" column="18" lean-forward="true" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/source/base/_animations.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Архив (сделал ебучий слайдер)/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="369" column="15" lean-forward="true" selection-start-line="369" selection-start-column="15" selection-end-line="369" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/source/layout/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="752">
+          <caret line="195" column="43" selection-start-line="195" selection-start-column="37" selection-end-line="195" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/source/base/_inputs.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-start-column="2" selection-end-line="5" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/range-picker-master/css/range-picker.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/range-picker-master/sample/sample.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="857">
+          <caret line="395" column="19" lean-forward="true" selection-start-line="395" selection-start-column="19" selection-end-line="395" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13">
+          <caret line="229" column="12" selection-start-line="229" selection-start-column="12" selection-end-line="229" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/source/modules/_section.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="175" column="34" selection-start-line="175" selection-start-column="34" selection-end-line="175" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

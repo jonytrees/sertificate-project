@@ -103,10 +103,10 @@
 //========================================================== animation pulse-button
 @include keyframes(si-button-pulse) {
   from {
-    box-shadow: 0 0 8px 6px $accent-color, 0 0 12px 14px $accent-color;
+    box-shadow: 0 0 8px 6px #e1be78, 0 0 12px 14px #e1be78;
   }
   to {
-    box-shadow: 0 0 18px 6px transparentize($accent-color, 1), 0 0 4px 71px transparentize($accent-color, 1);
+    box-shadow: 0 0 18px 6px transparentize(#e1be78, 1), 0 0 4px 71px transparentize(#e1be78, 1);
   }
 }
 
